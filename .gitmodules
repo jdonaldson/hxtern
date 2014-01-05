@@ -1,0 +1,3 @@
+[submodule "ext/closure-compiler"]
+	path = ext/closure-compiler
+	url = https://code.google.com/p/closure-compiler/

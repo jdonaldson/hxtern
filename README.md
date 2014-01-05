@@ -1,4 +1,4 @@
 hxtern
 ======
 
-A repository of Haxe externs for js
+A repository of automatically generated Haxe externs for js
