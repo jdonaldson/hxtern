@@ -7,11 +7,13 @@ if output_dir.nil? then output_dir = 'gen_src' end
 
 Dir.chdir(input_dir)
 
-Dir.glob("*.js").each do |f| 
+Dir.glob("*.js").each do |f|
     stack = []
     File.open(f) do |fh|
         while (line = fh.gets)
-            if line =~ /^\/\*\*/ then
+            if line =~ /^\/\*\*.*?\*\// then
+                stack.push({:doc_line => line})
+            elsif line =~ /^\/\*\*/ then
                 stack.push({:doc_start => line})
             elsif line =~ /^\s*\*\// then
                 stack.push({:doc_end => line})
@@ -25,11 +27,14 @@ Dir.glob("*.js").each do |f|
     end
     chunks = []
     current = []
-    
+
     # sort out the doc start/end and other lines into doc/sig groups
     chunk = {:doc => [], :sig => []}
     stack.each do |s|
-        if s.has_key?(:doc_start) then
+        if s.has_key?(:doc_line) then
+            chunk[:doc].push(s[:doc_line])
+            current = chunk[:sig]
+        elsif s.has_key?(:doc_start) then
             chunks.push(chunk)
             chunk = {:doc => [], :sig => []}
             chunk[:doc].push(s[:doc_start])
@@ -46,63 +51,86 @@ Dir.glob("*.js").each do |f|
     declarations = chunks.map {|c|
         {:doc => c[:doc].join, :sig => c[:sig].join.sub("\n", "") }
     }
+    declarations.each do |x|
+        if x[:sig] =~ /\s*([a-z\.]*)[A-Z];/ then
+            # some.kind.of.Typedef;
+            x[:sig].sub!(/;/,'')
+            x[:path] = x[:sig].split('.')
+            x[:classes] = []
+            x[:value] = x[:path].pop
+            if x[:path][-1] =~ /^[a-z]/ then
+                x[:native] = x[:path].join('.')
+                x[:classes].push(x[:native].split(/(\W)/).map(&:capitalize).join)
+            end
 
-    # sort out packages, classes, and expressions 
-    package_directory = {}
-    declarations.select! {|c| not (c.nil? or c[:sig].nil? or c[:sig] == '')  }
-    declarations.map! {|c|
-        # p ''
-        # p 'doc:' + c[:doc]
-        # p 'sig:' + c[:sig]
-        c[:field], c[:expression] = c[:sig].split(/\s*=\s*/)
-        c[:field].sub!(/;/,'')
-        c
-    }
-
-    declarations.map! { |c|
-        c[:classes] = []
-
-        # handle constructors
-        # constructor_match = (c[:field] =~  /^\s*function\s*([\w\.]+)/)
-        constructor_match = /^\s*function\s*([\w\.]+)/.match(c[:field])
-        if constructor_match then 
-           c[:field] = constructor_match[1] + '.prototype.new'
+            while x[:path][-1] =~ /^[A-Z]/
+                x[:classes].push(x[:path].pop)
+            end
+        elsif x[:sig] =~ /[\w\.]*?prototype[\w\.]*\s*=\s*function/
+            # some.kind.Of.prototype.method = function()...
+            x[:path], _ = x[:sig].split(/\s*=\s*/)
+            x[:path], x[:instance_method] = x[:path].split(".prototype.")
+            x[:path] = x[:path].split('.')
+            x[:classes] = []
+            while x[:path][-1] =~ /^[A-Z]/
+                x[:classes].push(x[:path].pop)
+            end
+        elsif x[:sig] =~ /[\w\.]*\s*=\s*function/ then
+            # some.kind.of.static.method = function()...
+            # (includes constructors)
+            x[:path], _ = x[:sig].split(/\s*=\s*/)
+            x[:path] = x[:path].split('.')
+            x[:classes] = []
+            if x[:doc] =~ /@constructor/ then
+                if x[:path][-1] =~ /^[a-z]/ then
+                    x[:native] = x[:path].join('.')
+                    cls = x[:path][-1] + ''
+                    cls[0] = cls[0].capitalize
+                    x[:classes].push(cls)
+                end
+                while x[:path][-1] =~ /^[A-Z]/
+                    x[:classes].push(x[:path].pop)
+                end
+                x[:instance_method] = 'new'
+            else
+                x[:static_method] = x[:path].pop
+                if x[:path][-1] =~ /^[a-z]/ then
+                    x[:native] = x[:path].join('.')
+                    cls = x[:path][-1] + ''
+                    cls[0] = cls[0].capitalize
+                    x[:classes].push(cls)
+                else
+                    p "UNHANDLED " + x
+                end
+            end
+        elsif x[:sig] =~ /[\w\.]*\s*=\s*\{\s*\}\s*;?/ then
+            # some.kind.of.package.declaration = {};
+            # no code output needed, save docs?
+        elsif x[:sig] =~ /[\w\.]*;/ then
+            x[:path] = x[:sig].sub(/;/ ,'')
+            x[:path] = x[:path].split('.')
+            x[:classes] = []
+            if x[:path][-1] =~ /^[a-z]/ then
+                x[:native] = x[:path].join('.')
+                cls = x[:path][-1] + ''
+                cls[0] = cls[0].capitalize
+                x[:classes].push(cls)
+            end
+            while x[:path][-1] =~ /^[A-Z]/
+                x[:classes].push(x[:path].pop)
+            end
+            x[:typedef] = true
+        elsif x[:sig] =~ /^function [\w\.]*/
+            x[:path] = ['global']
+            cls = /^function ([\w\.]*)/.match(x[:sig])[1]
+            x[:native] = cls + ''
+            if cls =~ /^[a-z]/
+                cls[0] = cls[0].capitalize
+            end
+            x[:classes] = [cls]
+        else
         end
-
-        # handle global variable declarations
-        var_match = /^\s*var\s*([\w\.]+)/.match(c[:field])
-        if var_match then
-            c[:field] = var_match[1]
-            c[:classes].push("global")
-            c[:native] = c[:field]
-        end
-
-        c[:package_class], c[:instance_method] = c[:field].split(".prototype.")
-        c[:packages] = c[:package_class].split('.')
-
-        # handle "package" level methods... use a dummy class and @:native
-        if c[:packages][-1] =~ /^[a-z]/ and not c[:expression].nil?
-            original = c[:packages][-1]
-            dummy_class = original.split(/(\W)/).map(&:capitalize).join
-            c[:classes].push(dummy_class)
-            c[:native] = original
-        end
-
-        while c[:packages][-1] =~ /^[A-Z]/
-            c[:classes].unshift(c[:packages].pop)
-        end
-
-        current_package = package_directory
-        c[:packages].each do |p|
-            if current_package[p].nil? then current_package[p] = {} end
-            current_package = current_package[p]
-        end
-
-        c
-    }
-p package_directory
+    end
     break
 end
 
-
-# chunks.each {|x| p x['sig'].join}
