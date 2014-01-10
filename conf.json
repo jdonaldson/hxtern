@@ -1,0 +1,5 @@
+{
+    "plugins": [
+        "ext/closure-annotate-jsdoc3/closureAnnotatef"
+        ]
+}

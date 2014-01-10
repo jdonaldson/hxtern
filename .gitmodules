@@ -1,3 +1,6 @@
 [submodule "ext/closure-compiler"]
 	path = ext/closure-compiler
 	url = https://code.google.com/p/closure-compiler/
+[submodule "ext/closure-annotate-jsdoc3"]
+	path = ext/closure-annotate-jsdoc3
+	url = https://github.com/OrgaChem/closure-annotate-jsdoc3.git
