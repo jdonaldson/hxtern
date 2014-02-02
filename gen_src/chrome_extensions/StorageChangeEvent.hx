@@ -4,6 +4,7 @@ The event listener for Storage receives an Object mapping each
 key that changed to its corresponding StorageChange for that item.
 */
 package ;
+
 class StorageChangeEvent{
 	public function new();
 

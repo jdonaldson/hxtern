@@ -9,5 +9,5 @@ files = File.join( "**", "*.js")
 Dir.glob(files) do |file|
     output_dir = File.dirname(file)
     output = File.join(output_folder, output_dir , File.basename(file, '.*'))
-    `jsdoc -t #{template} #{file} -d #{output} 2>`
+    `jsdoc -t #{template} #{file} -d #{output}`
 end
