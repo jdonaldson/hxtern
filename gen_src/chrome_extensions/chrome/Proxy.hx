@@ -6,5 +6,5 @@ package chrome;
 class Proxy{
 	public static var onProxyError: ChromeEvent;
 
-	public static var settings: Map<String, ChromeSetting>;
+	public static var settings: Dynamic<ChromeSetting>;
 }

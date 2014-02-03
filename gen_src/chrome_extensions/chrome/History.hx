@@ -4,19 +4,19 @@
 package chrome;
 @:native("chrome.history")
 class History{
-	public static function addUrl(details: Map<String, String>): Void;
+	public static function addUrl(details: Dynamic<String>): Void;
 
 	public static function deleteAll(_callback: Void->Void): Void;
 
-	public static function deleteRange(range: Map<String, String>, _callback: Void->Void): Void;
+	public static function deleteRange(range: Dynamic<String>, _callback: Void->Void): Void;
 
-	public static function deleteUrl(details: Map<String, String>): Void;
+	public static function deleteUrl(details: Dynamic<String>): Void;
 
-	public static function getVisits(details: Map<String, String>, _callback: Array<VisitItem>->Void): Array<VisitItem>;
+	public static function getVisits(details: Dynamic<String>, _callback: Array<VisitItem>->Void): Array<VisitItem>;
 
 	public static var onVisited: ChromeEvent;
 
 	public static var onVisitRemoved: ChromeEvent;
 
-	public static function search(query: Map<String, String>, _callback: Array<HistoryItem>->Void): Array<HistoryItem>;
+	public static function search(query: Dynamic<String>, _callback: Array<HistoryItem>->Void): Array<HistoryItem>;
 }

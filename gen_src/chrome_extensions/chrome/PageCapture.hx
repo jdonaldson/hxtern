@@ -4,5 +4,5 @@
 package chrome;
 @:native("chrome.pageCapture")
 class PageCapture{
-	public static function saveAsMHTML(details: Map<String, Float>, _callback: Blob->Void): Void;
+	public static function saveAsMHTML(details: Dynamic<Float>, _callback: Blob->Void): Void;
 }

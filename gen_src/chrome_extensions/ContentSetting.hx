@@ -6,11 +6,11 @@ package ;
 class ContentSetting{
 	public function new();
 
-	public function clear(details: Map<String, String>, ?opt_callback: Void->Void): Void;
+	public function clear(details: Dynamic<String>, ?opt_callback: Void->Void): Void;
 
-	public function get(details: Map<String, String>, _callback: Void->Void): Void;
+	public function get(details: Dynamic<String>, _callback: Void->Void): Void;
 
 	public function getResourceIdentifiers(_callback: Void->Void): Void;
 
-	public function set(details: Map<String, String>, ?opt_callback: Void->Void): Void;
+	public function set(details: Dynamic<String>, ?opt_callback: Void->Void): Void;
 }

@@ -6,7 +6,7 @@ package ;
 class BlockingResponse{
 	public function new();
 
-	public var authCredentials: Map<String, String>;
+	public var authCredentials: Dynamic<String>;
 
 	public var cancel: Bool;
 

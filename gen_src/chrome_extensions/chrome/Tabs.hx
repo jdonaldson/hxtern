@@ -22,11 +22,11 @@ class Tabs{
 
 	public static function getSelected(windowId: Float, _callback: Tab->Void): Void;
 
-	public static function highlight(highlightInfo: Map<String, Float>, _callback: Window->Void): Void;
+	public static function highlight(highlightInfo: Dynamic<Float>, _callback: Window->Void): Void;
 
 	public static function insertCSS(tabId: Float, details: Dynamic, ?opt_callback: Void->Void): Void;
 
-	public static function move(tabId: Float, moveProperties: Map<String, Float>, ?opt_callback: Tab->Void): Void;
+	public static function move(tabId: Float, moveProperties: Dynamic<Float>, ?opt_callback: Tab->Void): Void;
 
 	public static var onActivated: ChromeEvent;
 
@@ -50,9 +50,9 @@ class Tabs{
 
 	public static var onUpdated: ChromeEvent;
 
-	public static function query(queryInfo: Map<String, Float>, ?opt_callback: Array<Tab>->Void): Array<Tab>;
+	public static function query(queryInfo: Dynamic<Float>, ?opt_callback: Array<Tab>->Void): Array<Tab>;
 
-	public static function reload(?opt_tabId: Float, ?opt_reloadProperties: Map<String, Bool>, ?opt_callback: Void->Void): Void;
+	public static function reload(?opt_tabId: Float, ?opt_reloadProperties: Dynamic<Bool>, ?opt_callback: Void->Void): Void;
 
 	public static function remove(tabIds: Float, ?opt_callback: Tab->Void): Void;
 
@@ -60,5 +60,5 @@ class Tabs{
 
 	public static function sendRequest(tabId: Float, request: Dynamic, ?opt_callback: Dynamic->Void): Void;
 
-	public static function update(tabId: Float, updateProperties: Map<String, String>, ?opt_callback: Tab->Void): Void;
+	public static function update(tabId: Float, updateProperties: Dynamic<String>, ?opt_callback: Tab->Void): Void;
 }

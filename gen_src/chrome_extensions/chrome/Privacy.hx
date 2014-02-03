@@ -4,9 +4,9 @@
 package chrome;
 @:native("chrome.privacy")
 class Privacy{
-	public static var network: Map<String, ChromeSetting>;
+	public static var network: Dynamic<ChromeSetting>;
 
-	public static var services: Map<String, ChromeSetting>;
+	public static var services: Dynamic<ChromeSetting>;
 
-	public static var websites: Map<String, ChromeSetting>;
+	public static var websites: Dynamic<ChromeSetting>;
 }

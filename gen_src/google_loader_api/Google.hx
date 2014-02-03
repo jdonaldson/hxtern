@@ -4,7 +4,7 @@
 package ;
 @:native("google")
 class Google{
-	public static function load(moduleName: String, moduleVersion: String, ?optionalSettings: Map<String, Dynamic>): Void;
+	public static function load(moduleName: String, moduleVersion: String, ?optionalSettings: Dynamic<Dynamic>): Void;
 
 	public static var loader: Dynamic;
 

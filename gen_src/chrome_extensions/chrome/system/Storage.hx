@@ -6,7 +6,7 @@ package chrome.system;
 class Storage{
 	public static function ejectDevice(id: String, _callback: String->Void): Void;
 
-	public static function getAvailableCapacity(id: String, _callback: Map<String, Float>->Void): Void;
+	public static function getAvailableCapacity(id: String, _callback: Dynamic<Float>->Void): Void;
 
 	public static function getInfo(_callback: Array<chrome.system.storage.StorageUnitInfo>->Void): Void;
 

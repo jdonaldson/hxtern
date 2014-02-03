@@ -8,11 +8,11 @@ package ;
 class StorageChangeEvent{
 	public function new();
 
-	public function addListener(_callback: Map<String, StorageChange>->String->Void): Void;
+	public function addListener(_callback: Dynamic<StorageChange>->String->Void): Void;
 
-	public function hasListener(_callback: Map<String, StorageChange>->String->Void): Void;
+	public function hasListener(_callback: Dynamic<StorageChange>->String->Void): Void;
 
-	public function hasListeners(_callback: Map<String, StorageChange>->String->Void): Void;
+	public function hasListeners(_callback: Dynamic<StorageChange>->String->Void): Void;
 
-	public function removeListener(_callback: Map<String, StorageChange>->String->Void): Void;
+	public function removeListener(_callback: Dynamic<StorageChange>->String->Void): Void;
 }

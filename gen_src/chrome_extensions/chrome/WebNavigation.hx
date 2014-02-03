@@ -4,9 +4,9 @@
 package chrome;
 @:native("chrome.webNavigation")
 class WebNavigation{
-	public static function getAllFrames(details: Dynamic, _callback: Array<Map<String, Bool>>->Void): Void;
+	public static function getAllFrames(details: Dynamic, _callback: Array<Dynamic<Bool>>->Void): Void;
 
-	public static function getFrame(details: Dynamic, _callback: Map<String, Bool>->Void): Void;
+	public static function getFrame(details: Dynamic, _callback: Dynamic<Bool>->Void): Void;
 
 	public static var onBeforeNavigate: ChromeEvent;
 
