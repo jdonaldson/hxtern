@@ -6,9 +6,9 @@ package google.maps;
 class Rectangle{
 	public function new(?opt_opts: hxtern.Any2<google.maps.RectangleOptions,Dynamic<String>>);
 
-	public function bindTo(key: String, target: google.maps.MVCObject, ?opt_targetKey: String, ?opt_noNotify: Bool): ;
+	public function bindTo(key: String, target: google.maps.MVCObject, ?opt_targetKey: String, ?opt_noNotify: Bool): Null<Dynamic>;
 
-	public function changed(key: String): ;
+	public function changed(key: String): Null<Dynamic>;
 
 	public function get(key: String): Dynamic;
 
@@ -20,23 +20,23 @@ class Rectangle{
 
 	public function getVisible(): Bool;
 
-	public function notify(key: String): ;
+	public function notify(key: String): Null<Dynamic>;
 
-	public function set(key: String, value: Dynamic): ;
+	public function set(key: String, value: Dynamic): Null<Dynamic>;
 
-	public function setBounds(bounds: google.maps.LatLngBounds): ;
+	public function setBounds(bounds: google.maps.LatLngBounds): Null<Dynamic>;
 
-	public function setEditable(editable: Bool): ;
+	public function setEditable(editable: Bool): Null<Dynamic>;
 
-	public function setMap(map: google.maps.Map): ;
+	public function setMap(map: google.maps.Map): Null<Dynamic>;
 
-	public function setOptions(options: hxtern.Any2<google.maps.RectangleOptions,Dynamic<String>>): ;
+	public function setOptions(options: hxtern.Any2<google.maps.RectangleOptions,Dynamic<String>>): Null<Dynamic>;
 
-	public function setValues(values: hxtern.Any2<Dynamic,>): ;
+	public function setValues(values: hxtern.Any2<Dynamic,Null<Dynamic>>): Null<Dynamic>;
 
-	public function setVisible(visible: Bool): ;
+	public function setVisible(visible: Bool): Null<Dynamic>;
 
-	public function unbind(key: String): ;
+	public function unbind(key: String): Null<Dynamic>;
 
-	public function unbindAll(): ;
+	public function unbindAll(): Null<Dynamic>;
 }

@@ -10,9 +10,9 @@ class StyledMapType{
 
 	public var alt: String;
 
-	public function bindTo(key: String, target: google.maps.MVCObject, ?opt_targetKey: String, ?opt_noNotify: Bool): ;
+	public function bindTo(key: String, target: google.maps.MVCObject, ?opt_targetKey: String, ?opt_noNotify: Bool): Null<Dynamic>;
 
-	public function changed(key: String): ;
+	public function changed(key: String): Null<Dynamic>;
 
 	public function get(key: String): Dynamic;
 
@@ -24,21 +24,21 @@ class StyledMapType{
 
 	public var name: String;
 
-	public function notify(key: String): ;
+	public function notify(key: String): Null<Dynamic>;
 
 	public var projection: google.maps.Projection;
 
 	public var radius: Float;
 
-	public function releaseTile(tile: Node): ;
+	public function releaseTile(tile: Node): Null<Dynamic>;
 
-	public function set(key: String, value: Dynamic): ;
+	public function set(key: String, value: Dynamic): Null<Dynamic>;
 
-	public function setValues(values: hxtern.Any2<Dynamic,>): ;
+	public function setValues(values: hxtern.Any2<Dynamic,Null<Dynamic>>): Null<Dynamic>;
 
 	public var tileSize: google.maps.Size;
 
-	public function unbind(key: String): ;
+	public function unbind(key: String): Null<Dynamic>;
 
-	public function unbindAll(): ;
+	public function unbindAll(): Null<Dynamic>;
 }

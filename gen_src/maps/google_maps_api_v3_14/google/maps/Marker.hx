@@ -8,9 +8,9 @@ class Marker{
 
 	public function addListener(eventName: String, handler: Dynamic): google.maps.MapsEventListener;
 
-	public function bindTo(key: String, target: google.maps.MVCObject, ?opt_targetKey: String, ?opt_noNotify: Bool): ;
+	public function bindTo(key: String, target: google.maps.MVCObject, ?opt_targetKey: String, ?opt_noNotify: Bool): Null<Dynamic>;
 
-	public function changed(key: String): ;
+	public function changed(key: String): Null<Dynamic>;
 
 	public function get(key: String): Dynamic;
 
@@ -40,41 +40,41 @@ class Marker{
 
 	public function getZIndex(): Float;
 
-	public function notify(key: String): ;
+	public function notify(key: String): Null<Dynamic>;
 
-	public function set(key: String, value: Dynamic): ;
+	public function set(key: String, value: Dynamic): Null<Dynamic>;
 
-	public function setAnimation(animation: google.maps.Animation): ;
+	public function setAnimation(animation: google.maps.Animation): Null<Dynamic>;
 
-	public function setClickable(flag: Bool): ;
+	public function setClickable(flag: Bool): Null<Dynamic>;
 
-	public function setCursor(cursor: String): ;
+	public function setCursor(cursor: String): Null<Dynamic>;
 
-	public function setDraggable(flag: Bool): ;
+	public function setDraggable(flag: Bool): Null<Dynamic>;
 
-	public function setFlat(flag: Bool): ;
+	public function setFlat(flag: Bool): Null<Dynamic>;
 
-	public function setIcon(icon: hxtern.Any3<String,google.maps.Icon,google.maps.Symbol>): ;
+	public function setIcon(icon: hxtern.Any3<String,google.maps.Icon,google.maps.Symbol>): Null<Dynamic>;
 
-	public function setMap(map: hxtern.Any2<google.maps.Map,google.maps.StreetViewPanorama>): ;
+	public function setMap(map: hxtern.Any2<google.maps.Map,google.maps.StreetViewPanorama>): Null<Dynamic>;
 
-	public function setOptions(options: hxtern.Any2<google.maps.MarkerOptions,Dynamic<String>>): ;
+	public function setOptions(options: hxtern.Any2<google.maps.MarkerOptions,Dynamic<String>>): Null<Dynamic>;
 
-	public function setPosition(latlng: google.maps.LatLng): ;
+	public function setPosition(latlng: google.maps.LatLng): Null<Dynamic>;
 
-	public function setShadow(shadow: hxtern.Any3<String,google.maps.Icon,google.maps.Symbol>): ;
+	public function setShadow(shadow: hxtern.Any3<String,google.maps.Icon,google.maps.Symbol>): Null<Dynamic>;
 
-	public function setShape(shape: google.maps.MarkerShape): ;
+	public function setShape(shape: google.maps.MarkerShape): Null<Dynamic>;
 
-	public function setTitle(title: String): ;
+	public function setTitle(title: String): Null<Dynamic>;
 
-	public function setValues(values: hxtern.Any2<Dynamic,>): ;
+	public function setValues(values: hxtern.Any2<Dynamic,Null<Dynamic>>): Null<Dynamic>;
 
-	public function setVisible(visible: Bool): ;
+	public function setVisible(visible: Bool): Null<Dynamic>;
 
-	public function setZIndex(zIndex: Float): ;
+	public function setZIndex(zIndex: Float): Null<Dynamic>;
 
-	public function unbind(key: String): ;
+	public function unbind(key: String): Null<Dynamic>;
 
-	public function unbindAll(): ;
+	public function unbindAll(): Null<Dynamic>;
 }

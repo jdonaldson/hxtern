@@ -8,13 +8,13 @@ class MVCArray{
 
 	public function addListener(eventName: String, handler: Dynamic): google.maps.MapsEventListener;
 
-	public function bindTo(key: String, target: google.maps.MVCObject, ?opt_targetKey: String, ?opt_noNotify: Bool): ;
+	public function bindTo(key: String, target: google.maps.MVCObject, ?opt_targetKey: String, ?opt_noNotify: Bool): Null<Dynamic>;
 
-	public function changed(key: String): ;
+	public function changed(key: String): Null<Dynamic>;
 
-	public function clear(): ;
+	public function clear(): Null<Dynamic>;
 
-	public function forEach(_callback: Dynamic->Float->Void): ;
+	public function forEach(_callback: Dynamic->Float->Void): Null<Dynamic>;
 
 	public function get(key: String): Dynamic;
 
@@ -24,9 +24,9 @@ class MVCArray{
 
 	public function getLength(): Float;
 
-	public function insertAt(i: Float, elem: Dynamic): ;
+	public function insertAt(i: Float, elem: Dynamic): Null<Dynamic>;
 
-	public function notify(key: String): ;
+	public function notify(key: String): Null<Dynamic>;
 
 	public function pop(): Dynamic;
 
@@ -34,13 +34,13 @@ class MVCArray{
 
 	public function removeAt(i: Float): Dynamic;
 
-	public function set(key: String, value: Dynamic): ;
+	public function set(key: String, value: Dynamic): Null<Dynamic>;
 
-	public function setAt(i: Float, elem: Dynamic): ;
+	public function setAt(i: Float, elem: Dynamic): Null<Dynamic>;
 
-	public function setValues(values: hxtern.Any2<Dynamic,>): ;
+	public function setValues(values: hxtern.Any2<Dynamic,Null<Dynamic>>): Null<Dynamic>;
 
-	public function unbind(key: String): ;
+	public function unbind(key: String): Null<Dynamic>;
 
-	public function unbindAll(): ;
+	public function unbindAll(): Null<Dynamic>;
 }

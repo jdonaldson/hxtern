@@ -6,9 +6,9 @@ package google.maps;
 class Circle{
 	public function new(?opt_opts: Dynamic<Dynamic>);
 
-	public function bindTo(key: String, target: google.maps.MVCObject, ?targetKey: String, ?noNotify: Bool): ;
+	public function bindTo(key: String, target: google.maps.MVCObject, ?targetKey: String, ?noNotify: Bool): Null<Dynamic>;
 
-	public function changed(key: String): ;
+	public function changed(key: String): Null<Dynamic>;
 
 	public function get(key: String): Dynamic;
 
@@ -20,21 +20,21 @@ class Circle{
 
 	public function getRadius(): Float;
 
-	public function notify(key: String): ;
+	public function notify(key: String): Null<Dynamic>;
 
-	public function set(key: String, value: Dynamic): ;
+	public function set(key: String, value: Dynamic): Null<Dynamic>;
 
-	public function setCenter(center: google.maps.LatLng): ;
+	public function setCenter(center: google.maps.LatLng): Null<Dynamic>;
 
-	public function setMap(map: google.maps.Map): ;
+	public function setMap(map: google.maps.Map): Null<Dynamic>;
 
-	public function setOptions(options: Dynamic<Dynamic>): ;
+	public function setOptions(options: Dynamic<Dynamic>): Null<Dynamic>;
 
-	public function setRadius(radius: Float): ;
+	public function setRadius(radius: Float): Null<Dynamic>;
 
-	public function setValues(values: hxtern.Any2<Dynamic,>): ;
+	public function setValues(values: hxtern.Any2<Dynamic,Null<Dynamic>>): Null<Dynamic>;
 
-	public function unbind(key: String): ;
+	public function unbind(key: String): Null<Dynamic>;
 
-	public function unbindAll(): ;
+	public function unbindAll(): Null<Dynamic>;
 }

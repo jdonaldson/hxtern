@@ -8,5 +8,5 @@ class PlaceSearchPagination{
 
 	public var hasNextPage: Bool;
 
-	public function nextPage(): ;
+	public function nextPage(): Null<Dynamic>;
 }

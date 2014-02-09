@@ -6,5 +6,5 @@ package google.maps;
 class Geocoder{
 	public function new();
 
-	public function geocode(request: hxtern.Any2<google.maps.GeocoderRequest,Dynamic<String>>, _callback: Array<google.maps.GeocoderResult>->google.maps.GeocoderStatus->Void): ;
+	public function geocode(request: hxtern.Any2<google.maps.GeocoderRequest,Dynamic<String>>, _callback: Array<google.maps.GeocoderResult>->google.maps.GeocoderStatus->Void): Null<Dynamic>;
 }

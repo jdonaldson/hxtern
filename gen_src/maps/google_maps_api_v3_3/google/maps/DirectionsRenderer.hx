@@ -6,9 +6,9 @@ package google.maps;
 class DirectionsRenderer{
 	public function new(?opt_opts: Dynamic<Dynamic>);
 
-	public function bindTo(key: String, target: google.maps.MVCObject, ?targetKey: String, ?noNotify: Bool): ;
+	public function bindTo(key: String, target: google.maps.MVCObject, ?targetKey: String, ?noNotify: Bool): Null<Dynamic>;
 
-	public function changed(key: String): ;
+	public function changed(key: String): Null<Dynamic>;
 
 	public function get(key: String): Dynamic;
 
@@ -20,23 +20,23 @@ class DirectionsRenderer{
 
 	public function getRouteIndex(): Float;
 
-	public function notify(key: String): ;
+	public function notify(key: String): Null<Dynamic>;
 
-	public function set(key: String, value: Dynamic): ;
+	public function set(key: String, value: Dynamic): Null<Dynamic>;
 
-	public function setDirections(directions: hxtern.Any2<google.maps.DirectionsResult,Dynamic<Dynamic>>): ;
+	public function setDirections(directions: hxtern.Any2<google.maps.DirectionsResult,Dynamic<Dynamic>>): Null<Dynamic>;
 
-	public function setMap(map: google.maps.Map): ;
+	public function setMap(map: google.maps.Map): Null<Dynamic>;
 
-	public function setOptions(options: Dynamic<Dynamic>): ;
+	public function setOptions(options: Dynamic<Dynamic>): Null<Dynamic>;
 
-	public function setPanel(panel: Node): ;
+	public function setPanel(panel: Node): Null<Dynamic>;
 
-	public function setRouteIndex(routeIndex: Float): ;
+	public function setRouteIndex(routeIndex: Float): Null<Dynamic>;
 
-	public function setValues(values: hxtern.Any2<Dynamic,>): ;
+	public function setValues(values: hxtern.Any2<Dynamic,Null<Dynamic>>): Null<Dynamic>;
 
-	public function unbind(key: String): ;
+	public function unbind(key: String): Null<Dynamic>;
 
-	public function unbindAll(): ;
+	public function unbindAll(): Null<Dynamic>;
 }

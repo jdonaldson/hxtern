@@ -20,7 +20,7 @@ class MapType{
 
 	public var radius: Float;
 
-	public function releaseTile(tile: Node): ;
+	public function releaseTile(tile: Node): Null<Dynamic>;
 
 	public var tileSize: google.maps.Size;
 }

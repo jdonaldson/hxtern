@@ -6,9 +6,9 @@ package google.maps.adsense;
 class AdUnit{
 	public function new(container: Node, opts: hxtern.Any2<google.maps.adsense.AdUnitOptions,Dynamic<Dynamic>>);
 
-	public function bindTo(key: String, target: google.maps.MVCObject, ?opt_targetKey: String, ?opt_noNotify: Bool): ;
+	public function bindTo(key: String, target: google.maps.MVCObject, ?opt_targetKey: String, ?opt_noNotify: Bool): Null<Dynamic>;
 
-	public function changed(key: String): ;
+	public function changed(key: String): Null<Dynamic>;
 
 	public function get(key: String): Dynamic;
 
@@ -24,21 +24,21 @@ class AdUnit{
 
 	public function getPublisherId(): String;
 
-	public function notify(key: String): ;
+	public function notify(key: String): Null<Dynamic>;
 
-	public function set(key: String, value: Dynamic): ;
+	public function set(key: String, value: Dynamic): Null<Dynamic>;
 
-	public function setChannelNumber(channelNumber: String): ;
+	public function setChannelNumber(channelNumber: String): Null<Dynamic>;
 
-	public function setFormat(format: google.maps.adsense.AdFormat): ;
+	public function setFormat(format: google.maps.adsense.AdFormat): Null<Dynamic>;
 
-	public function setMap(map: google.maps.Map): ;
+	public function setMap(map: google.maps.Map): Null<Dynamic>;
 
-	public function setPosition(position: google.maps.ControlPosition): ;
+	public function setPosition(position: google.maps.ControlPosition): Null<Dynamic>;
 
-	public function setValues(values: hxtern.Any2<Dynamic,>): ;
+	public function setValues(values: hxtern.Any2<Dynamic,Null<Dynamic>>): Null<Dynamic>;
 
-	public function unbind(key: String): ;
+	public function unbind(key: String): Null<Dynamic>;
 
-	public function unbindAll(): ;
+	public function unbindAll(): Null<Dynamic>;
 }

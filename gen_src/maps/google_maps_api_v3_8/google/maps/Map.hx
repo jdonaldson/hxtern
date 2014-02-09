@@ -6,13 +6,13 @@ package google.maps;
 class Map{
 	public function new(mapDiv: Node, ?opt_opts: hxtern.Any2<google.maps.MapOptions,Dynamic<String>>);
 
-	public function bindTo(key: String, target: google.maps.MVCObject, ?opt_targetKey: String, ?opt_noNotify: Bool): ;
+	public function bindTo(key: String, target: google.maps.MVCObject, ?opt_targetKey: String, ?opt_noNotify: Bool): Null<Dynamic>;
 
-	public function changed(key: String): ;
+	public function changed(key: String): Null<Dynamic>;
 
 	public var controls: Array<google.maps.MVCArray<Node>>;
 
-	public function fitBounds(bounds: google.maps.LatLngBounds): ;
+	public function fitBounds(bounds: google.maps.LatLngBounds): Null<Dynamic>;
 
 	public function get(key: String): Dynamic;
 
@@ -36,35 +36,35 @@ class Map{
 
 	public var mapTypes: google.maps.MapTypeRegistry;
 
-	public function notify(key: String): ;
+	public function notify(key: String): Null<Dynamic>;
 
 	public var overlayMapTypes: google.maps.MVCArray<google.maps.MapType>;
 
-	public function panBy(x: Float, y: Float): ;
+	public function panBy(x: Float, y: Float): Null<Dynamic>;
 
-	public function panTo(latLng: google.maps.LatLng): ;
+	public function panTo(latLng: google.maps.LatLng): Null<Dynamic>;
 
-	public function panToBounds(latLngBounds: google.maps.LatLngBounds): ;
+	public function panToBounds(latLngBounds: google.maps.LatLngBounds): Null<Dynamic>;
 
-	public function set(key: String, value: Dynamic): ;
+	public function set(key: String, value: Dynamic): Null<Dynamic>;
 
-	public function setCenter(latlng: google.maps.LatLng): ;
+	public function setCenter(latlng: google.maps.LatLng): Null<Dynamic>;
 
-	public function setHeading(heading: Float): ;
+	public function setHeading(heading: Float): Null<Dynamic>;
 
-	public function setMapTypeId(mapTypeId: hxtern.Any2<google.maps.MapTypeId,String>): ;
+	public function setMapTypeId(mapTypeId: hxtern.Any2<google.maps.MapTypeId,String>): Null<Dynamic>;
 
-	public function setOptions(options: hxtern.Any2<google.maps.MapOptions,Dynamic<String>>): ;
+	public function setOptions(options: hxtern.Any2<google.maps.MapOptions,Dynamic<String>>): Null<Dynamic>;
 
-	public function setStreetView(panorama: google.maps.StreetViewPanorama): ;
+	public function setStreetView(panorama: google.maps.StreetViewPanorama): Null<Dynamic>;
 
-	public function setTilt(tilt: Float): ;
+	public function setTilt(tilt: Float): Null<Dynamic>;
 
-	public function setValues(values: hxtern.Any2<Dynamic,>): ;
+	public function setValues(values: hxtern.Any2<Dynamic,Null<Dynamic>>): Null<Dynamic>;
 
-	public function setZoom(zoom: Float): ;
+	public function setZoom(zoom: Float): Null<Dynamic>;
 
-	public function unbind(key: String): ;
+	public function unbind(key: String): Null<Dynamic>;
 
-	public function unbindAll(): ;
+	public function unbindAll(): Null<Dynamic>;
 }

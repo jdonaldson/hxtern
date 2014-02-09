@@ -25,7 +25,7 @@ class Iframes{
 	  Inside an iframe, the properties of the iframer object are the data and
 	  functions provided in iframes.open.
 	 */
-	public var iframer: hxtern.Any2<Dynamic,>;
+	public var iframer: hxtern.Any2<Dynamic,Null<Dynamic>>;
 
 	public function open(url: String, openParams: Dynamic, params: Dynamic, ?opt_methods: hxtern.Any2<Dynamic,?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->Dynamic>, ?opt_callback: ?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->Dynamic): iframes.Iframe;
 

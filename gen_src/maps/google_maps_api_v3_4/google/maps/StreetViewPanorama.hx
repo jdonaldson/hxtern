@@ -6,9 +6,9 @@ package google.maps;
 class StreetViewPanorama{
 	public function new(container: Node, ?opt_opts: hxtern.Any2<google.maps.StreetViewPanoramaOptions,Dynamic<Dynamic>>);
 
-	public function bindTo(key: String, target: google.maps.MVCObject, ?opt_targetKey: String, ?opt_noNotify: Bool): ;
+	public function bindTo(key: String, target: google.maps.MVCObject, ?opt_targetKey: String, ?opt_noNotify: Bool): Null<Dynamic>;
 
-	public function changed(key: String): ;
+	public function changed(key: String): Null<Dynamic>;
 
 	public var controls: Array<google.maps.MVCArray<Node>>;
 
@@ -24,23 +24,23 @@ class StreetViewPanorama{
 
 	public function getVisible(): Bool;
 
-	public function notify(key: String): ;
+	public function notify(key: String): Null<Dynamic>;
 
-	public function registerPanoProvider(provider: String->google.maps.StreetViewPanoramaData): ;
+	public function registerPanoProvider(provider: String->google.maps.StreetViewPanoramaData): Null<Dynamic>;
 
-	public function set(key: String, value: Dynamic): ;
+	public function set(key: String, value: Dynamic): Null<Dynamic>;
 
-	public function setPano(pano: String): ;
+	public function setPano(pano: String): Null<Dynamic>;
 
-	public function setPosition(latLng: google.maps.LatLng): ;
+	public function setPosition(latLng: google.maps.LatLng): Null<Dynamic>;
 
-	public function setPov(pov: google.maps.StreetViewPov): ;
+	public function setPov(pov: google.maps.StreetViewPov): Null<Dynamic>;
 
-	public function setValues(values: hxtern.Any2<Dynamic,>): ;
+	public function setValues(values: hxtern.Any2<Dynamic,Null<Dynamic>>): Null<Dynamic>;
 
-	public function setVisible(flag: Bool): ;
+	public function setVisible(flag: Bool): Null<Dynamic>;
 
-	public function unbind(key: String): ;
+	public function unbind(key: String): Null<Dynamic>;
 
-	public function unbindAll(): ;
+	public function unbindAll(): Null<Dynamic>;
 }

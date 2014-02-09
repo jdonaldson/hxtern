@@ -4,25 +4,25 @@
 package ;
 
 class _ga_tracker{
-	public function _addIgnoredOrganic(newIgnoredOrganicKeyword: String): ;
+	public function _addIgnoredOrganic(newIgnoredOrganicKeyword: String): Null<Dynamic>;
 
-	public function _addIgnoredRef(newIgnoredReferrer: String): ;
+	public function _addIgnoredRef(newIgnoredReferrer: String): Null<Dynamic>;
 
-	public function _addItem(orderId: String, sku: String, name: String, category: String, price: String, quantity: String): ;
+	public function _addItem(orderId: String, sku: String, name: String, category: String, price: String, quantity: String): Null<Dynamic>;
 
-	public function _addOrganic(newOrganicEngine: String, newOrganicKeyword: String, ?opt_prepend: Bool): ;
+	public function _addOrganic(newOrganicEngine: String, newOrganicKeyword: String, ?opt_prepend: Bool): Null<Dynamic>;
 
 	public function _addTrans(orderId: String, affiliation: String, total: String, ?opt_tax: String, ?opt_shipping: String, ?opt_city: String, ?opt_state: String, ?opt_country: String): Dynamic;
 
-	public function _clearIgnoredOrganic(): ;
+	public function _clearIgnoredOrganic(): Null<Dynamic>;
 
-	public function _clearIgnoredRef(): ;
+	public function _clearIgnoredRef(): Null<Dynamic>;
 
-	public function _clearOrganic(): ;
+	public function _clearOrganic(): Null<Dynamic>;
 
-	public function _cookiePathCopy(newPath: String): ;
+	public function _cookiePathCopy(newPath: String): Null<Dynamic>;
 
-	public function _deleteCustomVar(index: Float): ;
+	public function _deleteCustomVar(index: Float): Null<Dynamic>;
 
 	public function _getAccount(): String;
 
@@ -42,77 +42,77 @@ class _ga_tracker{
 
 	public function _getVersion(): String;
 
-	public function _getVisitorCustomVar(index: Float): hxtern.Any2<String,>;
+	public function _getVisitorCustomVar(index: Float): hxtern.Any2<String,Null<Dynamic>>;
 
-	public function _initData(): ;
+	public function _initData(): Null<Dynamic>;
 
-	public function _link(targetUrl: String, ?opt_useHash: Bool): ;
+	public function _link(targetUrl: String, ?opt_useHash: Bool): Null<Dynamic>;
 
-	public function _linkByPost(formObject: HTMLFormElement, ?opt_useHash: Bool): ;
+	public function _linkByPost(formObject: HTMLFormElement, ?opt_useHash: Bool): Null<Dynamic>;
 
-	public function _setAccount(): ;
+	public function _setAccount(): Null<Dynamic>;
 
-	public function _setAllowAnchor(enable: Bool): ;
+	public function _setAllowAnchor(enable: Bool): Null<Dynamic>;
 
-	public function _setAllowHash(enable: Bool): ;
+	public function _setAllowHash(enable: Bool): Null<Dynamic>;
 
-	public function _setAllowLinker(enable: Bool): ;
+	public function _setAllowLinker(enable: Bool): Null<Dynamic>;
 
-	public function _setCampaignCookieTimeout(cookieTimeoutMillis: Float): ;
+	public function _setCampaignCookieTimeout(cookieTimeoutMillis: Float): Null<Dynamic>;
 
-	public function _setCampaignTrack(enable: Bool): ;
+	public function _setCampaignTrack(enable: Bool): Null<Dynamic>;
 
-	public function _setCampContentKey(newCampContentKey: String): ;
+	public function _setCampContentKey(newCampContentKey: String): Null<Dynamic>;
 
-	public function _setCampMediumKey(newCampMedKey: String): ;
+	public function _setCampMediumKey(newCampMedKey: String): Null<Dynamic>;
 
-	public function _setCampNameKey(newCampNameKey: String): ;
+	public function _setCampNameKey(newCampNameKey: String): Null<Dynamic>;
 
-	public function _setCampNOKey(newCampNOKey: String): ;
+	public function _setCampNOKey(newCampNOKey: String): Null<Dynamic>;
 
-	public function _setCampSourceKey(newCampSrcKey: String): ;
+	public function _setCampSourceKey(newCampSrcKey: String): Null<Dynamic>;
 
-	public function _setCampTermKey(newCampTermKey: String): ;
+	public function _setCampTermKey(newCampTermKey: String): Null<Dynamic>;
 
-	public function _setClientInfo(enable: Bool): ;
+	public function _setClientInfo(enable: Bool): Null<Dynamic>;
 
-	public function _setCookiePath(newCookiePath: String): ;
+	public function _setCookiePath(newCookiePath: String): Null<Dynamic>;
 
-	public function _setCookiePersistence(milliseconds: Float): ;
+	public function _setCookiePersistence(milliseconds: Float): Null<Dynamic>;
 
-	public function _setCookieTimeout(newDefaultTimeout: Float): ;
+	public function _setCookieTimeout(newDefaultTimeout: Float): Null<Dynamic>;
 
 	public function _setCustomVar(index: Float, name: String, value: String, ?opt_scope: Float): Bool;
 
-	public function _setDetectFlash(enable: Bool): ;
+	public function _setDetectFlash(enable: Bool): Null<Dynamic>;
 
-	public function _setDetectTitle(enable: Bool): ;
+	public function _setDetectTitle(enable: Bool): Null<Dynamic>;
 
-	public function _setDomainName(newDomainName: String): ;
+	public function _setDomainName(newDomainName: String): Null<Dynamic>;
 
-	public function _setLocalGifPath(newLocalGifPath: String): ;
+	public function _setLocalGifPath(newLocalGifPath: String): Null<Dynamic>;
 
-	public function _setLocalRemoteServerMode(): ;
+	public function _setLocalRemoteServerMode(): Null<Dynamic>;
 
-	public function _setLocalServerMode(): ;
+	public function _setLocalServerMode(): Null<Dynamic>;
 
-	public function _setReferrerOverride(newReferrerUrl: String): ;
+	public function _setReferrerOverride(newReferrerUrl: String): Null<Dynamic>;
 
-	public function _setRemoteServerMode(): ;
+	public function _setRemoteServerMode(): Null<Dynamic>;
 
-	public function _setSampleRate(newRate: String): ;
+	public function _setSampleRate(newRate: String): Null<Dynamic>;
 
-	public function _setSessionCookieTimeout(cookieTimeoutMillis: Float): ;
+	public function _setSessionCookieTimeout(cookieTimeoutMillis: Float): Null<Dynamic>;
 
-	public function _setSessionTimeout(newTimeout: Float): ;
+	public function _setSessionTimeout(newTimeout: Float): Null<Dynamic>;
 
-	public function _setVar(newVal: String): ;
+	public function _setVar(newVal: String): Null<Dynamic>;
 
-	public function _setVisitorCookieTimeout(cookieTimeoutMillis: Float): ;
+	public function _setVisitorCookieTimeout(cookieTimeoutMillis: Float): Null<Dynamic>;
 
-	public function _trackEvent(category: String, action: String, ?opt_label: String, ?opt_value: Float, ?opt_noninteraction: Bool): ;
+	public function _trackEvent(category: String, action: String, ?opt_label: String, ?opt_value: Float, ?opt_noninteraction: Bool): Null<Dynamic>;
 
-	public function _trackPageview(?opt_pageUrl: String): ;
+	public function _trackPageview(?opt_pageUrl: String): Null<Dynamic>;
 
-	public function _trackTrans(): ;
+	public function _trackTrans(): Null<Dynamic>;
 }

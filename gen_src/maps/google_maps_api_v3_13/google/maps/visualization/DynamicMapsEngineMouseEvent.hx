@@ -8,7 +8,7 @@ class DynamicMapsEngineMouseEvent{
 
 	public var featureId: String;
 
-	public function getDetails(_callback: google.maps.visualization.MapsEngineMouseEvent->Void): ;
+	public function getDetails(_callback: google.maps.visualization.MapsEngineMouseEvent->Void): Null<Dynamic>;
 
 	public var latLng: google.maps.LatLng;
 }

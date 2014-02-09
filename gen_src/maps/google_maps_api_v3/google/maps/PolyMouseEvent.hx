@@ -12,7 +12,7 @@ class PolyMouseEvent{
 
 	public var path: Float;
 
-	public function stop(): ;
+	public function stop(): Null<Dynamic>;
 
 	public var vertex: Float;
 }

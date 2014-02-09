@@ -6,11 +6,11 @@ package google.maps;
 class OverlayView{
 	public function new();
 
-	public function bindTo(key: String, target: google.maps.MVCObject, ?opt_targetKey: String, ?opt_noNotify: Bool): ;
+	public function bindTo(key: String, target: google.maps.MVCObject, ?opt_targetKey: String, ?opt_noNotify: Bool): Null<Dynamic>;
 
-	public function changed(key: String): ;
+	public function changed(key: String): Null<Dynamic>;
 
-	public function draw(): ;
+	public function draw(): Null<Dynamic>;
 
 	public function get(key: String): Dynamic;
 
@@ -20,19 +20,19 @@ class OverlayView{
 
 	public function getProjection(): google.maps.MapCanvasProjection;
 
-	public function notify(key: String): ;
+	public function notify(key: String): Null<Dynamic>;
 
-	public function onAdd(): ;
+	public function onAdd(): Null<Dynamic>;
 
-	public function onRemove(): ;
+	public function onRemove(): Null<Dynamic>;
 
-	public function set(key: String, value: Dynamic): ;
+	public function set(key: String, value: Dynamic): Null<Dynamic>;
 
-	public function setMap(map: hxtern.Any2<google.maps.Map,google.maps.StreetViewPanorama>): ;
+	public function setMap(map: hxtern.Any2<google.maps.Map,google.maps.StreetViewPanorama>): Null<Dynamic>;
 
-	public function setValues(values: hxtern.Any2<Dynamic,>): ;
+	public function setValues(values: hxtern.Any2<Dynamic,Null<Dynamic>>): Null<Dynamic>;
 
-	public function unbind(key: String): ;
+	public function unbind(key: String): Null<Dynamic>;
 
-	public function unbindAll(): ;
+	public function unbindAll(): Null<Dynamic>;
 }

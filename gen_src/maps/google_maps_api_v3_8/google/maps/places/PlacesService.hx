@@ -6,7 +6,7 @@ package google.maps.places;
 class PlacesService{
 	public function new(attrContainer: hxtern.Any2<HTMLDivElement,google.maps.Map>);
 
-	public function getDetails(request: hxtern.Any2<google.maps.places.PlaceDetailsRequest,Dynamic<String>>, _callback: google.maps.places.PlaceResult->google.maps.places.PlacesServiceStatus->Void): ;
+	public function getDetails(request: hxtern.Any2<google.maps.places.PlaceDetailsRequest,Dynamic<String>>, _callback: google.maps.places.PlaceResult->google.maps.places.PlacesServiceStatus->Void): Null<Dynamic>;
 
-	public function search(request: hxtern.Any2<google.maps.places.PlaceSearchRequest,Dynamic<String>>, _callback: Array<google.maps.places.PlaceResult>->google.maps.places.PlacesServiceStatus->Void): ;
+	public function search(request: hxtern.Any2<google.maps.places.PlaceSearchRequest,Dynamic<String>>, _callback: Array<google.maps.places.PlaceResult>->google.maps.places.PlacesServiceStatus->Void): Null<Dynamic>;
 }

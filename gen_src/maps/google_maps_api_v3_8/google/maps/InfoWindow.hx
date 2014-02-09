@@ -6,11 +6,11 @@ package google.maps;
 class InfoWindow{
 	public function new(?opt_opts: hxtern.Any2<google.maps.InfoWindowOptions,Dynamic<String>>);
 
-	public function bindTo(key: String, target: google.maps.MVCObject, ?opt_targetKey: String, ?opt_noNotify: Bool): ;
+	public function bindTo(key: String, target: google.maps.MVCObject, ?opt_targetKey: String, ?opt_noNotify: Bool): Null<Dynamic>;
 
-	public function changed(key: String): ;
+	public function changed(key: String): Null<Dynamic>;
 
-	public function close(): ;
+	public function close(): Null<Dynamic>;
 
 	public function get(key: String): Dynamic;
 
@@ -20,23 +20,23 @@ class InfoWindow{
 
 	public function getZIndex(): Float;
 
-	public function notify(key: String): ;
+	public function notify(key: String): Null<Dynamic>;
 
-	public function open(?opt_map: hxtern.Any2<google.maps.Map,google.maps.StreetViewPanorama>, ?opt_anchor: google.maps.MVCObject): ;
+	public function open(?opt_map: hxtern.Any2<google.maps.Map,google.maps.StreetViewPanorama>, ?opt_anchor: google.maps.MVCObject): Null<Dynamic>;
 
-	public function set(key: String, value: Dynamic): ;
+	public function set(key: String, value: Dynamic): Null<Dynamic>;
 
-	public function setContent(content: hxtern.Any2<String,Node>): ;
+	public function setContent(content: hxtern.Any2<String,Node>): Null<Dynamic>;
 
-	public function setOptions(options: hxtern.Any2<google.maps.InfoWindowOptions,Dynamic<String>>): ;
+	public function setOptions(options: hxtern.Any2<google.maps.InfoWindowOptions,Dynamic<String>>): Null<Dynamic>;
 
-	public function setPosition(position: google.maps.LatLng): ;
+	public function setPosition(position: google.maps.LatLng): Null<Dynamic>;
 
-	public function setValues(values: hxtern.Any2<Dynamic,>): ;
+	public function setValues(values: hxtern.Any2<Dynamic,Null<Dynamic>>): Null<Dynamic>;
 
-	public function setZIndex(zIndex: Float): ;
+	public function setZIndex(zIndex: Float): Null<Dynamic>;
 
-	public function unbind(key: String): ;
+	public function unbind(key: String): Null<Dynamic>;
 
-	public function unbindAll(): ;
+	public function unbindAll(): Null<Dynamic>;
 }

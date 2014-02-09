@@ -8,9 +8,9 @@ class MapsEngineLayer{
 
 	public function addListener(eventName: String, handler: Dynamic): google.maps.MapsEventListener;
 
-	public function bindTo(key: String, target: google.maps.MVCObject, ?opt_targetKey: String, ?opt_noNotify: Bool): ;
+	public function bindTo(key: String, target: google.maps.MVCObject, ?opt_targetKey: String, ?opt_noNotify: Bool): Null<Dynamic>;
 
-	public function changed(key: String): ;
+	public function changed(key: String): Null<Dynamic>;
 
 	public function get(key: String): Dynamic;
 
@@ -26,23 +26,23 @@ class MapsEngineLayer{
 
 	public function getStatus(): google.maps.visualization.MapsEngineStatus;
 
-	public function notify(key: String): ;
+	public function notify(key: String): Null<Dynamic>;
 
-	public function set(key: String, value: Dynamic): ;
+	public function set(key: String, value: Dynamic): Null<Dynamic>;
 
-	public function setLayerId(layerId: String): ;
+	public function setLayerId(layerId: String): Null<Dynamic>;
 
-	public function setLayerKey(layerKey: String): ;
+	public function setLayerKey(layerKey: String): Null<Dynamic>;
 
-	public function setMap(map: google.maps.Map): ;
+	public function setMap(map: google.maps.Map): Null<Dynamic>;
 
-	public function setMapId(mapId: String): ;
+	public function setMapId(mapId: String): Null<Dynamic>;
 
-	public function setOptions(options: hxtern.Any2<google.maps.visualization.MapsEngineLayerOptions,Dynamic<String>>): ;
+	public function setOptions(options: hxtern.Any2<google.maps.visualization.MapsEngineLayerOptions,Dynamic<String>>): Null<Dynamic>;
 
-	public function setValues(values: hxtern.Any2<Dynamic,>): ;
+	public function setValues(values: hxtern.Any2<Dynamic,Null<Dynamic>>): Null<Dynamic>;
 
-	public function unbind(key: String): ;
+	public function unbind(key: String): Null<Dynamic>;
 
-	public function unbindAll(): ;
+	public function unbindAll(): Null<Dynamic>;
 }
