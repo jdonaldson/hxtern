@@ -28,7 +28,7 @@ class MapOptions{
 
 	public var mapTypeControl: Bool;
 
-	public var mapTypeControlOptions: google.maps.MapTypeControlOptions;
+	public var mapTypeControlOptions: Dynamic;
 
 	public var mapTypeId: google.maps.MapTypeId;
 
@@ -40,19 +40,19 @@ class MapOptions{
 
 	public var overviewMapControl: Bool;
 
-	public var overviewMapControlOptions: google.maps.OverviewMapControlOptions;
+	public var overviewMapControlOptions: Dynamic;
 
 	public var panControl: Bool;
 
-	public var panControlOptions: google.maps.PanControlOptions;
+	public var panControlOptions: Dynamic;
 
 	public var rotateControl: Bool;
 
-	public var rotateControlOptions: google.maps.RotateControlOptions;
+	public var rotateControlOptions: Dynamic;
 
 	public var scaleControl: Bool;
 
-	public var scaleControlOptions: google.maps.ScaleControlOptions;
+	public var scaleControlOptions: Dynamic;
 
 	public var scrollwheel: Bool;
 
@@ -60,7 +60,7 @@ class MapOptions{
 
 	public var streetViewControl: Bool;
 
-	public var streetViewControlOptions: google.maps.StreetViewControlOptions;
+	public var streetViewControlOptions: Dynamic;
 
 	public var styles: Array<google.maps.MapTypeStyle>;
 
@@ -70,5 +70,5 @@ class MapOptions{
 
 	public var zoomControl: Bool;
 
-	public var zoomControlOptions: google.maps.ZoomControlOptions;
+	public var zoomControlOptions: Dynamic;
 }

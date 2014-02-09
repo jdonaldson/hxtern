@@ -6,7 +6,7 @@ package google.maps.drawing;
 class OverlayCompleteEvent{
 	public function new();
 
-	public var overlay: google.maps.Marker;
+	public var overlay: Dynamic;
 
 	public var type: google.maps.drawing.OverlayType;
 }

@@ -12,7 +12,7 @@ class Feed{
 
 	public function load(_callback: google.feeds.LoadResult->Void): Void;
 
-	public function setNumEntries(num: Float): Void;
+	public function setNumEntries(num: Dynamic): Void;
 
 	public function setResultFormat(format: String): Void;
 }

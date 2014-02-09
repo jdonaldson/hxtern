@@ -20,9 +20,9 @@ class MarkerOptions{
 
 	public var flat: Bool;
 
-	public var icon: String;
+	public var icon: Dynamic;
 
-	public var map: google.maps.Map;
+	public var map: Dynamic;
 
 	public var optimized: Bool;
 
@@ -30,7 +30,7 @@ class MarkerOptions{
 
 	public var raiseOnDrag: Bool;
 
-	public var shadow: String;
+	public var shadow: Dynamic;
 
 	public var shape: google.maps.MarkerShape;
 

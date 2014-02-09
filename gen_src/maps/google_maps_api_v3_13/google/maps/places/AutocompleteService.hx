@@ -6,7 +6,7 @@ package google.maps.places;
 class AutocompleteService{
 	public function new();
 
-	public function getPlacePredictions(request: google.maps.places.AutocompletionRequest, _callback: Array<google.maps.places.AutocompletePrediction>->google.maps.places.PlacesServiceStatus->Void): ;
+	public function getPlacePredictions(request: Dynamic, _callback: Array<google.maps.places.AutocompletePrediction>->google.maps.places.PlacesServiceStatus->Void): ;
 
-	public function getQueryPredictions(request: google.maps.places.QueryAutocompletionRequest, _callback: Array<google.maps.places.QueryAutocompletePrediction>->google.maps.places.PlacesServiceStatus->Void): ;
+	public function getQueryPredictions(request: Dynamic, _callback: Array<google.maps.places.QueryAutocompletePrediction>->google.maps.places.PlacesServiceStatus->Void): ;
 }

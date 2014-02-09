@@ -16,11 +16,11 @@ class DirectionsRendererOptions{
 
 	public var map: google.maps.Map;
 
-	public var markerOptions: google.maps.MarkerOptions;
+	public var markerOptions: Dynamic;
 
 	public var panel: Node;
 
-	public var polylineOptions: google.maps.PolylineOptions;
+	public var polylineOptions: Dynamic;
 
 	public var preserveViewport: Bool;
 

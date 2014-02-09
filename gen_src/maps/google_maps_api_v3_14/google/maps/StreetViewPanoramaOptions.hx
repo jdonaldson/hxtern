@@ -8,7 +8,7 @@ class StreetViewPanoramaOptions{
 
 	public var addressControl: Bool;
 
-	public var addressControlOptions: google.maps.StreetViewAddressControlOptions;
+	public var addressControlOptions: Dynamic;
 
 	public var clickToGo: Bool;
 
@@ -24,7 +24,7 @@ class StreetViewPanoramaOptions{
 
 	public var panControl: Bool;
 
-	public var panControlOptions: google.maps.PanControlOptions;
+	public var panControlOptions: Dynamic;
 
 	public var pano: String;
 
@@ -40,5 +40,5 @@ class StreetViewPanoramaOptions{
 
 	public var zoomControl: Bool;
 
-	public var zoomControlOptions: google.maps.ZoomControlOptions;
+	public var zoomControlOptions: Dynamic;
 }

@@ -3,5 +3,5 @@
 */
 package chrome.identity;
 
-typedef TokenDetails = {interactive: Bool}
+typedef TokenDetails = {interactive: Dynamic}
 

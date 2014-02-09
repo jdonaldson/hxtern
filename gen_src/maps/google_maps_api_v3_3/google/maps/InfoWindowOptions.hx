@@ -6,7 +6,7 @@ package google.maps;
 class InfoWindowOptions{
 	public function new();
 
-	public var content: String;
+	public var content: Dynamic;
 
 	public var disableAutoPan: Bool;
 

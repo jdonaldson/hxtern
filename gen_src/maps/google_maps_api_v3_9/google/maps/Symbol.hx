@@ -12,7 +12,7 @@ class Symbol{
 
 	public var fillOpacity: Float;
 
-	public var path: google.maps.SymbolPath;
+	public var path: Dynamic;
 
 	public var rotation: Float;
 

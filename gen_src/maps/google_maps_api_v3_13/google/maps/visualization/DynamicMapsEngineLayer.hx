@@ -38,7 +38,7 @@ class DynamicMapsEngineLayer{
 
 	public function setMapId(mapId: String): ;
 
-	public function setOptions(options: google.maps.visualization.DynamicMapsEngineLayerOptions): ;
+	public function setOptions(options: Dynamic): ;
 
 	public function setValues(values: Dynamic): ;
 

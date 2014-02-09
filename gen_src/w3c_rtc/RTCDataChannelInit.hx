@@ -3,5 +3,5 @@
 */
 package ;
 
-typedef RTCDataChannelInit = RTCDataChannelInitInterface_
+typedef RTCDataChannelInit = Dynamic
 

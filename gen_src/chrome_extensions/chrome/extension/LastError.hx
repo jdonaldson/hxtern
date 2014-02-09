@@ -4,5 +4,5 @@
 package chrome.extension;
 @:native("chrome.extension.lastError")
 class LastError{
-	public static var message: String;
+	public static var message: Dynamic;
 }

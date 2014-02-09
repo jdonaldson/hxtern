@@ -12,7 +12,7 @@ class PolylineOptions{
 
 	public var map: google.maps.Map;
 
-	public var path: google.maps.MVCArray<google.maps.LatLng>;
+	public var path: Dynamic;
 
 	public var strokeColor: String;
 

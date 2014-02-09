@@ -18,7 +18,7 @@ class PolygonOptions{
 
 	public var map: google.maps.Map;
 
-	public var paths: google.maps.MVCArray<google.maps.MVCArray<google.maps.LatLng>>;
+	public var paths: Dynamic;
 
 	public var strokeColor: String;
 

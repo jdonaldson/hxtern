@@ -6,7 +6,7 @@ package google.maps;
 class DirectionsWaypoint{
 	public function new();
 
-	public var location: google.maps.LatLng;
+	public var location: Dynamic;
 
 	public var stopover: Bool;
 }

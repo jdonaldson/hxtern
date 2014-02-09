@@ -7,11 +7,11 @@ package chrome.runtime;
 class MessageSenderEvent{
 	public function new();
 
-	public function addListener(_callback: Dynamic->MessageSender->Dynamic->Void->Bool): Void;
+	public function addListener(_callback: Dynamic->MessageSender->Dynamic->Void->Dynamic): Void;
 
-	public function hasListener(_callback: Dynamic->MessageSender->Dynamic->Void->Bool): Bool;
+	public function hasListener(_callback: Dynamic->MessageSender->Dynamic->Void->Dynamic): Bool;
 
 	public function hasListeners(): Bool;
 
-	public function removeListener(_callback: Dynamic->MessageSender->Dynamic->Void->Bool): Void;
+	public function removeListener(_callback: Dynamic->MessageSender->Dynamic->Void->Dynamic): Void;
 }

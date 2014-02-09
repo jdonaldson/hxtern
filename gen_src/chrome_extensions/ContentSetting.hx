@@ -8,9 +8,9 @@ class ContentSetting{
 
 	public function clear(details: Dynamic<String>, ?opt_callback: Void->Void): Void;
 
-	public function get(details: Dynamic<String>, _callback: Void->Void): Void;
+	public function get(details: Dynamic<Dynamic>, _callback: Void->Void): Void;
 
 	public function getResourceIdentifiers(_callback: Void->Void): Void;
 
-	public function set(details: Dynamic<String>, ?opt_callback: Void->Void): Void;
+	public function set(details: Dynamic<Dynamic>, ?opt_callback: Void->Void): Void;
 }

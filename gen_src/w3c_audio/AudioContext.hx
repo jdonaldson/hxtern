@@ -10,7 +10,7 @@ class AudioContext{
 
 	public function createBiquadFilter(): BiquadFilterNode;
 
-	public function createBuffer(a: Float, b: Float, ?sampleRate: Float): AudioBuffer;
+	public function createBuffer(a: Dynamic, b: Dynamic, ?sampleRate: Float): AudioBuffer;
 
 	public function createBufferSource(): AudioBufferSourceNode;
 

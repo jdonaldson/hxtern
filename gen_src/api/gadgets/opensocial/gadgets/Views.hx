@@ -10,5 +10,5 @@ class Views{
 
 	public static function getSupportedViews(): Dynamic;
 
-	public static function requestNavigateTo(view: gadgets.views.View, ?opt_params: Dynamic, ?opt_ownerId: String): Void;
+	public static function requestNavigateTo(view: Dynamic, ?opt_params: Dynamic, ?opt_ownerId: String): Void;
 }

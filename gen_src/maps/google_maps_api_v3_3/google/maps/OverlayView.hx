@@ -28,7 +28,7 @@ class OverlayView{
 
 	public function set(key: String, value: Dynamic): ;
 
-	public function setMap(map: google.maps.Map): ;
+	public function setMap(map: Dynamic): ;
 
 	public function setValues(values: Dynamic): ;
 

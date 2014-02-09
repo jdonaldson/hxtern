@@ -60,7 +60,7 @@ class _{
 
 	public static function functions(obj: Dynamic): Array<String>;
 
-	public static function groupBy(obj: Dynamic, iterator: String): Array<Array>;
+	public static function groupBy(obj: Dynamic, iterator: Dynamic): Array<Array>;
 
 	public static function has(obj: Dynamic, key: String): Bool;
 
@@ -176,7 +176,7 @@ class _{
 
 	public static function unique(array: Array, ?opt_isSorted: Bool, ?opt_iterator: Dynamic): Array;
 
-	public static function uniqueId(?opt_prefix: String): Float;
+	public static function uniqueId(?opt_prefix: String): Dynamic;
 
 	public static function values(obj: Dynamic): Array;
 

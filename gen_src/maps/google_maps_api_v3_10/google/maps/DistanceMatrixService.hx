@@ -6,5 +6,5 @@ package google.maps;
 class DistanceMatrixService{
 	public function new();
 
-	public function getDistanceMatrix(request: google.maps.DistanceMatrixRequest, _callback: google.maps.DistanceMatrixResponse->google.maps.DistanceMatrixStatus->Void): ;
+	public function getDistanceMatrix(request: Dynamic, _callback: google.maps.DistanceMatrixResponse->google.maps.DistanceMatrixStatus->Void): ;
 }

@@ -14,7 +14,7 @@ class InfoWindow{
 
 	public function get(key: String): Dynamic;
 
-	public function getContent(): String;
+	public function getContent(): Dynamic;
 
 	public function getPosition(): google.maps.LatLng;
 
@@ -22,11 +22,11 @@ class InfoWindow{
 
 	public function notify(key: String): ;
 
-	public function open(?map: google.maps.Map, ?anchor: google.maps.MVCObject): ;
+	public function open(?map: Dynamic, ?anchor: google.maps.MVCObject): ;
 
 	public function set(key: String, value: Dynamic): ;
 
-	public function setContent(content: String): ;
+	public function setContent(content: Dynamic): ;
 
 	public function setOptions(options: Dynamic<Dynamic>): ;
 

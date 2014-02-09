@@ -6,5 +6,5 @@ package chrome;
 class MediaGalleries{
 	public static function getMediaFileSystemMetadata(mediaFileSystem: FileSystem): Void;
 
-	public static function getMediaFileSystems(details: {interactive: String}, _callback: Array<FileSystem>->Void): Void;
+	public static function getMediaFileSystems(details: {interactive: Dynamic}, _callback: Array<FileSystem>->Void): Void;
 }

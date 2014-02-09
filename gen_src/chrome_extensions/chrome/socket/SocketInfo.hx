@@ -8,13 +8,13 @@ class SocketInfo{
 
 	public var connected: Bool;
 
-	public var localAddress: String;
+	public var localAddress: Dynamic;
 
-	public var localPort: Float;
+	public var localPort: Dynamic;
 
-	public var peerAddress: String;
+	public var peerAddress: Dynamic;
 
-	public var peerPort: Float;
+	public var peerPort: Dynamic;
 
 	public var socketType: String;
 }

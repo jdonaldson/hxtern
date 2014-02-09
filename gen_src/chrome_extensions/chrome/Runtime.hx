@@ -4,7 +4,7 @@
 package chrome;
 @:native("chrome.runtime")
 class Runtime{
-	public static function connect(?opt_extensionIdOrConnectInfo: String, ?opt_connectInfo: Dynamic<String>): Port;
+	public static function connect(?opt_extensionIdOrConnectInfo: Dynamic, ?opt_connectInfo: Dynamic<String>): Port;
 
 	public static function connectNative(application: String): Port;
 
@@ -46,7 +46,7 @@ class Runtime{
 
 	public static function restart(): Void;
 
-	public static function sendMessage(extensionIdOrMessage: String, ?opt_messageOrCallback: Dynamic, ?opt_callback: Dynamic->Void): Void;
+	public static function sendMessage(extensionIdOrMessage: Dynamic, ?opt_messageOrCallback: Dynamic, ?opt_callback: Dynamic->Void): Void;
 
 	public static function sendNativeMessage(application: String, message: Dynamic, ?opt_callback: Dynamic->Void): Void;
 

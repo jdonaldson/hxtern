@@ -24,5 +24,5 @@ class RTCDataChannel{
 	 */
 	public var readyState: String;
 
-	public function send(data: String): Void;
+	public function send(data: Dynamic): Void;
 }

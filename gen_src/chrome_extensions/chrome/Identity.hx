@@ -4,7 +4,7 @@
 package chrome;
 @:native("chrome.identity")
 class Identity{
-	public static function getAuthToken(detailsOrCallback: chrome.identity.TokenDetails, ?opt_callback: String->Void): Void;
+	public static function getAuthToken(detailsOrCallback: Dynamic, ?opt_callback: String->Void): Void;
 
 	public static function launchWebAuthFlow(details: chrome.identity.WebAuthFlowDetails, _callback: String->Void): Void;
 

@@ -8,9 +8,9 @@ class Alarms{
 
 	public static function clearAll(): Void;
 
-	public static function create(nameOrAlarmCreateInfo: String, ?opt_alarmInfo: chrome.alarms.AlarmCreateInfo): Void;
+	public static function create(nameOrAlarmCreateInfo: Dynamic, ?opt_alarmInfo: chrome.alarms.AlarmCreateInfo): Void;
 
-	public static function get(nameOrCallback: String, ?opt_callback: chrome.alarms.Alarm->Void): Void;
+	public static function get(nameOrCallback: Dynamic, ?opt_callback: chrome.alarms.Alarm->Void): Void;
 
 	public static function getAll(_callback: Array<chrome.alarms.Alarm>->Void): Void;
 

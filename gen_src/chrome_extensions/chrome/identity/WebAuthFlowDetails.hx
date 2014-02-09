@@ -3,5 +3,5 @@
 */
 package chrome.identity;
 
-typedef WebAuthFlowDetails = {url: String, interactive: Bool}
+typedef WebAuthFlowDetails = {url: String, interactive: Dynamic}
 

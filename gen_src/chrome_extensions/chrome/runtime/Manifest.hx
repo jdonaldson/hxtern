@@ -10,13 +10,13 @@ package chrome.runtime;
 class Manifest{
 	public function new();
 
-	public var description: String;
+	public var description: Dynamic;
 
-	public var manifest_version: Float;
+	public var manifest_version: Dynamic;
 
 	public var name: String;
 
-	public var oauth2: chrome.runtime.Manifest.Oauth2;
+	public var oauth2: Dynamic;
 
 	public var version: String;
 }

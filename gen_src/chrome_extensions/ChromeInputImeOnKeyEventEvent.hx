@@ -7,11 +7,11 @@ package ;
 class ChromeInputImeOnKeyEventEvent{
 	public function new();
 
-	public function addListener(_callback: String->ChromeKeyboardEvent->Bool, ?opt_extraInfoSpec: Array<String>): Void;
+	public function addListener(_callback: String->ChromeKeyboardEvent->Dynamic, ?opt_extraInfoSpec: Array<String>): Void;
 
-	public function hasListener(_callback: String->ChromeKeyboardEvent->Bool): Void;
+	public function hasListener(_callback: String->ChromeKeyboardEvent->Dynamic): Void;
 
-	public function hasListeners(_callback: String->ChromeKeyboardEvent->Bool): Void;
+	public function hasListeners(_callback: String->ChromeKeyboardEvent->Dynamic): Void;
 
-	public function removeListener(_callback: String->ChromeKeyboardEvent->Bool): Void;
+	public function removeListener(_callback: String->ChromeKeyboardEvent->Dynamic): Void;
 }

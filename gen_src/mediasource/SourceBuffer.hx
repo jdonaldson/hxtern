@@ -12,7 +12,7 @@ class SourceBuffer{
 
 	public function append(data: Uint8Array): Void;
 
-	public function appendBuffer(data: ArrayBuffer): Void;
+	public function appendBuffer(data: Dynamic): Void;
 
 	public var appendMode: String;
 

@@ -4,7 +4,7 @@
 package chrome;
 @:native("chrome.pushMessaging")
 class PushMessaging{
-	public static function getChannelId(interactiveOrCallback: Bool, ?opt_callback: chrome.pushMessaging.ChannelIdResult->Void): Void;
+	public static function getChannelId(interactiveOrCallback: Dynamic, ?opt_callback: chrome.pushMessaging.ChannelIdResult->Void): Void;
 
 	public static var onMessage: chrome.pushMessaging.PushMessageEvent;
 }

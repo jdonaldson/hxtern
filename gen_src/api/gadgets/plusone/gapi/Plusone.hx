@@ -6,5 +6,5 @@ package gapi;
 class Plusone{
 	public static function go(?opt_container: Element): Void;
 
-	public static function render(id: Element, params: Dynamic): Void;
+	public static function render(id: Dynamic, params: Dynamic): Void;
 }

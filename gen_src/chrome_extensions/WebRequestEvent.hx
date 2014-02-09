@@ -7,11 +7,11 @@ package ;
 class WebRequestEvent{
 	public function new();
 
-	public function addListener(listener: Dynamic->Void, filter: RequestFilter, ?opt_extraInfoSpec: Array<String>): Void;
+	public function addListener(listener: Dynamic->Dynamic, filter: RequestFilter, ?opt_extraInfoSpec: Array<String>): Void;
 
-	public function hasListener(listener: Dynamic->Void): Void;
+	public function hasListener(listener: Dynamic->Dynamic): Void;
 
-	public function hasListeners(listener: Dynamic->Void): Void;
+	public function hasListeners(listener: Dynamic->Dynamic): Void;
 
-	public function removeListener(listener: Dynamic->Void): Void;
+	public function removeListener(listener: Dynamic->Dynamic): Void;
 }

@@ -6,7 +6,7 @@ package chrome.usb;
 class TransferResultInfo{
 	public function new();
 
-	public var data: ArrayBuffer;
+	public var data: Dynamic;
 
-	public var resultCode: Float;
+	public var resultCode: Dynamic;
 }

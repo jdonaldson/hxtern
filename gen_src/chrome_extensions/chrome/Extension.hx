@@ -4,7 +4,7 @@
 package chrome;
 @:native("chrome.extension")
 class Extension{
-	public static function connect(?opt_extensionIdOrConnectInfo: String, ?opt_connectInfo: Dynamic<String>): Port;
+	public static function connect(?opt_extensionIdOrConnectInfo: Dynamic, ?opt_connectInfo: Dynamic<String>): Port;
 
 	public static function getBackgroundPage(): Window;
 
@@ -12,7 +12,7 @@ class Extension{
 
 	public static function getViews(?opt_fetchProperties: Dynamic): Array<Window>;
 
-	public static var inIncognitoContext: Bool;
+	public static var inIncognitoContext: Dynamic;
 
 	public static function isAllowedFileSchemeAccess(_callback: Bool->Void): Void;
 
@@ -30,9 +30,9 @@ class Extension{
 
 	public static var onRequestExternal: ChromeEvent;
 
-	public static function sendMessage(extensionIdOrRequest: String, ?opt_request: Dynamic, ?opt_callback: Dynamic->Void): Void;
+	public static function sendMessage(extensionIdOrRequest: Dynamic, ?opt_request: Dynamic, ?opt_callback: Dynamic->Void): Void;
 
-	public static function sendRequest(?opt_arg1: Float, ?opt_request: Dynamic, ?opt_callback: Dynamic->Void): Void;
+	public static function sendRequest(?opt_arg1: Dynamic, ?opt_request: Dynamic, ?opt_callback: Dynamic->Void): Void;
 
 	public static function setUpdateUrlData(data: String): Void;
 }

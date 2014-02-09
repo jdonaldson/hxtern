@@ -6,7 +6,7 @@ package google.maps.places;
 class PlacePhoto{
 	public function new();
 
-	public function getUrl(opts: google.maps.places.PhotoOptions): String;
+	public function getUrl(opts: Dynamic): String;
 
 	public var height: Float;
 

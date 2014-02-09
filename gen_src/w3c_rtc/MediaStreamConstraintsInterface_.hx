@@ -4,7 +4,7 @@
 package ;
 
 class MediaStreamConstraintsInterface_{
-	public var audio: Bool;
+	public var audio: Dynamic;
 
-	public var video: Bool;
+	public var video: Dynamic;
 }

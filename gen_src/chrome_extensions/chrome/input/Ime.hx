@@ -6,7 +6,7 @@ package chrome.input;
 class Ime{
 	public static function clearComposition(parameters: Dynamic<Float>, _callback: Bool->Void): Void;
 
-	public static function commitText(parameters: Dynamic<String>, ?opt_callback: Bool->Void): Void;
+	public static function commitText(parameters: Dynamic<Dynamic>, ?opt_callback: Bool->Void): Void;
 
 	public static function keyEventHandled(requestId: String, response: Bool): Void;
 
@@ -26,15 +26,15 @@ class Ime{
 
 	public static var onMenuItemActivated: ChromeEvent;
 
-	public static function setCandidates(parameters: Dynamic<Float>, ?opt_callback: Bool->Void): Void;
+	public static function setCandidates(parameters: Dynamic<Dynamic>, ?opt_callback: Bool->Void): Void;
 
-	public static function setCandidateWindowProperties(parameters: Dynamic<Float>, ?opt_callback: Bool->Void): Void;
+	public static function setCandidateWindowProperties(parameters: Dynamic<Dynamic>, ?opt_callback: Bool->Void): Void;
 
-	public static function setComposition(parameters: Dynamic<String>, ?opt_callback: Bool->Void): Void;
+	public static function setComposition(parameters: Dynamic<Dynamic>, ?opt_callback: Bool->Void): Void;
 
 	public static function setCursorPosition(parameters: Dynamic<Float>, ?opt_callback: Bool->Void): Void;
 
-	public static function setMenuItems(parameters: Dynamic<String>, ?opt_callback: Void->Void): Void;
+	public static function setMenuItems(parameters: Dynamic<Dynamic>, ?opt_callback: Void->Void): Void;
 
-	public static function updateMenuItems(parameters: Dynamic<String>, ?opt_callback: Void->Void): Void;
+	public static function updateMenuItems(parameters: Dynamic<Dynamic>, ?opt_callback: Void->Void): Void;
 }

@@ -34,7 +34,7 @@ class WebkitAudioPannerNode{
 	 */
 	public var distanceGain: AudioGain;
 
-	public var distanceModel: Float;
+	public var distanceModel: Dynamic;
 
 	public var maxDistance: Float;
 
@@ -42,7 +42,7 @@ class WebkitAudioPannerNode{
 
 	public var numberOfOutputs: Float;
 
-	public var panningModel: Float;
+	public var panningModel: Dynamic;
 
 	public var refDistance: Float;
 

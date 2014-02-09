@@ -10,11 +10,11 @@ class DistanceMatrixRequest{
 
 	public var avoidTolls: Bool;
 
-	public var destinations: Array<google.maps.LatLng>;
+	public var destinations: Dynamic;
 
 	public var durationInTraffic: Bool;
 
-	public var origins: Array<google.maps.LatLng>;
+	public var origins: Dynamic;
 
 	public var region: String;
 

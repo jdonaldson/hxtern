@@ -6,7 +6,7 @@ package chrome;
 class Bookmarks{
 	public static function create(bookmark: Dynamic, ?opt_callback: BookmarkTreeNode->Void): BookmarkTreeNode;
 
-	public static function get(idOrIdList: String, _callback: Array<BookmarkTreeNode>->Void): Array<BookmarkTreeNode>;
+	public static function get(idOrIdList: Dynamic, _callback: Array<BookmarkTreeNode>->Void): Array<BookmarkTreeNode>;
 
 	public static function getChildren(id: String, _callback: Array<BookmarkTreeNode>->Void): Array<BookmarkTreeNode>;
 

@@ -22,7 +22,7 @@ class Tabs{
 
 	public static function getSelected(windowId: Float, _callback: Tab->Void): Void;
 
-	public static function highlight(highlightInfo: Dynamic<Float>, _callback: Window->Void): Void;
+	public static function highlight(highlightInfo: Dynamic<Dynamic>, _callback: Window->Void): Void;
 
 	public static function insertCSS(tabId: Float, details: Dynamic, ?opt_callback: Void->Void): Void;
 
@@ -50,15 +50,15 @@ class Tabs{
 
 	public static var onUpdated: ChromeEvent;
 
-	public static function query(queryInfo: Dynamic<Float>, ?opt_callback: Array<Tab>->Void): Array<Tab>;
+	public static function query(queryInfo: Dynamic<Dynamic>, ?opt_callback: Array<Tab>->Void): Array<Tab>;
 
 	public static function reload(?opt_tabId: Float, ?opt_reloadProperties: Dynamic<Bool>, ?opt_callback: Void->Void): Void;
 
-	public static function remove(tabIds: Float, ?opt_callback: Tab->Void): Void;
+	public static function remove(tabIds: Dynamic, ?opt_callback: Tab->Void): Void;
 
 	public static function sendMessage(tabId: Float, request: Dynamic, ?opt_callback: Dynamic->Void): Void;
 
 	public static function sendRequest(tabId: Float, request: Dynamic, ?opt_callback: Dynamic->Void): Void;
 
-	public static function update(tabId: Float, updateProperties: Dynamic<String>, ?opt_callback: Tab->Void): Void;
+	public static function update(tabId: Float, updateProperties: Dynamic<Dynamic>, ?opt_callback: Tab->Void): Void;
 }

@@ -8,5 +8,5 @@ class AcceptInfo{
 
 	public var resultCode: Float;
 
-	public var socketId: Float;
+	public var socketId: Dynamic;
 }

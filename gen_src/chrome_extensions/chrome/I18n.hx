@@ -6,5 +6,5 @@ package chrome;
 class I18n{
 	public static function getAcceptLanguages(_callback: Array<String>->Void): Void;
 
-	public static function getMessage(messageName: String, ?opt_args: String): String;
+	public static function getMessage(messageName: String, ?opt_args: Dynamic): String;
 }

@@ -10,5 +10,5 @@ class Audio{
 
 	public function mozSetup(channels: Float, rate: Float): Void;
 
-	public function mozWriteAudio(buffer: Array): Void;
+	public function mozWriteAudio(buffer: Dynamic): Void;
 }

@@ -3,5 +3,5 @@
 */
 package chrome.app.runtime;
 
-typedef LaunchData = {id: String, items: Array<Dynamic>}
+typedef LaunchData = {id: Dynamic, items: Dynamic}
 

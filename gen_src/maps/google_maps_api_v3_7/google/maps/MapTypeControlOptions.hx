@@ -6,7 +6,7 @@ package google.maps;
 class MapTypeControlOptions{
 	public function new();
 
-	public var mapTypeIds: Array<google.maps.MapTypeId>;
+	public var mapTypeIds: Dynamic;
 
 	public var position: google.maps.ControlPosition;
 

@@ -26,15 +26,15 @@ class Socket{
 
 	public static function leaveGroup(socketId: Float, address: String, _callback: Float->Void): Void;
 
-	public static function listen(socketId: Float, address: String, port: Float, backlogOrCallback: Float, ?opt_callback: Float->Void): Void;
+	public static function listen(socketId: Float, address: String, port: Float, backlogOrCallback: Dynamic, ?opt_callback: Float->Void): Void;
 
-	public static function read(socketId: Float, bufferSizeOrCallback: Float, ?opt_callback: chrome.socket.ReadInfo->Void): Void;
+	public static function read(socketId: Float, bufferSizeOrCallback: Dynamic, ?opt_callback: chrome.socket.ReadInfo->Void): Void;
 
-	public static function recvFrom(socketId: Float, bufferSizeOrCallback: Float, ?opt_callback: chrome.socket.RecvFromInfo->Void): Void;
+	public static function recvFrom(socketId: Float, bufferSizeOrCallback: Dynamic, ?opt_callback: chrome.socket.RecvFromInfo->Void): Void;
 
 	public static function sendTo(socketId: Float, data: ArrayBuffer, address: String, port: Float, _callback: chrome.socket.WriteInfo->Void): Void;
 
-	public static function setKeepAlive(socketId: Float, enable: Bool, delayOrCallback: Float, ?opt_callback: Bool->Void): Void;
+	public static function setKeepAlive(socketId: Float, enable: Bool, delayOrCallback: Dynamic, ?opt_callback: Bool->Void): Void;
 
 	public static function setMulticastLoopbackMode(socketId: Float, enabled: Bool, _callback: Float->Void): Void;
 

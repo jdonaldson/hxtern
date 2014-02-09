@@ -8,11 +8,11 @@ class StorageArea{
 
 	public function clear(?opt_callback: Void->Void): Void;
 
-	public function get(?opt_keys: String, ?opt_callback: Dynamic->Void): Void;
+	public function get(?opt_keys: Dynamic, ?opt_callback: Dynamic->Void): Void;
 
-	public function getBytesInUse(?opt_keys: String, ?opt_callback: Float->Void): Void;
+	public function getBytesInUse(?opt_keys: Dynamic, ?opt_callback: Float->Void): Void;
 
-	public function remove(keys: String, ?opt_callback: Void->Void): Void;
+	public function remove(keys: Dynamic, ?opt_callback: Void->Void): Void;
 
 	public function set(keys: Dynamic<String>, ?opt_callback: Void->Void): Void;
 }

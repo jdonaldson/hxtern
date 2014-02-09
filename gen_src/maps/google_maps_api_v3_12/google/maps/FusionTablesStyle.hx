@@ -6,11 +6,11 @@ package google.maps;
 class FusionTablesStyle{
 	public function new();
 
-	public var markerOptions: google.maps.FusionTablesMarkerOptions;
+	public var markerOptions: Dynamic;
 
-	public var polygonOptions: google.maps.FusionTablesPolygonOptions;
+	public var polygonOptions: Dynamic;
 
-	public var polylineOptions: google.maps.FusionTablesPolylineOptions;
+	public var polylineOptions: Dynamic;
 
 	public var where: String;
 }

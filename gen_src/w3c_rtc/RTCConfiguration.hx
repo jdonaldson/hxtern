@@ -3,5 +3,5 @@
 */
 package ;
 
-typedef RTCConfiguration = RTCConfigurationRecord_
+typedef RTCConfiguration = Dynamic
 

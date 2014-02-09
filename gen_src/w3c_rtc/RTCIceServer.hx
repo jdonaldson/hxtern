@@ -3,5 +3,5 @@
 */
 package ;
 
-typedef RTCIceServer = RTCIceServerRecord_
+typedef RTCIceServer = Dynamic
 

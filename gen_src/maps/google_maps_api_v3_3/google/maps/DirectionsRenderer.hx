@@ -12,7 +12,7 @@ class DirectionsRenderer{
 
 	public function get(key: String): Dynamic;
 
-	public function getDirections(): google.maps.DirectionsResult;
+	public function getDirections(): Dynamic;
 
 	public function getMap(): google.maps.Map;
 
@@ -24,7 +24,7 @@ class DirectionsRenderer{
 
 	public function set(key: String, value: Dynamic): ;
 
-	public function setDirections(directions: google.maps.DirectionsResult): ;
+	public function setDirections(directions: Dynamic): ;
 
 	public function setMap(map: google.maps.Map): ;
 

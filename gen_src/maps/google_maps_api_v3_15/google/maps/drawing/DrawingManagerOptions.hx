@@ -6,21 +6,21 @@ package google.maps.drawing;
 class DrawingManagerOptions{
 	public function new();
 
-	public var circleOptions: google.maps.CircleOptions;
+	public var circleOptions: Dynamic;
 
 	public var drawingControl: Bool;
 
-	public var drawingControlOptions: google.maps.drawing.DrawingControlOptions;
+	public var drawingControlOptions: Dynamic;
 
 	public var drawingMode: google.maps.drawing.OverlayType;
 
 	public var map: google.maps.Map;
 
-	public var markerOptions: google.maps.MarkerOptions;
+	public var markerOptions: Dynamic;
 
-	public var polygonOptions: google.maps.PolygonOptions;
+	public var polygonOptions: Dynamic;
 
-	public var polylineOptions: google.maps.PolylineOptions;
+	public var polylineOptions: Dynamic;
 
-	public var rectangleOptions: google.maps.RectangleOptions;
+	public var rectangleOptions: Dynamic;
 }
