@@ -8,21 +8,21 @@ class _{
 
 	public static function after(times: Float, func: Dynamic): Void;
 
-	public static function all(obj: Dynamic, iterator: Dynamic, ?opt_context: Dynamic): Bool;
+	public static function all(obj: hxtern.Any2<Dynamic,Array>, iterator: Dynamic, ?opt_context: Dynamic): Bool;
 
-	public static function any(obj: Dynamic, ?opt_iterator: Dynamic, ?opt_context: Dynamic): Bool;
+	public static function any(obj: hxtern.Any2<Dynamic,Array>, ?opt_iterator: Dynamic, ?opt_context: Dynamic): Bool;
 
 	public static function bindAll(obj: Dynamic, ?_opt0: String, ?_opt1: String, ?_opt2: String, ?_opt3: String, ?_opt4: String, ?_opt5: String): Void;
 
 	public static function clone(obj: Dynamic): Dynamic;
 
-	public static function collect(obj: Dynamic, iterator: Dynamic, ?opt_context: Dynamic): Array;
+	public static function collect(obj: hxtern.Any2<Dynamic,Array>, iterator: Dynamic, ?opt_context: Dynamic): Array;
 
 	public static function compact(array: Array): Array;
 
 	public static function compose(?_opt0: Dynamic, ?_opt1: Dynamic, ?_opt2: Dynamic, ?_opt3: Dynamic, ?_opt4: Dynamic, ?_opt5: Dynamic): Dynamic;
 
-	public static function contains(obj: Dynamic, target: Dynamic): Bool;
+	public static function contains(obj: hxtern.Any2<Dynamic,Array>, target: Dynamic): Bool;
 
 	public static function debounce(func: Dynamic, wait: Float): Void;
 
@@ -32,35 +32,35 @@ class _{
 
 	public static function delay(func: Dynamic, wait: Float, ?_opt0: Dynamic, ?_opt1: Dynamic, ?_opt2: Dynamic, ?_opt3: Dynamic, ?_opt4: Dynamic, ?_opt5: Dynamic): Void;
 
-	public static function detect(obj: Dynamic, iterator: Dynamic, ?opt_context: Dynamic): Dynamic;
+	public static function detect(obj: hxtern.Any2<Dynamic,Array>, iterator: Dynamic, ?opt_context: Dynamic): Dynamic;
 
 	public static function difference(array: Array, ?_opt0: Array, ?_opt1: Array, ?_opt2: Array, ?_opt3: Array, ?_opt4: Array, ?_opt5: Array): Array;
 
-	public static function each(obj: Dynamic, iterator: Dynamic, ?opt_context: Dynamic): Void;
+	public static function each(obj: hxtern.Any2<Dynamic,Array>, iterator: Dynamic, ?opt_context: Dynamic): Void;
 
 	public static function escape(s: String): String;
 
-	public static function every(obj: Dynamic, iterator: Dynamic, ?opt_context: Dynamic): Bool;
+	public static function every(obj: hxtern.Any2<Dynamic,Array>, iterator: Dynamic, ?opt_context: Dynamic): Bool;
 
 	public static function extend(obj: Dynamic, ?_opt0: Dynamic, ?_opt1: Dynamic, ?_opt2: Dynamic, ?_opt3: Dynamic, ?_opt4: Dynamic, ?_opt5: Dynamic): Void;
 
-	public static function filter(obj: Dynamic, iterator: Dynamic, ?opt_context: Dynamic): Array;
+	public static function filter(obj: hxtern.Any2<Dynamic,Array>, iterator: Dynamic, ?opt_context: Dynamic): Array;
 
-	public static function find(obj: Dynamic, iterator: Dynamic, ?opt_context: Dynamic): Dynamic;
+	public static function find(obj: hxtern.Any2<Dynamic,Array>, iterator: Dynamic, ?opt_context: Dynamic): Dynamic;
 
 	public static function first(array: Array, ?opt_n: Float): Dynamic;
 
 	public static function flatten(array: Array, ?opt_shallow: Bool): Array;
 
-	public static function foldl(obj: Dynamic, iterator: Dynamic, memo: Dynamic, ?opt_context: Dynamic): Dynamic;
+	public static function foldl(obj: hxtern.Any2<Dynamic,Array>, iterator: Dynamic, memo: Dynamic, ?opt_context: Dynamic): Dynamic;
 
-	public static function foldr(obj: Dynamic, iterator: Dynamic, memo: Dynamic, ?opt_context: Dynamic): Dynamic;
+	public static function foldr(obj: hxtern.Any2<Dynamic,Array>, iterator: Dynamic, memo: Dynamic, ?opt_context: Dynamic): Dynamic;
 
-	public static function forEach(obj: Dynamic, iterator: Dynamic, ?opt_context: Dynamic): Void;
+	public static function forEach(obj: hxtern.Any2<Dynamic,Array>, iterator: Dynamic, ?opt_context: Dynamic): Void;
 
 	public static function functions(obj: Dynamic): Array<String>;
 
-	public static function groupBy(obj: Dynamic, iterator: Dynamic): Array<Array>;
+	public static function groupBy(obj: hxtern.Any2<Dynamic,Array>, iterator: hxtern.Any2<String,Dynamic>): Array<Array>;
 
 	public static function has(obj: Dynamic, key: String): Bool;
 
@@ -68,19 +68,19 @@ class _{
 
 	public static function identity(value: Dynamic): Dynamic;
 
-	public static function include(obj: Dynamic, target: Dynamic): Bool;
+	public static function include(obj: hxtern.Any2<Dynamic,Array>, target: Dynamic): Bool;
 
 	public static function indexOf(array: Array, item: Dynamic, ?opt_isSorted: Bool): Float;
 
 	public static function initial(array: Array, ?opt_n: Float): Array;
 
-	public static function inject(obj: Dynamic, iterator: Dynamic, memo: Dynamic, ?opt_context: Dynamic): Dynamic;
+	public static function inject(obj: hxtern.Any2<Dynamic,Array>, iterator: Dynamic, memo: Dynamic, ?opt_context: Dynamic): Dynamic;
 
 	public static function intersect(?_opt0: Array, ?_opt1: Array, ?_opt2: Array, ?_opt3: Array, ?_opt4: Array, ?_opt5: Array): Array;
 
 	public static function intersection(?_opt0: Array, ?_opt1: Array, ?_opt2: Array, ?_opt3: Array, ?_opt4: Array, ?_opt5: Array): Array;
 
-	public static function invoke(obj: Dynamic, method: Dynamic, ?_opt0: Dynamic, ?_opt1: Dynamic, ?_opt2: Dynamic, ?_opt3: Dynamic, ?_opt4: Dynamic, ?_opt5: Dynamic): Void;
+	public static function invoke(obj: hxtern.Any2<Dynamic,Array>, method: Dynamic, ?_opt0: Dynamic, ?_opt1: Dynamic, ?_opt2: Dynamic, ?_opt3: Dynamic, ?_opt4: Dynamic, ?_opt5: Dynamic): Void;
 
 	public static function isArguments(obj: Dynamic): Bool;
 
@@ -92,7 +92,7 @@ class _{
 
 	public static function isElement(obj: Dynamic): Bool;
 
-	public static function isEmpty(obj: Dynamic): Bool;
+	public static function isEmpty(obj: hxtern.Any3<Dynamic,Array,String>): Bool;
 
 	public static function isEqual(a: Dynamic, b: Dynamic): Bool;
 
@@ -118,15 +118,15 @@ class _{
 
 	public static function lastIndexOf(array: Array, item: Dynamic): Float;
 
-	public static function map(obj: Dynamic, iterator: Dynamic, ?opt_context: Dynamic): Array;
+	public static function map(obj: hxtern.Any2<Dynamic,Array>, iterator: Dynamic, ?opt_context: Dynamic): Array;
 
-	public static function max(obj: Dynamic, opt_iterator: Dynamic, ?opt_context: Dynamic): Dynamic;
+	public static function max(obj: hxtern.Any2<Dynamic,Array>, opt_iterator: Dynamic, ?opt_context: Dynamic): Dynamic;
 
 	public static function memoize(func: Dynamic, ?opt_hasher: Dynamic): Void;
 
 	public static function methods(obj: Dynamic): Array<String>;
 
-	public static function min(obj: Dynamic, opt_iterator: Dynamic, ?opt_context: Dynamic): Dynamic;
+	public static function min(obj: hxtern.Any2<Dynamic,Array>, opt_iterator: Dynamic, ?opt_context: Dynamic): Dynamic;
 
 	public static function mixin(obj: Dynamic): Void;
 
@@ -138,23 +138,23 @@ class _{
 
 	public static function range(start: Float, ?opt_stop: Float, ?opt_step: Float): Array<Float>;
 
-	public static function reduce(obj: Dynamic, iterator: Dynamic, memo: Dynamic, ?opt_context: Dynamic): Dynamic;
+	public static function reduce(obj: hxtern.Any2<Dynamic,Array>, iterator: Dynamic, memo: Dynamic, ?opt_context: Dynamic): Dynamic;
 
-	public static function reduceRight(obj: Dynamic, iterator: Dynamic, memo: Dynamic, ?opt_context: Dynamic): Dynamic;
+	public static function reduceRight(obj: hxtern.Any2<Dynamic,Array>, iterator: Dynamic, memo: Dynamic, ?opt_context: Dynamic): Dynamic;
 
-	public static function reject(obj: Dynamic, iterator: Dynamic, ?opt_context: Dynamic): Array;
+	public static function reject(obj: hxtern.Any2<Dynamic,Array>, iterator: Dynamic, ?opt_context: Dynamic): Array;
 
 	public static function rest(array: Array, ?opt_n: Float): Dynamic;
 
-	public static function select(obj: Dynamic, iterator: Dynamic, ?opt_context: Dynamic): Array;
+	public static function select(obj: hxtern.Any2<Dynamic,Array>, iterator: Dynamic, ?opt_context: Dynamic): Array;
 
-	public static function shuffle(obj: Dynamic): Array;
+	public static function shuffle(obj: hxtern.Any2<Dynamic,Array>): Array;
 
-	public static function size(obj: Dynamic): Array;
+	public static function size(obj: hxtern.Any2<Dynamic,Array>): Array;
 
-	public static function some(obj: Dynamic, ?opt_iterator: Dynamic, ?opt_context: Dynamic): Bool;
+	public static function some(obj: hxtern.Any2<Dynamic,Array>, ?opt_iterator: Dynamic, ?opt_context: Dynamic): Bool;
 
-	public static function sortBy(obj: Dynamic, iterator: Dynamic, ?opt_context: Dynamic): Array;
+	public static function sortBy(obj: hxtern.Any2<Dynamic,Array>, iterator: Dynamic, ?opt_context: Dynamic): Array;
 
 	public static function sortedIndex(list: Array, obj: Dynamic, opt_iterator: Dynamic): Float;
 
@@ -176,7 +176,7 @@ class _{
 
 	public static function unique(array: Array, ?opt_isSorted: Bool, ?opt_iterator: Dynamic): Array;
 
-	public static function uniqueId(?opt_prefix: String): Dynamic;
+	public static function uniqueId(?opt_prefix: String): hxtern.Any2<Float,String>;
 
 	public static function values(obj: Dynamic): Array;
 

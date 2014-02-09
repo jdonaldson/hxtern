@@ -3,5 +3,5 @@
 */
 package ;
 
-typedef MediaConstraints = Dynamic
+typedef MediaConstraints = hxtern.Any2<Dynamic,MediaConstraintsInterface_>
 

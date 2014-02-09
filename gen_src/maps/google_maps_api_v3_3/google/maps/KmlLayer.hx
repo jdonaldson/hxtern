@@ -26,7 +26,7 @@ class KmlLayer{
 
 	public function setMap(map: google.maps.Map): ;
 
-	public function setValues(values: Dynamic): ;
+	public function setValues(values: hxtern.Any2<Dynamic,>): ;
 
 	public function unbind(key: String): ;
 

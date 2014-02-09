@@ -25,7 +25,7 @@ class Prefs{
 
 	public function getString(key: String): String;
 
-	public function set(key: String, value: Dynamic): Void;
+	public function set(key: String, value: hxtern.Any2<String,Float>): Void;
 
 	public function setArray(key: String, array: Array<String>): Void;
 }

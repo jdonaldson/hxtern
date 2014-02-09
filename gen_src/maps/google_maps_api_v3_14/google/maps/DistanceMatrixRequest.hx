@@ -10,11 +10,11 @@ class DistanceMatrixRequest{
 
 	public var avoidTolls: Bool;
 
-	public var destinations: Dynamic;
+	public var destinations: hxtern.Any2<Array<google.maps.LatLng>,Array<String>>;
 
 	public var durationInTraffic: Bool;
 
-	public var origins: Dynamic;
+	public var origins: hxtern.Any2<Array<google.maps.LatLng>,Array<String>>;
 
 	public var region: String;
 

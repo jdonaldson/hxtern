@@ -16,7 +16,7 @@ class MapTypeRegistry{
 
 	public function set(id: String, mapType: google.maps.MapType): ;
 
-	public function setValues(values: Dynamic): ;
+	public function setValues(values: hxtern.Any2<Dynamic,>): ;
 
 	public function unbind(key: String): ;
 

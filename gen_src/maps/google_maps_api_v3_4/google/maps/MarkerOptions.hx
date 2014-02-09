@@ -14,9 +14,9 @@ class MarkerOptions{
 
 	public var flat: Bool;
 
-	public var icon: Dynamic;
+	public var icon: hxtern.Any2<String,google.maps.MarkerImage>;
 
-	public var map: Dynamic;
+	public var map: hxtern.Any2<google.maps.Map,google.maps.StreetViewPanorama>;
 
 	public var optimized: Bool;
 
@@ -24,7 +24,7 @@ class MarkerOptions{
 
 	public var raiseOnDrag: Bool;
 
-	public var shadow: Dynamic;
+	public var shadow: hxtern.Any2<String,google.maps.MarkerImage>;
 
 	public var shape: google.maps.MarkerShape;
 

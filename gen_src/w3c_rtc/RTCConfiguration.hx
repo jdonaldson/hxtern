@@ -3,5 +3,5 @@
 */
 package ;
 
-typedef RTCConfiguration = Dynamic
+typedef RTCConfiguration = hxtern.Any2<RTCConfigurationRecord_,RTCConfigurationInterface_>
 

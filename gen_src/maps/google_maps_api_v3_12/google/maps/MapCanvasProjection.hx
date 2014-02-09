@@ -28,7 +28,7 @@ class MapCanvasProjection{
 
 	public function set(key: String, value: Dynamic): ;
 
-	public function setValues(values: Dynamic): ;
+	public function setValues(values: hxtern.Any2<Dynamic,>): ;
 
 	public function unbind(key: String): ;
 

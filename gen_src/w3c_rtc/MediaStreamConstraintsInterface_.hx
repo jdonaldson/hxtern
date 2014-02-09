@@ -4,7 +4,7 @@
 package ;
 
 class MediaStreamConstraintsInterface_{
-	public var audio: Dynamic;
+	public var audio: hxtern.Any2<Bool,MediaTrackConstraints>;
 
-	public var video: Dynamic;
+	public var video: hxtern.Any2<Bool,MediaTrackConstraints>;
 }

@@ -6,5 +6,5 @@ package google.maps;
 class DirectionsService{
 	public function new();
 
-	public function route(request: Dynamic, _callback: Dynamic->google.maps.DirectionsStatus->Void): ;
+	public function route(request: hxtern.Any2<google.maps.DirectionsRequest,Dynamic<Dynamic>>, _callback: hxtern.Any2<google.maps.DirectionsResult,Dynamic<Dynamic>>->google.maps.DirectionsStatus->Void): ;
 }

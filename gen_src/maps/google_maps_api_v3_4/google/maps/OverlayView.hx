@@ -28,9 +28,9 @@ class OverlayView{
 
 	public function set(key: String, value: Dynamic): ;
 
-	public function setMap(map: Dynamic): ;
+	public function setMap(map: hxtern.Any2<google.maps.Map,google.maps.StreetViewPanorama>): ;
 
-	public function setValues(values: Dynamic): ;
+	public function setValues(values: hxtern.Any2<Dynamic,>): ;
 
 	public function unbind(key: String): ;
 

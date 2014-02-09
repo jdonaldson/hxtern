@@ -38,7 +38,7 @@ class MVCArray{
 
 	public function setAt(i: Float, elem: Dynamic): ;
 
-	public function setValues(values: Dynamic): ;
+	public function setValues(values: hxtern.Any2<Dynamic,>): ;
 
 	public function unbind(key: String): ;
 

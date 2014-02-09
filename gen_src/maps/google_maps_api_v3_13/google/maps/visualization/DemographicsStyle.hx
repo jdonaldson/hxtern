@@ -6,7 +6,7 @@ package google.maps.visualization;
 class DemographicsStyle{
 	public function new();
 
-	public var polygonOptions: Dynamic;
+	public var polygonOptions: hxtern.Any2<google.maps.visualization.DemographicsPolygonOptions,Dynamic<String>>;
 
 	public var where: String;
 }

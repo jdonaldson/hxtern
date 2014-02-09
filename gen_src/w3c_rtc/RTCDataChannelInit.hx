@@ -3,5 +3,5 @@
 */
 package ;
 
-typedef RTCDataChannelInit = Dynamic
+typedef RTCDataChannelInit = hxtern.Any2<RTCDataChannelInitInterface_,RTCDataChannelInitRecord_>
 

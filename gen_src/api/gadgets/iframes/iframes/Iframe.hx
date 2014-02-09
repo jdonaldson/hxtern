@@ -29,7 +29,7 @@ class Iframe{
 
 	public function getSiteEl(): Element;
 
-	public function openInto(el: Dynamic, ?opt_iframeAttributes: Dynamic): iframes.Iframe;
+	public function openInto(el: hxtern.Any2<String,Element>, ?opt_iframeAttributes: Dynamic): iframes.Iframe;
 
 	public function register(message: String, _callback: Dynamic, ?opt_filter: Dynamic): Void;
 

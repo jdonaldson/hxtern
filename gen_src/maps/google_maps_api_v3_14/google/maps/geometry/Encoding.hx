@@ -6,5 +6,5 @@ package google.maps.geometry;
 class Encoding{
 	public static function decodePath(encodedPath: String): Array<google.maps.LatLng>;
 
-	public static function encodePath(path: Dynamic): String;
+	public static function encodePath(path: hxtern.Any2<Array<google.maps.LatLng>,google.maps.MVCArray<google.maps.LatLng>>): String;
 }

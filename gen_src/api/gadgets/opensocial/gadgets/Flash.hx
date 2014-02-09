@@ -6,7 +6,7 @@ package gadgets;
 class Flash{
 	public static function embedCachedFlash(): Bool;
 
-	public static function embedFlash(url: String, container: Dynamic, minVersion: Float, ?opt_params: Dynamic): Bool;
+	public static function embedFlash(url: String, container: hxtern.Any2<String,Element>, minVersion: Float, ?opt_params: Dynamic): Bool;
 
 	public static function getMajorVersion(): Float;
 }

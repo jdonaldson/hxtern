@@ -32,7 +32,7 @@ class Circle{
 
 	public function setRadius(radius: Float): ;
 
-	public function setValues(values: Dynamic): ;
+	public function setValues(values: hxtern.Any2<Dynamic,>): ;
 
 	public function unbind(key: String): ;
 

@@ -38,9 +38,9 @@ class DynamicMapsEngineLayer{
 
 	public function setMapId(mapId: String): ;
 
-	public function setOptions(options: Dynamic): ;
+	public function setOptions(options: hxtern.Any2<google.maps.visualization.DynamicMapsEngineLayerOptions,Dynamic<String>>): ;
 
-	public function setValues(values: Dynamic): ;
+	public function setValues(values: hxtern.Any2<Dynamic,>): ;
 
 	public function unbind(key: String): ;
 

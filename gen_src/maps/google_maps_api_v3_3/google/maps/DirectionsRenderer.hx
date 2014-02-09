@@ -12,7 +12,7 @@ class DirectionsRenderer{
 
 	public function get(key: String): Dynamic;
 
-	public function getDirections(): Dynamic;
+	public function getDirections(): hxtern.Any2<google.maps.DirectionsResult,Dynamic<Dynamic>>;
 
 	public function getMap(): google.maps.Map;
 
@@ -24,7 +24,7 @@ class DirectionsRenderer{
 
 	public function set(key: String, value: Dynamic): ;
 
-	public function setDirections(directions: Dynamic): ;
+	public function setDirections(directions: hxtern.Any2<google.maps.DirectionsResult,Dynamic<Dynamic>>): ;
 
 	public function setMap(map: google.maps.Map): ;
 
@@ -34,7 +34,7 @@ class DirectionsRenderer{
 
 	public function setRouteIndex(routeIndex: Float): ;
 
-	public function setValues(values: Dynamic): ;
+	public function setValues(values: hxtern.Any2<Dynamic,>): ;
 
 	public function unbind(key: String): ;
 

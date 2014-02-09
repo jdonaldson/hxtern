@@ -10,17 +10,17 @@ class DirectionsRequest{
 
 	public var avoidTolls: Bool;
 
-	public var destination: Dynamic;
+	public var destination: hxtern.Any2<google.maps.LatLng,String>;
 
 	public var optimizeWaypoints: Bool;
 
-	public var origin: Dynamic;
+	public var origin: hxtern.Any2<google.maps.LatLng,String>;
 
 	public var provideRouteAlternatives: Bool;
 
 	public var region: String;
 
-	public var transitOptions: Dynamic;
+	public var transitOptions: hxtern.Any2<google.maps.TransitOptions,Dynamic<String>>;
 
 	public var travelMode: google.maps.TravelMode;
 

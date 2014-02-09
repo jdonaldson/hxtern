@@ -14,7 +14,7 @@ class InfoWindow{
 
 	public function get(key: String): Dynamic;
 
-	public function getContent(): Dynamic;
+	public function getContent(): hxtern.Any2<String,Node>;
 
 	public function getPosition(): google.maps.LatLng;
 
@@ -22,17 +22,17 @@ class InfoWindow{
 
 	public function notify(key: String): ;
 
-	public function open(?map: Dynamic, ?anchor: google.maps.MVCObject): ;
+	public function open(?map: hxtern.Any2<google.maps.Map,google.maps.StreetViewPanorama>, ?anchor: google.maps.MVCObject): ;
 
 	public function set(key: String, value: Dynamic): ;
 
-	public function setContent(content: Dynamic): ;
+	public function setContent(content: hxtern.Any2<String,Node>): ;
 
 	public function setOptions(options: Dynamic<Dynamic>): ;
 
 	public function setPosition(position: google.maps.LatLng): ;
 
-	public function setValues(values: Dynamic): ;
+	public function setValues(values: hxtern.Any2<Dynamic,>): ;
 
 	public function setZIndex(zIndex: Float): ;
 

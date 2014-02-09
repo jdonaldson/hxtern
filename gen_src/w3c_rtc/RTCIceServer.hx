@@ -3,5 +3,5 @@
 */
 package ;
 
-typedef RTCIceServer = Dynamic
+typedef RTCIceServer = hxtern.Any2<RTCIceServerRecord_,RTCIceServerInterface_>
 
