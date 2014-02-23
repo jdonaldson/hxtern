@@ -38,9 +38,9 @@ extern class DynamicMapsEngineLayer{
 
 	public function setMapId(mapId: String): Null<Dynamic> {}
 
-	public function setOptions(options: hxtern.Any.Any2<google.maps.visualization.DynamicMapsEngineLayerOptions,Dynamic<String>>): Null<Dynamic> {}
+	public function setOptions(options: Hxtern.Any2<google.maps.visualization.DynamicMapsEngineLayerOptions,Dynamic<String>>): Null<Dynamic> {}
 
-	public function setValues(values: hxtern.Any.Any2<Dynamic,Null<Dynamic>>): Null<Dynamic> {}
+	public function setValues(values: Hxtern.Any2<Dynamic,Null<Dynamic>>): Null<Dynamic> {}
 
 	public function unbind(key: String): Null<Dynamic> {}
 

@@ -29,7 +29,7 @@ extern class Iframe{
 
 	public function getSiteEl(): js.html.Element {}
 
-	public function openInto(el: hxtern.Any.Any2<String,js.html.Element>, ?opt_iframeAttributes: Dynamic): iframes.Iframe {}
+	public function openInto(el: Hxtern.Any2<String,js.html.Element>, ?opt_iframeAttributes: Dynamic): iframes.Iframe {}
 
 	public function register(message: String, _callback: Dynamic, ?opt_filter: Dynamic): Void {}
 

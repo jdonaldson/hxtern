@@ -3,5 +3,5 @@
 */
 package ;
 
-extern typedef MediaStreamConstraints = hxtern.Any.Any2<Dynamic,MediaStreamConstraintsInterface_>
+extern typedef MediaStreamConstraints = Hxtern.Any2<Dynamic,MediaStreamConstraintsInterface_>
 

@@ -34,7 +34,7 @@ extern class WebkitAudioPannerNode{
 	 */
 	public var distanceGain: AudioGain;
 
-	public var distanceModel: hxtern.Any.Any2<Float,String>;
+	public var distanceModel: Hxtern.Any2<Float,String>;
 
 	public var maxDistance: Float;
 
@@ -42,7 +42,7 @@ extern class WebkitAudioPannerNode{
 
 	public var numberOfOutputs: Float;
 
-	public var panningModel: hxtern.Any.Any2<Float,String>;
+	public var panningModel: Hxtern.Any2<Float,String>;
 
 	public var refDistance: Float;
 

@@ -3,5 +3,5 @@
 */
 package ;
 
-extern typedef MediaConstraintSet_ = hxtern.Any.Any2<Dynamic,MediaConstraintSetInterface_>
+extern typedef MediaConstraintSet_ = Hxtern.Any2<Dynamic,MediaConstraintSetInterface_>
 

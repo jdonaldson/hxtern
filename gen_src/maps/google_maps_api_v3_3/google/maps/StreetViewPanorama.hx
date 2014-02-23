@@ -36,7 +36,7 @@ extern class StreetViewPanorama{
 
 	public function setPov(pov: google.maps.StreetViewPov): Null<Dynamic> {}
 
-	public function setValues(values: hxtern.Any.Any2<Dynamic,Null<Dynamic>>): Null<Dynamic> {}
+	public function setValues(values: Hxtern.Any2<Dynamic,Null<Dynamic>>): Null<Dynamic> {}
 
 	public function setVisible(flag: Bool): Null<Dynamic> {}
 

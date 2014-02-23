@@ -10,11 +10,11 @@ extern class DirectionsRequest{
 
 	public var avoidTolls: Bool;
 
-	public var destination: hxtern.Any.Any2<google.maps.LatLng,String>;
+	public var destination: Hxtern.Any2<google.maps.LatLng,String>;
 
 	public var optimizeWaypoints: Bool;
 
-	public var origin: hxtern.Any.Any2<google.maps.LatLng,String>;
+	public var origin: Hxtern.Any2<google.maps.LatLng,String>;
 
 	public var provideRouteAlternatives: Bool;
 

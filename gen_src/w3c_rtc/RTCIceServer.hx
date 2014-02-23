@@ -3,5 +3,5 @@
 */
 package ;
 
-extern typedef RTCIceServer = hxtern.Any.Any2<RTCIceServerRecord_,RTCIceServerInterface_>
+extern typedef RTCIceServer = Hxtern.Any2<RTCIceServerRecord_,RTCIceServerInterface_>
 

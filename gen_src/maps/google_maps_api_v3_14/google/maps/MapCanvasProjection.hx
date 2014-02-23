@@ -28,7 +28,7 @@ extern class MapCanvasProjection{
 
 	public function set(key: String, value: Dynamic): Null<Dynamic> {}
 
-	public function setValues(values: hxtern.Any.Any2<Dynamic,Null<Dynamic>>): Null<Dynamic> {}
+	public function setValues(values: Hxtern.Any2<Dynamic,Null<Dynamic>>): Null<Dynamic> {}
 
 	public function unbind(key: String): Null<Dynamic> {}
 

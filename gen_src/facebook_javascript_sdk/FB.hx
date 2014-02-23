@@ -4,7 +4,7 @@
 package ;
 
 extern class FB{
-	public static function api(path: String, ?method: hxtern.Any.Any3<String,Dynamic<Dynamic>,Dynamic<Dynamic>->Void>, ?params: hxtern.Any.Any2<Dynamic<Dynamic>,Dynamic<Dynamic>->Void>, ?_callback: Dynamic<Dynamic>->Void): Void {}
+	public static function api(path: String, ?method: Hxtern.Any3<String,Dynamic<Dynamic>,Dynamic<Dynamic>->Void>, ?params: Hxtern.Any2<Dynamic<Dynamic>,Dynamic<Dynamic>->Void>, ?_callback: Dynamic<Dynamic>->Void): Void {}
 
 	public static function getLoginStatus(_callback: Dynamic<Dynamic>->Void, ?force: Bool): Void {}
 
@@ -26,7 +26,7 @@ extern class FB{
 extern class Canvas{
 	public static function getPageInfo(_callback: Dynamic<Dynamic>->Void): Void {}
 
-	public static function setAutoResize(?onOrOff: hxtern.Any.Any2<Bool,Float>, ?interval: Float): Void {}
+	public static function setAutoResize(?onOrOff: Hxtern.Any2<Bool,Float>, ?interval: Float): Void {}
 
 	public static function setSize(params: Dynamic<Float>): Void {}
 }
@@ -36,7 +36,7 @@ extern class Canvas{
 
 
 extern class Data{
-	public static function query(template: String, ?_opt0: hxtern.Any.Any3<String,Float,FB.QueryObject>, ?_opt1: hxtern.Any.Any3<String,Float,FB.QueryObject>, ?_opt2: hxtern.Any.Any3<String,Float,FB.QueryObject>, ?_opt3: hxtern.Any.Any3<String,Float,FB.QueryObject>, ?_opt4: hxtern.Any.Any3<String,Float,FB.QueryObject>, ?_opt5: hxtern.Any.Any3<String,Float,FB.QueryObject>): FB.QueryObject {}
+	public static function query(template: String, ?_opt0: Hxtern.Any3<String,Float,FB.QueryObject>, ?_opt1: Hxtern.Any3<String,Float,FB.QueryObject>, ?_opt2: Hxtern.Any3<String,Float,FB.QueryObject>, ?_opt3: Hxtern.Any3<String,Float,FB.QueryObject>, ?_opt4: Hxtern.Any3<String,Float,FB.QueryObject>, ?_opt5: Hxtern.Any3<String,Float,FB.QueryObject>): FB.QueryObject {}
 
 	public static function waitOn(dependencies: Array<Dynamic>, _callback: Dynamic<Dynamic>->Void): Dynamic<Dynamic> {}
 }

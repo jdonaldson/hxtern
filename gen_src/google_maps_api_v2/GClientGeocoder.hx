@@ -12,7 +12,7 @@ extern class GClientGeocoder{
 
 	public function getLatLng(address: String, _callback: GLatLng->Void): Void {}
 
-	public function getLocations(query: hxtern.Any.Any2<String,GLatLng>, _callback: hxtern.Any.Any2<String,GLatLng>->Void): Void {}
+	public function getLocations(query: Hxtern.Any2<String,GLatLng>, _callback: Hxtern.Any2<String,GLatLng>->Void): Void {}
 
 	public function getViewport(): GLatLngBounds {}
 

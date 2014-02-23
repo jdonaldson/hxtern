@@ -25,7 +25,7 @@ extern class Prefs{
 
 	public function getString(key: String): String {}
 
-	public function set(key: String, value: hxtern.Any.Any2<String,Float>): Void {}
+	public function set(key: String, value: Hxtern.Any2<String,Float>): Void {}
 
 	public function setArray(key: String, array: Array<String>): Void {}
 }

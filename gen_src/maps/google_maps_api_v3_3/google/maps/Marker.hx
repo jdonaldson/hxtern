@@ -22,13 +22,13 @@ extern class Marker{
 
 	public function getFlat(): Bool {}
 
-	public function getIcon(): hxtern.Any.Any2<String,google.maps.MarkerImage> {}
+	public function getIcon(): Hxtern.Any2<String,google.maps.MarkerImage> {}
 
-	public function getMap(): hxtern.Any.Any2<google.maps.Map,google.maps.StreetViewPanorama> {}
+	public function getMap(): Hxtern.Any2<google.maps.Map,google.maps.StreetViewPanorama> {}
 
 	public function getPosition(): google.maps.LatLng {}
 
-	public function getShadow(): hxtern.Any.Any2<String,google.maps.MarkerImage> {}
+	public function getShadow(): Hxtern.Any2<String,google.maps.MarkerImage> {}
 
 	public function getShape(): google.maps.MarkerShape {}
 
@@ -52,21 +52,21 @@ extern class Marker{
 
 	public function setFlat(flag: Bool): Null<Dynamic> {}
 
-	public function setIcon(icon: hxtern.Any.Any2<String,google.maps.MarkerImage>): Null<Dynamic> {}
+	public function setIcon(icon: Hxtern.Any2<String,google.maps.MarkerImage>): Null<Dynamic> {}
 
-	public function setMap(map: hxtern.Any.Any2<google.maps.Map,google.maps.StreetViewPanorama>): Null<Dynamic> {}
+	public function setMap(map: Hxtern.Any2<google.maps.Map,google.maps.StreetViewPanorama>): Null<Dynamic> {}
 
 	public function setOptions(options: Dynamic<Dynamic>): Null<Dynamic> {}
 
 	public function setPosition(latlng: google.maps.LatLng): Null<Dynamic> {}
 
-	public function setShadow(shadow: hxtern.Any.Any2<String,google.maps.MarkerImage>): Null<Dynamic> {}
+	public function setShadow(shadow: Hxtern.Any2<String,google.maps.MarkerImage>): Null<Dynamic> {}
 
 	public function setShape(shape: google.maps.MarkerShape): Null<Dynamic> {}
 
 	public function setTitle(title: String): Null<Dynamic> {}
 
-	public function setValues(values: hxtern.Any.Any2<Dynamic,Null<Dynamic>>): Null<Dynamic> {}
+	public function setValues(values: Hxtern.Any2<Dynamic,Null<Dynamic>>): Null<Dynamic> {}
 
 	public function setVisible(visible: Bool): Null<Dynamic> {}
 

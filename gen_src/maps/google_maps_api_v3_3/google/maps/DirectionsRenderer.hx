@@ -12,7 +12,7 @@ extern class DirectionsRenderer{
 
 	public function get(key: String): Dynamic {}
 
-	public function getDirections(): hxtern.Any.Any2<google.maps.DirectionsResult,Dynamic<Dynamic>> {}
+	public function getDirections(): Hxtern.Any2<google.maps.DirectionsResult,Dynamic<Dynamic>> {}
 
 	public function getMap(): google.maps.Map {}
 
@@ -24,7 +24,7 @@ extern class DirectionsRenderer{
 
 	public function set(key: String, value: Dynamic): Null<Dynamic> {}
 
-	public function setDirections(directions: hxtern.Any.Any2<google.maps.DirectionsResult,Dynamic<Dynamic>>): Null<Dynamic> {}
+	public function setDirections(directions: Hxtern.Any2<google.maps.DirectionsResult,Dynamic<Dynamic>>): Null<Dynamic> {}
 
 	public function setMap(map: google.maps.Map): Null<Dynamic> {}
 
@@ -34,7 +34,7 @@ extern class DirectionsRenderer{
 
 	public function setRouteIndex(routeIndex: Float): Null<Dynamic> {}
 
-	public function setValues(values: hxtern.Any.Any2<Dynamic,Null<Dynamic>>): Null<Dynamic> {}
+	public function setValues(values: Hxtern.Any2<Dynamic,Null<Dynamic>>): Null<Dynamic> {}
 
 	public function unbind(key: String): Null<Dynamic> {}
 

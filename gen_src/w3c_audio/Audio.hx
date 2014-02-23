@@ -10,5 +10,5 @@ extern class Audio{
 
 	public function mozSetup(channels: Float, rate: Float): Void {}
 
-	public function mozWriteAudio(buffer: hxtern.Any.Any2<Array,Float32Array>): Void {}
+	public function mozWriteAudio(buffer: Hxtern.Any2<Array,Float32Array>): Void {}
 }

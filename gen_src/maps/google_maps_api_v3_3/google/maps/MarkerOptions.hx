@@ -14,15 +14,15 @@ extern class MarkerOptions{
 
 	public var flat: Bool;
 
-	public var icon: hxtern.Any.Any2<String,google.maps.MarkerImage>;
+	public var icon: Hxtern.Any2<String,google.maps.MarkerImage>;
 
-	public var map: hxtern.Any.Any2<google.maps.Map,google.maps.StreetViewPanorama>;
+	public var map: Hxtern.Any2<google.maps.Map,google.maps.StreetViewPanorama>;
 
 	public var position: google.maps.LatLng;
 
 	public var raiseOnDrag: Bool;
 
-	public var shadow: hxtern.Any.Any2<String,google.maps.MarkerImage>;
+	public var shadow: Hxtern.Any2<String,google.maps.MarkerImage>;
 
 	public var shape: google.maps.MarkerShape;
 

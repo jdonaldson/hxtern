@@ -6,13 +6,13 @@ package ;
 extern class YouTubePlayer{
 	public function new();
 
-	public function addEventListener(event: String, listener: hxtern.Any.Any3<String,EventListener,Dynamic>): Void {}
+	public function addEventListener(event: String, listener: Hxtern.Any3<String,EventListener,Dynamic>): Void {}
 
 	public function clearVideo(): Void {}
 
-	public function cuePlaylist(playlistOrObject: hxtern.Any.Any3<String,Array,Dynamic>, ?opt_index: Float, ?opt_startSeconds: Float, ?opt_suggestedQuality: String): Void {}
+	public function cuePlaylist(playlistOrObject: Hxtern.Any3<String,Array,Dynamic>, ?opt_index: Float, ?opt_startSeconds: Float, ?opt_suggestedQuality: String): Void {}
 
-	public function cueVideoById(videoIdOrObject: hxtern.Any.Any2<Dynamic,String>, opt_startSeconds: Float): Void {}
+	public function cueVideoById(videoIdOrObject: Hxtern.Any2<Dynamic,String>, opt_startSeconds: Float): Void {}
 
 	public function cueVideoByUrl(mediaContentUrl: String, opt_startSeconds: Float): Void {}
 
@@ -54,9 +54,9 @@ extern class YouTubePlayer{
 
 	public function isMuted(): Bool {}
 
-	public function loadPlaylist(playlistOrObject: hxtern.Any.Any3<String,Array,Dynamic>, ?opt_index: Float, ?opt_startSeconds: Float, ?opt_suggestedQuality: String): Void {}
+	public function loadPlaylist(playlistOrObject: Hxtern.Any3<String,Array,Dynamic>, ?opt_index: Float, ?opt_startSeconds: Float, ?opt_suggestedQuality: String): Void {}
 
-	public function loadVideoById(videoIdOrObject: hxtern.Any.Any2<Dynamic,String>, opt_startSeconds: Float): Void {}
+	public function loadVideoById(videoIdOrObject: Hxtern.Any2<Dynamic,String>, opt_startSeconds: Float): Void {}
 
 	public function loadVideoByUrl(mediaContentUrl: String, opt_startSeconds: Float): Void {}
 

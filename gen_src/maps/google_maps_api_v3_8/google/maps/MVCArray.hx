@@ -36,7 +36,7 @@ extern class MVCArray{
 
 	public function setAt(i: Float, elem: Dynamic): Null<Dynamic> {}
 
-	public function setValues(values: hxtern.Any.Any2<Dynamic,Null<Dynamic>>): Null<Dynamic> {}
+	public function setValues(values: Hxtern.Any2<Dynamic,Null<Dynamic>>): Null<Dynamic> {}
 
 	public function unbind(key: String): Null<Dynamic> {}
 

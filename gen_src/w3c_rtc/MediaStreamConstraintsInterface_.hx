@@ -6,7 +6,7 @@ package ;
 extern class MediaStreamConstraintsInterface_{
 	public function new();
 
-	public var audio: hxtern.Any.Any2<Bool,MediaTrackConstraints>;
+	public var audio: Hxtern.Any2<Bool,MediaTrackConstraints>;
 
-	public var video: hxtern.Any.Any2<Bool,MediaTrackConstraints>;
+	public var video: Hxtern.Any2<Bool,MediaTrackConstraints>;
 }

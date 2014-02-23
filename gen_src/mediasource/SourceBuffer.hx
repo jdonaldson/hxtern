@@ -12,7 +12,7 @@ extern class SourceBuffer{
 
 	public function append(data: Uint8Array): Void {}
 
-	public function appendBuffer(data: hxtern.Any.Any2<ArrayBuffer,ArrayBufferView>): Void {}
+	public function appendBuffer(data: Hxtern.Any2<ArrayBuffer,ArrayBufferView>): Void {}
 
 	public var appendMode: String;
 

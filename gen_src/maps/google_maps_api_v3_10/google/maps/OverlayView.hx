@@ -30,9 +30,9 @@ extern class OverlayView{
 
 	public function set(key: String, value: Dynamic): Null<Dynamic> {}
 
-	public function setMap(map: hxtern.Any.Any2<google.maps.Map,google.maps.StreetViewPanorama>): Null<Dynamic> {}
+	public function setMap(map: Hxtern.Any2<google.maps.Map,google.maps.StreetViewPanorama>): Null<Dynamic> {}
 
-	public function setValues(values: hxtern.Any.Any2<Dynamic,Null<Dynamic>>): Null<Dynamic> {}
+	public function setValues(values: Hxtern.Any2<Dynamic,Null<Dynamic>>): Null<Dynamic> {}
 
 	public function unbind(key: String): Null<Dynamic> {}
 

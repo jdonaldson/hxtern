@@ -16,7 +16,7 @@ extern class PolygonOptions{
 
 	public var map: google.maps.Map;
 
-	public var paths: hxtern.Any.Any4<google.maps.MVCArray<google.maps.MVCArray<google.maps.LatLng>>,google.maps.MVCArray<google.maps.LatLng>,Array<Array<google.maps.LatLng>>,Array<google.maps.LatLng>>;
+	public var paths: Hxtern.Any4<google.maps.MVCArray<google.maps.MVCArray<google.maps.LatLng>>,google.maps.MVCArray<google.maps.LatLng>,Array<Array<google.maps.LatLng>>,Array<google.maps.LatLng>>;
 
 	public var strokeColor: String;
 

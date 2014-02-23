@@ -14,7 +14,7 @@ extern class PolylineOptions{
 
 	public var map: google.maps.Map;
 
-	public var path: hxtern.Any.Any2<google.maps.MVCArray<google.maps.LatLng>,Array<google.maps.LatLng>>;
+	public var path: Hxtern.Any2<google.maps.MVCArray<google.maps.LatLng>,Array<google.maps.LatLng>>;
 
 	public var strokeColor: String;
 

@@ -10,7 +10,7 @@ extern class OfflineAudioContext{
 
 	public function createBiquadFilter(): BiquadFilterNode {}
 
-	public function createBuffer(a: hxtern.Any.Any2<Float,ArrayBuffer>, b: hxtern.Any.Any2<Float,Bool>, ?sampleRate: Float): AudioBuffer {}
+	public function createBuffer(a: Hxtern.Any2<Float,ArrayBuffer>, b: Hxtern.Any2<Float,Bool>, ?sampleRate: Float): AudioBuffer {}
 
 	public function createBufferSource(): AudioBufferSourceNode {}
 

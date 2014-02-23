@@ -6,7 +6,7 @@ package google.maps;
 extern class ElevationService{
 	public function new();
 
-	public function getElevationAlongPath(request: hxtern.Any.Any2<google.maps.PathElevationRequest,Dynamic<String>>, _callback: Array<google.maps.ElevationResult>->google.maps.ElevationStatus->Void): Null<Dynamic> {}
+	public function getElevationAlongPath(request: Hxtern.Any2<google.maps.PathElevationRequest,Dynamic<String>>, _callback: Array<google.maps.ElevationResult>->google.maps.ElevationStatus->Void): Null<Dynamic> {}
 
-	public function getElevationForLocations(request: hxtern.Any.Any2<google.maps.LocationElevationRequest,Dynamic<String>>, _callback: Array<google.maps.ElevationResult>->google.maps.ElevationStatus->Void): Null<Dynamic> {}
+	public function getElevationForLocations(request: Hxtern.Any2<google.maps.LocationElevationRequest,Dynamic<String>>, _callback: Array<google.maps.ElevationResult>->google.maps.ElevationStatus->Void): Null<Dynamic> {}
 }

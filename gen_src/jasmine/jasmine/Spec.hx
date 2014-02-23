@@ -6,5 +6,5 @@ package jasmine;
 extern class Spec{
 	public function new();
 
-	public function fail(e: hxtern.Any.Any2<Error,String>): Void {}
+	public function fail(e: Hxtern.Any2<Error,String>): Void {}
 }

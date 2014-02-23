@@ -10,9 +10,9 @@ extern class DistanceMatrixRequest{
 
 	public var avoidTolls: Bool;
 
-	public var destinations: hxtern.Any.Any2<Array<google.maps.LatLng>,Array<String>>;
+	public var destinations: Hxtern.Any2<Array<google.maps.LatLng>,Array<String>>;
 
-	public var origins: hxtern.Any.Any2<Array<google.maps.LatLng>,Array<String>>;
+	public var origins: Hxtern.Any2<Array<google.maps.LatLng>,Array<String>>;
 
 	public var region: String;
 
