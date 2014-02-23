@@ -1,4 +1,3 @@
-package hxtern;
 abstract Any2<T1, T2>(Dynamic) from T1 from T2 to T1 to T2 {}
 abstract Any3<T1, T2, T3>(Dynamic) from T1 from T2 from T3 to T1 to T2 to T3 {}
 abstract Any4<T1, T2, T3, T4>(Dynamic) from T1 from T2 from T3 from T4 to T1 to T2 to T3 to T4 {}
