@@ -6,13 +6,13 @@ package google.maps;
 class MapCanvasProjection{
 	public function new();
 
-	public function fromContainerPixelToLatLng(pixel: google.maps.Point): google.maps.LatLng;
+	public function fromContainerPixelToLatLng(pixel: google.maps.Point): google.maps.LatLng {}
 
-	public function fromDivPixelToLatLng(pixel: google.maps.Point): google.maps.LatLng;
+	public function fromDivPixelToLatLng(pixel: google.maps.Point): google.maps.LatLng {}
 
-	public function fromLatLngToContainerPixel(latLng: google.maps.LatLng): google.maps.Point;
+	public function fromLatLngToContainerPixel(latLng: google.maps.LatLng): google.maps.Point {}
 
-	public function fromLatLngToDivPixel(latLng: google.maps.LatLng): google.maps.Point;
+	public function fromLatLngToDivPixel(latLng: google.maps.LatLng): google.maps.Point {}
 
-	public function getWorldWidth(): Float;
+	public function getWorldWidth(): Float {}
 }

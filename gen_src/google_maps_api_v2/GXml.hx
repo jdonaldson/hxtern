@@ -4,7 +4,7 @@
 package ;
 
 class GXml{
-	public static function parse(xmltext: String): Node;
+	public static function parse(xmltext: String): Node {}
 
-	public static function value(xmlnode: Node): String;
+	public static function value(xmlnode: Node): String {}
 }

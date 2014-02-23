@@ -4,11 +4,11 @@
 package ;
 
 class _gat{
-	public static function _anonymizeIp(): Null<Dynamic>;
+	public static function _anonymizeIp(): Null<Dynamic> {}
 
-	public static function _createTracker(?opt_account: String, ?opt_name: String): _ga_tracker;
+	public static function _createTracker(?opt_account: String, ?opt_name: String): _ga_tracker {}
 
-	public static function _getTracker(account: String): _ga_tracker;
+	public static function _getTracker(account: String): _ga_tracker {}
 
-	public static function _getTrackerByName(?opt_name: String): _ga_tracker;
+	public static function _getTrackerByName(?opt_name: String): _ga_tracker {}
 }

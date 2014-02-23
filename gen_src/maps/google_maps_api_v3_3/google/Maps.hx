@@ -4,9 +4,9 @@
 package google;
 @:native("google.maps")
 class Maps{
-	public static function encoding(): Void;
+	public static function encoding(): Void {}
 
-	public static function event(): Void;
+	public static function event(): Void {}
 
-	public static function spherical(): Void;
+	public static function spherical(): Void {}
 }

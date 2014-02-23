@@ -6,19 +6,19 @@ package ;
 class GDraggableObject{
 	public function new(src: Node, ?opts: Dynamic<Dynamic>);
 
-	public static function getDraggableCursor(): String;
+	public static function getDraggableCursor(): String {}
 
-	public static function getDraggingCursor(): String;
+	public static function getDraggingCursor(): String {}
 
-	public static function setDraggableCursor(cursor: String): Void;
+	public static function setDraggableCursor(cursor: String): Void {}
 
-	public static function setDraggingCursor(cursor: String): Void;
+	public static function setDraggingCursor(cursor: String): Void {}
 
-	public function moveBy(size: GSize): Void;
+	public function moveBy(size: GSize): Void {}
 
-	public function moveTo(point: GPoint): Void;
+	public function moveTo(point: GPoint): Void {}
 
-	public function setDraggableCursor(cursor: String): Void;
+	public function setDraggableCursor(cursor: String): Void {}
 
-	public function setDraggingCursor(cursor: String): Void;
+	public function setDraggingCursor(cursor: String): Void {}
 }

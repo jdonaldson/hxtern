@@ -6,23 +6,23 @@ package google.container;
 class GadgetHolder{
 	public function new(siteId: Float, el: js.html.Element);
 
-	public function dispose(): Void;
+	public function dispose(): Void {}
 
-	public function getElement(): js.html.Element;
+	public function getElement(): js.html.Element {}
 
-	public function getGadgetInfo(): Dynamic;
+	public function getGadgetInfo(): Dynamic {}
 
-	public function getIframeElement(): js.html.Element;
+	public function getIframeElement(): js.html.Element {}
 
-	public function getIframeId(): String;
+	public function getIframeId(): String {}
 
-	public function getUrl(): String;
+	public function getUrl(): String {}
 
-	public function getView(): String;
+	public function getView(): String {}
 
-	public function onConstructed(): Void;
+	public function onConstructed(): Void {}
 
-	public function render(gadgetInfo: Dynamic, gadgetParams: Dynamic, renderParams: Dynamic): Void;
+	public function render(gadgetInfo: Dynamic, gadgetParams: Dynamic, renderParams: Dynamic): Void {}
 
-	public function setSecurityToken(value: String): Void;
+	public function setSecurityToken(value: String): Void {}
 }

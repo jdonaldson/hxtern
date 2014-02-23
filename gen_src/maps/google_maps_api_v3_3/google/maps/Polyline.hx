@@ -6,29 +6,29 @@ package google.maps;
 class Polyline{
 	public function new(?opt_opts: Dynamic<Dynamic>);
 
-	public function bindTo(key: String, target: google.maps.MVCObject, ?targetKey: String, ?noNotify: Bool): Null<Dynamic>;
+	public function bindTo(key: String, target: google.maps.MVCObject, ?targetKey: String, ?noNotify: Bool): Null<Dynamic> {}
 
-	public function changed(key: String): Null<Dynamic>;
+	public function changed(key: String): Null<Dynamic> {}
 
-	public function get(key: String): Dynamic;
+	public function get(key: String): Dynamic {}
 
-	public function getMap(): google.maps.Map;
+	public function getMap(): google.maps.Map {}
 
-	public function getPath(): google.maps.MVCArray<google.maps.LatLng>;
+	public function getPath(): google.maps.MVCArray<google.maps.LatLng> {}
 
-	public function notify(key: String): Null<Dynamic>;
+	public function notify(key: String): Null<Dynamic> {}
 
-	public function set(key: String, value: Dynamic): Null<Dynamic>;
+	public function set(key: String, value: Dynamic): Null<Dynamic> {}
 
-	public function setMap(map: google.maps.Map): Null<Dynamic>;
+	public function setMap(map: google.maps.Map): Null<Dynamic> {}
 
-	public function setOptions(options: Dynamic<Dynamic>): Null<Dynamic>;
+	public function setOptions(options: Dynamic<Dynamic>): Null<Dynamic> {}
 
-	public function setPath(path: hxtern.Any.Any2<google.maps.MVCArray<google.maps.LatLng>,Array<google.maps.LatLng>>): Null<Dynamic>;
+	public function setPath(path: hxtern.Any.Any2<google.maps.MVCArray<google.maps.LatLng>,Array<google.maps.LatLng>>): Null<Dynamic> {}
 
-	public function setValues(values: hxtern.Any.Any2<Dynamic,Null<Dynamic>>): Null<Dynamic>;
+	public function setValues(values: hxtern.Any.Any2<Dynamic,Null<Dynamic>>): Null<Dynamic> {}
 
-	public function unbind(key: String): Null<Dynamic>;
+	public function unbind(key: String): Null<Dynamic> {}
 
-	public function unbindAll(): Null<Dynamic>;
+	public function unbindAll(): Null<Dynamic> {}
 }

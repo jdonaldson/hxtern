@@ -8,5 +8,5 @@ class MouseEvent{
 
 	public var latLng: google.maps.LatLng;
 
-	public function stop(): Null<Dynamic>;
+	public function stop(): Null<Dynamic> {}
 }

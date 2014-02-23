@@ -6,19 +6,19 @@ package ;
 class MediaStream{
 	public function new(?streamOrTracks: hxtern.Any.Any2<MediaStream,Array<MediaStreamTrack>>);
 
-	public function addEventListener(): Void;
+	public function addEventListener(): Void {}
 
-	public function addTrack(track: MediaStreamTrack): Void;
+	public function addTrack(track: MediaStreamTrack): Void {}
 
-	public function dispatchEvent(): Void;
+	public function dispatchEvent(): Void {}
 
 	public var ended: Bool;
 
-	public function getAudioTracks(): Array<MediaStreamTrack>;
+	public function getAudioTracks(): Array<MediaStreamTrack> {}
 
-	public function getTrackById(trackId: String): MediaStreamTrack;
+	public function getTrackById(trackId: String): MediaStreamTrack {}
 
-	public function getVideoTracks(): Array<MediaStreamTrack>;
+	public function getVideoTracks(): Array<MediaStreamTrack> {}
 
 	public var onaddtrack: MediaStreamTrackEvent->Void;
 
@@ -26,9 +26,9 @@ class MediaStream{
 
 	public var onremovetrack: MediaStreamTrackEvent->Void;
 
-	public function removeEventListener(): Void;
+	public function removeEventListener(): Void {}
 
-	public function removeTrack(track: MediaStreamTrack): Void;
+	public function removeTrack(track: MediaStreamTrack): Void {}
 
-	public function stop(): Void;
+	public function stop(): Void {}
 }

@@ -6,19 +6,19 @@ package ;
 class GRoute{
 	private function new();
 
-	public function getDistance(): Dynamic;
+	public function getDistance(): Dynamic {}
 
-	public function getDuration(): Dynamic;
+	public function getDuration(): Dynamic {}
 
-	public function getEndGeocode(): Dynamic;
+	public function getEndGeocode(): Dynamic {}
 
-	public function getEndLatLng(): GLatLng;
+	public function getEndLatLng(): GLatLng {}
 
-	public function getNumSteps(): Float;
+	public function getNumSteps(): Float {}
 
-	public function getStartGeocode(): Dynamic;
+	public function getStartGeocode(): Dynamic {}
 
-	public function getStep(i: Float): GStep;
+	public function getStep(i: Float): GStep {}
 
-	public function getSummaryHtml(): String;
+	public function getSummaryHtml(): String {}
 }

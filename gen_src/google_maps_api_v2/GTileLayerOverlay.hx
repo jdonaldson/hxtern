@@ -6,25 +6,25 @@ package ;
 class GTileLayerOverlay{
 	public function new(tileLayer: GTileLayer, ?opts: Dynamic<Dynamic>);
 
-	public function copy(): GOverlay;
+	public function copy(): GOverlay {}
 
-	public function getKml(_callback: String->Void): Void;
+	public function getKml(_callback: String->Void): Void {}
 
-	public function getTileLayer(): GTileLayer;
+	public function getTileLayer(): GTileLayer {}
 
-	public function hide(): Null<Dynamic>;
+	public function hide(): Null<Dynamic> {}
 
-	public function initialize(map: GMap2): Void;
+	public function initialize(map: GMap2): Void {}
 
-	public function isHidden(): Bool;
+	public function isHidden(): Bool {}
 
-	public function redraw(force: Bool): Void;
+	public function redraw(force: Bool): Void {}
 
-	public function refresh(): Null<Dynamic>;
+	public function refresh(): Null<Dynamic> {}
 
-	public function remove(): Null<Dynamic>;
+	public function remove(): Null<Dynamic> {}
 
-	public function show(): Null<Dynamic>;
+	public function show(): Null<Dynamic> {}
 
-	public function supportsHide(): Bool;
+	public function supportsHide(): Bool {}
 }

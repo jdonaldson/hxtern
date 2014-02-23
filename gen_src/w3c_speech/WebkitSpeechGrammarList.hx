@@ -6,11 +6,11 @@ package ;
 class WebkitSpeechGrammarList{
 	public function new();
 
-	public function addFromString(): Void;
+	public function addFromString(): Void {}
 
-	public function addFromUri(): Void;
+	public function addFromUri(): Void {}
 
-	public function item(): Void;
+	public function item(): Void {}
 
 	public var length: Float;
 }

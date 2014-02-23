@@ -20,9 +20,9 @@ class FeatureStyle{
 
 	public var iconSize: String;
 
-	public function reset(property: String): Null<Dynamic>;
+	public function reset(property: String): Null<Dynamic> {}
 
-	public function resetAll(): Null<Dynamic>;
+	public function resetAll(): Null<Dynamic> {}
 
 	public var strokeColor: String;
 

@@ -6,13 +6,13 @@ package jasmine;
 class JsApiReporter{
 	public function new();
 
-	public function getReport(): String;
+	public function getReport(): String {}
 
-	public function getRunTime(): Float;
+	public function getRunTime(): Float {}
 
-	public function isFinished(): Bool;
+	public function isFinished(): Bool {}
 
-	public function isInitialized(): Bool;
+	public function isInitialized(): Bool {}
 
-	public function isSuccess(): Bool;
+	public function isSuccess(): Bool {}
 }

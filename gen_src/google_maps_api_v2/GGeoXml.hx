@@ -6,35 +6,35 @@ package ;
 class GGeoXml{
 	public function new(urlOfXml: String);
 
-	public function copy(): GOverlay;
+	public function copy(): GOverlay {}
 
-	public function getDefaultBounds(): GLatLngBounds;
+	public function getDefaultBounds(): GLatLngBounds {}
 
-	public function getDefaultCenter(): GLatLng;
+	public function getDefaultCenter(): GLatLng {}
 
-	public function getDefaultSpan(): GLatLng;
+	public function getDefaultSpan(): GLatLng {}
 
-	public function getKml(_callback: String->Void): Void;
+	public function getKml(_callback: String->Void): Void {}
 
-	public function getTileLayerOverlay(): GTileLayerOverlay;
+	public function getTileLayerOverlay(): GTileLayerOverlay {}
 
-	public function gotoDefaultViewport(map: GMap2): Void;
+	public function gotoDefaultViewport(map: GMap2): Void {}
 
-	public function hasLoaded(): Bool;
+	public function hasLoaded(): Bool {}
 
-	public function hide(): Null<Dynamic>;
+	public function hide(): Null<Dynamic> {}
 
-	public function initialize(map: GMap2): Void;
+	public function initialize(map: GMap2): Void {}
 
-	public function isHidden(): Bool;
+	public function isHidden(): Bool {}
 
-	public function loadedCorrectly(): Bool;
+	public function loadedCorrectly(): Bool {}
 
-	public function redraw(force: Bool): Void;
+	public function redraw(force: Bool): Void {}
 
-	public function remove(): Null<Dynamic>;
+	public function remove(): Null<Dynamic> {}
 
-	public function show(): Null<Dynamic>;
+	public function show(): Null<Dynamic> {}
 
-	public function supportsHide(): Bool;
+	public function supportsHide(): Bool {}
 }

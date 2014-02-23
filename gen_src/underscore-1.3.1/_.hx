@@ -6,183 +6,183 @@ package ;
 class _{
 	public function new(obj: Dynamic);
 
-	public static function after(times: Float, func: Dynamic): Void;
+	public static function after(times: Float, func: Dynamic): Void {}
 
-	public static function all(obj: hxtern.Any.Any2<Dynamic,Array>, iterator: Dynamic, ?opt_context: Dynamic): Bool;
+	public static function all(obj: hxtern.Any.Any2<Dynamic,Array>, iterator: Dynamic, ?opt_context: Dynamic): Bool {}
 
-	public static function any(obj: hxtern.Any.Any2<Dynamic,Array>, ?opt_iterator: Dynamic, ?opt_context: Dynamic): Bool;
+	public static function any(obj: hxtern.Any.Any2<Dynamic,Array>, ?opt_iterator: Dynamic, ?opt_context: Dynamic): Bool {}
 
-	public static function bindAll(obj: Dynamic, ?_opt0: String, ?_opt1: String, ?_opt2: String, ?_opt3: String, ?_opt4: String, ?_opt5: String): Void;
+	public static function bindAll(obj: Dynamic, ?_opt0: String, ?_opt1: String, ?_opt2: String, ?_opt3: String, ?_opt4: String, ?_opt5: String): Void {}
 
-	public static function clone(obj: Dynamic): Dynamic;
+	public static function clone(obj: Dynamic): Dynamic {}
 
-	public static function collect(obj: hxtern.Any.Any2<Dynamic,Array>, iterator: Dynamic, ?opt_context: Dynamic): Array;
+	public static function collect(obj: hxtern.Any.Any2<Dynamic,Array>, iterator: Dynamic, ?opt_context: Dynamic): Array {}
 
-	public static function compact(array: Array): Array;
+	public static function compact(array: Array): Array {}
 
-	public static function compose(?_opt0: Dynamic, ?_opt1: Dynamic, ?_opt2: Dynamic, ?_opt3: Dynamic, ?_opt4: Dynamic, ?_opt5: Dynamic): Dynamic;
+	public static function compose(?_opt0: Dynamic, ?_opt1: Dynamic, ?_opt2: Dynamic, ?_opt3: Dynamic, ?_opt4: Dynamic, ?_opt5: Dynamic): Dynamic {}
 
-	public static function contains(obj: hxtern.Any.Any2<Dynamic,Array>, target: Dynamic): Bool;
+	public static function contains(obj: hxtern.Any.Any2<Dynamic,Array>, target: Dynamic): Bool {}
 
-	public static function debounce(func: Dynamic, wait: Float): Void;
+	public static function debounce(func: Dynamic, wait: Float): Void {}
 
-	public static function defaults(obj: Dynamic, ?_opt0: Dynamic, ?_opt1: Dynamic, ?_opt2: Dynamic, ?_opt3: Dynamic, ?_opt4: Dynamic, ?_opt5: Dynamic): Void;
+	public static function defaults(obj: Dynamic, ?_opt0: Dynamic, ?_opt1: Dynamic, ?_opt2: Dynamic, ?_opt3: Dynamic, ?_opt4: Dynamic, ?_opt5: Dynamic): Void {}
 
-	public static function defer(func: Dynamic): Void;
+	public static function defer(func: Dynamic): Void {}
 
-	public static function delay(func: Dynamic, wait: Float, ?_opt0: Dynamic, ?_opt1: Dynamic, ?_opt2: Dynamic, ?_opt3: Dynamic, ?_opt4: Dynamic, ?_opt5: Dynamic): Void;
+	public static function delay(func: Dynamic, wait: Float, ?_opt0: Dynamic, ?_opt1: Dynamic, ?_opt2: Dynamic, ?_opt3: Dynamic, ?_opt4: Dynamic, ?_opt5: Dynamic): Void {}
 
-	public static function detect(obj: hxtern.Any.Any2<Dynamic,Array>, iterator: Dynamic, ?opt_context: Dynamic): Dynamic;
+	public static function detect(obj: hxtern.Any.Any2<Dynamic,Array>, iterator: Dynamic, ?opt_context: Dynamic): Dynamic {}
 
-	public static function difference(array: Array, ?_opt0: Array, ?_opt1: Array, ?_opt2: Array, ?_opt3: Array, ?_opt4: Array, ?_opt5: Array): Array;
+	public static function difference(array: Array, ?_opt0: Array, ?_opt1: Array, ?_opt2: Array, ?_opt3: Array, ?_opt4: Array, ?_opt5: Array): Array {}
 
-	public static function each(obj: hxtern.Any.Any2<Dynamic,Array>, iterator: Dynamic, ?opt_context: Dynamic): Void;
+	public static function each(obj: hxtern.Any.Any2<Dynamic,Array>, iterator: Dynamic, ?opt_context: Dynamic): Void {}
 
-	public static function escape(s: String): String;
+	public static function escape(s: String): String {}
 
-	public static function every(obj: hxtern.Any.Any2<Dynamic,Array>, iterator: Dynamic, ?opt_context: Dynamic): Bool;
+	public static function every(obj: hxtern.Any.Any2<Dynamic,Array>, iterator: Dynamic, ?opt_context: Dynamic): Bool {}
 
-	public static function extend(obj: Dynamic, ?_opt0: Dynamic, ?_opt1: Dynamic, ?_opt2: Dynamic, ?_opt3: Dynamic, ?_opt4: Dynamic, ?_opt5: Dynamic): Void;
+	public static function extend(obj: Dynamic, ?_opt0: Dynamic, ?_opt1: Dynamic, ?_opt2: Dynamic, ?_opt3: Dynamic, ?_opt4: Dynamic, ?_opt5: Dynamic): Void {}
 
-	public static function filter(obj: hxtern.Any.Any2<Dynamic,Array>, iterator: Dynamic, ?opt_context: Dynamic): Array;
+	public static function filter(obj: hxtern.Any.Any2<Dynamic,Array>, iterator: Dynamic, ?opt_context: Dynamic): Array {}
 
-	public static function find(obj: hxtern.Any.Any2<Dynamic,Array>, iterator: Dynamic, ?opt_context: Dynamic): Dynamic;
+	public static function find(obj: hxtern.Any.Any2<Dynamic,Array>, iterator: Dynamic, ?opt_context: Dynamic): Dynamic {}
 
-	public static function first(array: Array, ?opt_n: Float): Dynamic;
+	public static function first(array: Array, ?opt_n: Float): Dynamic {}
 
-	public static function flatten(array: Array, ?opt_shallow: Bool): Array;
+	public static function flatten(array: Array, ?opt_shallow: Bool): Array {}
 
-	public static function foldl(obj: hxtern.Any.Any2<Dynamic,Array>, iterator: Dynamic, memo: Dynamic, ?opt_context: Dynamic): Dynamic;
+	public static function foldl(obj: hxtern.Any.Any2<Dynamic,Array>, iterator: Dynamic, memo: Dynamic, ?opt_context: Dynamic): Dynamic {}
 
-	public static function foldr(obj: hxtern.Any.Any2<Dynamic,Array>, iterator: Dynamic, memo: Dynamic, ?opt_context: Dynamic): Dynamic;
+	public static function foldr(obj: hxtern.Any.Any2<Dynamic,Array>, iterator: Dynamic, memo: Dynamic, ?opt_context: Dynamic): Dynamic {}
 
-	public static function forEach(obj: hxtern.Any.Any2<Dynamic,Array>, iterator: Dynamic, ?opt_context: Dynamic): Void;
+	public static function forEach(obj: hxtern.Any.Any2<Dynamic,Array>, iterator: Dynamic, ?opt_context: Dynamic): Void {}
 
-	public static function functions(obj: Dynamic): Array<String>;
+	public static function functions(obj: Dynamic): Array<String> {}
 
-	public static function groupBy(obj: hxtern.Any.Any2<Dynamic,Array>, iterator: hxtern.Any.Any2<String,Dynamic>): Array<Array>;
+	public static function groupBy(obj: hxtern.Any.Any2<Dynamic,Array>, iterator: hxtern.Any.Any2<String,Dynamic>): Array<Array> {}
 
-	public static function has(obj: Dynamic, key: String): Bool;
+	public static function has(obj: Dynamic, key: String): Bool {}
 
-	public static function head(array: Array, ?opt_n: Float): Dynamic;
+	public static function head(array: Array, ?opt_n: Float): Dynamic {}
 
-	public static function identity(value: Dynamic): Dynamic;
+	public static function identity(value: Dynamic): Dynamic {}
 
-	public static function include(obj: hxtern.Any.Any2<Dynamic,Array>, target: Dynamic): Bool;
+	public static function include(obj: hxtern.Any.Any2<Dynamic,Array>, target: Dynamic): Bool {}
 
-	public static function indexOf(array: Array, item: Dynamic, ?opt_isSorted: Bool): Float;
+	public static function indexOf(array: Array, item: Dynamic, ?opt_isSorted: Bool): Float {}
 
-	public static function initial(array: Array, ?opt_n: Float): Array;
+	public static function initial(array: Array, ?opt_n: Float): Array {}
 
-	public static function inject(obj: hxtern.Any.Any2<Dynamic,Array>, iterator: Dynamic, memo: Dynamic, ?opt_context: Dynamic): Dynamic;
+	public static function inject(obj: hxtern.Any.Any2<Dynamic,Array>, iterator: Dynamic, memo: Dynamic, ?opt_context: Dynamic): Dynamic {}
 
-	public static function intersect(?_opt0: Array, ?_opt1: Array, ?_opt2: Array, ?_opt3: Array, ?_opt4: Array, ?_opt5: Array): Array;
+	public static function intersect(?_opt0: Array, ?_opt1: Array, ?_opt2: Array, ?_opt3: Array, ?_opt4: Array, ?_opt5: Array): Array {}
 
-	public static function intersection(?_opt0: Array, ?_opt1: Array, ?_opt2: Array, ?_opt3: Array, ?_opt4: Array, ?_opt5: Array): Array;
+	public static function intersection(?_opt0: Array, ?_opt1: Array, ?_opt2: Array, ?_opt3: Array, ?_opt4: Array, ?_opt5: Array): Array {}
 
-	public static function invoke(obj: hxtern.Any.Any2<Dynamic,Array>, method: Dynamic, ?_opt0: Dynamic, ?_opt1: Dynamic, ?_opt2: Dynamic, ?_opt3: Dynamic, ?_opt4: Dynamic, ?_opt5: Dynamic): Void;
+	public static function invoke(obj: hxtern.Any.Any2<Dynamic,Array>, method: Dynamic, ?_opt0: Dynamic, ?_opt1: Dynamic, ?_opt2: Dynamic, ?_opt3: Dynamic, ?_opt4: Dynamic, ?_opt5: Dynamic): Void {}
 
-	public static function isArguments(obj: Dynamic): Bool;
+	public static function isArguments(obj: Dynamic): Bool {}
 
-	public static function isArray(obj: Dynamic): Bool;
+	public static function isArray(obj: Dynamic): Bool {}
 
-	public static function isBoolean(obj: Dynamic): Bool;
+	public static function isBoolean(obj: Dynamic): Bool {}
 
-	public static function isDate(obj: Dynamic): Bool;
+	public static function isDate(obj: Dynamic): Bool {}
 
-	public static function isElement(obj: Dynamic): Bool;
+	public static function isElement(obj: Dynamic): Bool {}
 
-	public static function isEmpty(obj: hxtern.Any.Any3<Dynamic,Array,String>): Bool;
+	public static function isEmpty(obj: hxtern.Any.Any3<Dynamic,Array,String>): Bool {}
 
-	public static function isEqual(a: Dynamic, b: Dynamic): Bool;
+	public static function isEqual(a: Dynamic, b: Dynamic): Bool {}
 
-	public static function isFunction(obj: Dynamic): Bool;
+	public static function isFunction(obj: Dynamic): Bool {}
 
-	public static function isNaN(obj: Dynamic): Bool;
+	public static function isNaN(obj: Dynamic): Bool {}
 
-	public static function isNull(obj: Dynamic): Bool;
+	public static function isNull(obj: Dynamic): Bool {}
 
-	public static function isNumber(obj: Dynamic): Bool;
+	public static function isNumber(obj: Dynamic): Bool {}
 
-	public static function isObject(obj: Dynamic): Bool;
+	public static function isObject(obj: Dynamic): Bool {}
 
-	public static function isRegExp(obj: Dynamic): Bool;
+	public static function isRegExp(obj: Dynamic): Bool {}
 
-	public static function isString(obj: Dynamic): Bool;
+	public static function isString(obj: Dynamic): Bool {}
 
-	public static function isUndefined(obj: Dynamic): Bool;
+	public static function isUndefined(obj: Dynamic): Bool {}
 
-	public static function keys(obj: Dynamic): Array<String>;
+	public static function keys(obj: Dynamic): Array<String> {}
 
-	public static function last(array: Array, ?opt_n: Float): Array;
+	public static function last(array: Array, ?opt_n: Float): Array {}
 
-	public static function lastIndexOf(array: Array, item: Dynamic): Float;
+	public static function lastIndexOf(array: Array, item: Dynamic): Float {}
 
-	public static function map(obj: hxtern.Any.Any2<Dynamic,Array>, iterator: Dynamic, ?opt_context: Dynamic): Array;
+	public static function map(obj: hxtern.Any.Any2<Dynamic,Array>, iterator: Dynamic, ?opt_context: Dynamic): Array {}
 
-	public static function max(obj: hxtern.Any.Any2<Dynamic,Array>, opt_iterator: Dynamic, ?opt_context: Dynamic): Dynamic;
+	public static function max(obj: hxtern.Any.Any2<Dynamic,Array>, opt_iterator: Dynamic, ?opt_context: Dynamic): Dynamic {}
 
-	public static function memoize(func: Dynamic, ?opt_hasher: Dynamic): Void;
+	public static function memoize(func: Dynamic, ?opt_hasher: Dynamic): Void {}
 
-	public static function methods(obj: Dynamic): Array<String>;
+	public static function methods(obj: Dynamic): Array<String> {}
 
-	public static function min(obj: hxtern.Any.Any2<Dynamic,Array>, opt_iterator: Dynamic, ?opt_context: Dynamic): Dynamic;
+	public static function min(obj: hxtern.Any.Any2<Dynamic,Array>, opt_iterator: Dynamic, ?opt_context: Dynamic): Dynamic {}
 
-	public static function mixin(obj: Dynamic): Void;
+	public static function mixin(obj: Dynamic): Void {}
 
-	public static function noConflict(): _;
+	public static function noConflict(): _ {}
 
-	public static function once(func: Dynamic): Void;
+	public static function once(func: Dynamic): Void {}
 
-	public static function pluck(obj: Array<Dynamic>, key: String): Array;
+	public static function pluck(obj: Array<Dynamic>, key: String): Array {}
 
-	public static function range(start: Float, ?opt_stop: Float, ?opt_step: Float): Array<Float>;
+	public static function range(start: Float, ?opt_stop: Float, ?opt_step: Float): Array<Float> {}
 
-	public static function reduce(obj: hxtern.Any.Any2<Dynamic,Array>, iterator: Dynamic, memo: Dynamic, ?opt_context: Dynamic): Dynamic;
+	public static function reduce(obj: hxtern.Any.Any2<Dynamic,Array>, iterator: Dynamic, memo: Dynamic, ?opt_context: Dynamic): Dynamic {}
 
-	public static function reduceRight(obj: hxtern.Any.Any2<Dynamic,Array>, iterator: Dynamic, memo: Dynamic, ?opt_context: Dynamic): Dynamic;
+	public static function reduceRight(obj: hxtern.Any.Any2<Dynamic,Array>, iterator: Dynamic, memo: Dynamic, ?opt_context: Dynamic): Dynamic {}
 
-	public static function reject(obj: hxtern.Any.Any2<Dynamic,Array>, iterator: Dynamic, ?opt_context: Dynamic): Array;
+	public static function reject(obj: hxtern.Any.Any2<Dynamic,Array>, iterator: Dynamic, ?opt_context: Dynamic): Array {}
 
-	public static function rest(array: Array, ?opt_n: Float): Dynamic;
+	public static function rest(array: Array, ?opt_n: Float): Dynamic {}
 
-	public static function select(obj: hxtern.Any.Any2<Dynamic,Array>, iterator: Dynamic, ?opt_context: Dynamic): Array;
+	public static function select(obj: hxtern.Any.Any2<Dynamic,Array>, iterator: Dynamic, ?opt_context: Dynamic): Array {}
 
-	public static function shuffle(obj: hxtern.Any.Any2<Dynamic,Array>): Array;
+	public static function shuffle(obj: hxtern.Any.Any2<Dynamic,Array>): Array {}
 
-	public static function size(obj: hxtern.Any.Any2<Dynamic,Array>): Array;
+	public static function size(obj: hxtern.Any.Any2<Dynamic,Array>): Array {}
 
-	public static function some(obj: hxtern.Any.Any2<Dynamic,Array>, ?opt_iterator: Dynamic, ?opt_context: Dynamic): Bool;
+	public static function some(obj: hxtern.Any.Any2<Dynamic,Array>, ?opt_iterator: Dynamic, ?opt_context: Dynamic): Bool {}
 
-	public static function sortBy(obj: hxtern.Any.Any2<Dynamic,Array>, iterator: Dynamic, ?opt_context: Dynamic): Array;
+	public static function sortBy(obj: hxtern.Any.Any2<Dynamic,Array>, iterator: Dynamic, ?opt_context: Dynamic): Array {}
 
-	public static function sortedIndex(list: Array, obj: Dynamic, opt_iterator: Dynamic): Float;
+	public static function sortedIndex(list: Array, obj: Dynamic, opt_iterator: Dynamic): Float {}
 
-	public static function tail(array: Array, ?opt_n: Float): Dynamic;
+	public static function tail(array: Array, ?opt_n: Float): Dynamic {}
 
-	public static function tap(obj: Dynamic, interceptor: Dynamic): Dynamic;
+	public static function tap(obj: Dynamic, interceptor: Dynamic): Dynamic {}
 
-	public static function template(str: String, ?opt_data: Dynamic): Void;
+	public static function template(str: String, ?opt_data: Dynamic): Void {}
 
-	public static function throttle(func: Dynamic, wait: Float): Void;
+	public static function throttle(func: Dynamic, wait: Float): Void {}
 
-	public static function times(n: Float, iterator: Dynamic, ?opt_context: Dynamic): Void;
+	public static function times(n: Float, iterator: Dynamic, ?opt_context: Dynamic): Void {}
 
-	public static function toArray(iterable: Dynamic): Array;
+	public static function toArray(iterable: Dynamic): Array {}
 
-	public static function union(?_opt0: Array, ?_opt1: Array, ?_opt2: Array, ?_opt3: Array, ?_opt4: Array, ?_opt5: Array): Array;
+	public static function union(?_opt0: Array, ?_opt1: Array, ?_opt2: Array, ?_opt3: Array, ?_opt4: Array, ?_opt5: Array): Array {}
 
-	public static function uniq(array: Array, ?opt_isSorted: Bool, ?opt_iterator: Dynamic): Array;
+	public static function uniq(array: Array, ?opt_isSorted: Bool, ?opt_iterator: Dynamic): Array {}
 
-	public static function unique(array: Array, ?opt_isSorted: Bool, ?opt_iterator: Dynamic): Array;
+	public static function unique(array: Array, ?opt_isSorted: Bool, ?opt_iterator: Dynamic): Array {}
 
-	public static function uniqueId(?opt_prefix: String): hxtern.Any.Any2<Float,String>;
+	public static function uniqueId(?opt_prefix: String): hxtern.Any.Any2<Float,String> {}
 
-	public static function values(obj: Dynamic): Array;
+	public static function values(obj: Dynamic): Array {}
 
-	public static function without(array: Array, ?_opt0: Dynamic, ?_opt1: Dynamic, ?_opt2: Dynamic, ?_opt3: Dynamic, ?_opt4: Dynamic, ?_opt5: Dynamic): Array;
+	public static function without(array: Array, ?_opt0: Dynamic, ?_opt1: Dynamic, ?_opt2: Dynamic, ?_opt3: Dynamic, ?_opt4: Dynamic, ?_opt5: Dynamic): Array {}
 
-	public static function wrap(func: Dynamic, wrapper: Dynamic): Dynamic;
+	public static function wrap(func: Dynamic, wrapper: Dynamic): Dynamic {}
 
-	public static function zip(?_opt0: Array, ?_opt1: Array, ?_opt2: Array, ?_opt3: Array, ?_opt4: Array, ?_opt5: Array): Array;
+	public static function zip(?_opt0: Array, ?_opt1: Array, ?_opt2: Array, ?_opt3: Array, ?_opt4: Array, ?_opt5: Array): Array {}
 }

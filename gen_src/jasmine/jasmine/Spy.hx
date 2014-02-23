@@ -6,13 +6,13 @@ package jasmine;
 class Spy{
 	public function new();
 
-	public function andCallFake(fn: Dynamic): jasmine.Spy;
+	public function andCallFake(fn: Dynamic): jasmine.Spy {}
 
-	public function andCallThrough(): jasmine.Spy;
+	public function andCallThrough(): jasmine.Spy {}
 
-	public function andReturn(value: Dynamic): jasmine.Spy;
+	public function andReturn(value: Dynamic): jasmine.Spy {}
 
-	public function andThrow(exception: Error): jasmine.Spy;
+	public function andThrow(exception: Error): jasmine.Spy {}
 
 	public var callCount: Float;
 
@@ -20,5 +20,5 @@ class Spy{
 
 	public var mostRecentCall: Dynamic;
 
-	public function reset(): Void;
+	public function reset(): Void {}
 }

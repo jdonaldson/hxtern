@@ -8,7 +8,7 @@ class MapType{
 
 	public var alt: String;
 
-	public function getTile(tileCoord: google.maps.Point, zoom: Float, ownerDocument: Node): Node;
+	public function getTile(tileCoord: google.maps.Point, zoom: Float, ownerDocument: Node): Node {}
 
 	public var maxZoom: Float;
 
@@ -20,7 +20,7 @@ class MapType{
 
 	public var radius: Float;
 
-	public function releaseTile(tile: Node): Null<Dynamic>;
+	public function releaseTile(tile: Node): Null<Dynamic> {}
 
 	public var tileSize: google.maps.Size;
 }

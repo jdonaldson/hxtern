@@ -13,7 +13,7 @@ class AudioBuffer{
 	 */
 	public var gain: AudioGain;
 
-	public function getChannelData(channel: Float): Float32Array;
+	public function getChannelData(channel: Float): Float32Array {}
 
 	public var length: Float;
 

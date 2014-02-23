@@ -4,5 +4,5 @@
 package youtubeplayer;
 
 class Global{
-	public static function onYouTubePlayerReady(playerapiid: String): Void;
+	public static function onYouTubePlayerReady(playerapiid: String): Void {}
 }

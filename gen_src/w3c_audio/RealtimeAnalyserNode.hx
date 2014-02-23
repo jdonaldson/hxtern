@@ -12,21 +12,21 @@ class RealtimeAnalyserNode{
 
 	public var channelInterpretation: String;
 
-	public function connect(destination: AudioNode, ?output: Float, ?input: Float): Void;
+	public function connect(destination: AudioNode, ?output: Float, ?input: Float): Void {}
 
 	public var context: AudioContext;
 
-	public function disconnect(?output: Float): Void;
+	public function disconnect(?output: Float): Void {}
 
 	public var fftSize: Float;
 
 	public var frequencyBinCount: Float;
 
-	public function getByteFrequencyData(array: Uint8Array): Void;
+	public function getByteFrequencyData(array: Uint8Array): Void {}
 
-	public function getByteTimeDomainData(array: Uint8Array): Void;
+	public function getByteTimeDomainData(array: Uint8Array): Void {}
 
-	public function getFloatFrequencyData(array: Float32Array): Void;
+	public function getFloatFrequencyData(array: Float32Array): Void {}
 
 	public var maxDecibels: Float;
 

@@ -12,19 +12,19 @@ class BiquadFilterNode{
 
 	public var channelInterpretation: String;
 
-	public function connect(destination: AudioNode, ?output: Float, ?input: Float): Void;
+	public function connect(destination: AudioNode, ?output: Float, ?input: Float): Void {}
 
 	public var context: AudioContext;
 
 	public var detune: AudioParam;
 
-	public function disconnect(?output: Float): Void;
+	public function disconnect(?output: Float): Void {}
 
 	public var frequency: AudioParam;
 
 	public var gain: AudioParam;
 
-	public function getFrequencyResponse(frequencyHz: Float32Array, magResponse: Float32Array, phaseResponse: Float32Array): Void;
+	public function getFrequencyResponse(frequencyHz: Float32Array, magResponse: Float32Array, phaseResponse: Float32Array): Void {}
 
 	public var numberOfInputs: Float;
 

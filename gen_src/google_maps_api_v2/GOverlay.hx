@@ -6,15 +6,15 @@ package ;
 class GOverlay{
 	public function new();
 
-	public static function getZIndex(latitude: Float): Float;
+	public static function getZIndex(latitude: Float): Float {}
 
-	public function copy(): GOverlay;
+	public function copy(): GOverlay {}
 
-	public function getKml(_callback: String->Void): Void;
+	public function getKml(_callback: String->Void): Void {}
 
-	public function initialize(map: GMap2): Void;
+	public function initialize(map: GMap2): Void {}
 
-	public function redraw(force: Bool): Void;
+	public function redraw(force: Bool): Void {}
 
-	public function remove(): Null<Dynamic>;
+	public function remove(): Null<Dynamic> {}
 }

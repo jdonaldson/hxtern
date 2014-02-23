@@ -6,9 +6,9 @@ package ;
 class FileWriterSync{
 	public function new();
 
-	public function seek(offset: Float): Void;
+	public function seek(offset: Float): Void {}
 
-	public function truncate(size: Float): Void;
+	public function truncate(size: Float): Void {}
 
-	public function write(blob: Blob): Void;
+	public function write(blob: Blob): Void {}
 }

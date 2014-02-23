@@ -6,21 +6,21 @@ package ;
 class GLatLng{
 	public function new(lat: Float, lng: Float, ?unbounded: Bool);
 
-	public static function fromUrlValue(latlng: String): GLatLng;
+	public static function fromUrlValue(latlng: String): GLatLng {}
 
-	public function distanceFrom(other: GLatLng, ?radius: Float): Float;
+	public function distanceFrom(other: GLatLng, ?radius: Float): Float {}
 
-	public function equals(other: GLatLng): Bool;
+	public function equals(other: GLatLng): Bool {}
 
-	public function lat(): Float;
+	public function lat(): Float {}
 
-	public function latRadians(): Float;
+	public function latRadians(): Float {}
 
-	public function lng(): Float;
+	public function lng(): Float {}
 
-	public function lngRadians(): Float;
+	public function lngRadians(): Float {}
 
-	public function toUrlValue(?precision: Float): String;
+	public function toUrlValue(?precision: Float): String {}
 
 	public var x: Float;
 

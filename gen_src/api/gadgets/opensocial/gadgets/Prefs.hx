@@ -7,25 +7,25 @@ package gadgets;
 class Prefs{
 	public function new(?opt_moduleId: String);
 
-	public function getArray(key: String): Array<String>;
+	public function getArray(key: String): Array<String> {}
 
-	public function getBool(key: String): Bool;
+	public function getBool(key: String): Bool {}
 
-	public function getCountry(): String;
+	public function getCountry(): String {}
 
-	public function getFloat(key: String): Float;
+	public function getFloat(key: String): Float {}
 
-	public function getInt(key: String): Float;
+	public function getInt(key: String): Float {}
 
-	public function getLang(): String;
+	public function getLang(): String {}
 
-	public function getModuleId(): Float;
+	public function getModuleId(): Float {}
 
-	public function getMsg(key: String): String;
+	public function getMsg(key: String): String {}
 
-	public function getString(key: String): String;
+	public function getString(key: String): String {}
 
-	public function set(key: String, value: hxtern.Any.Any2<String,Float>): Void;
+	public function set(key: String, value: hxtern.Any.Any2<String,Float>): Void {}
 
-	public function setArray(key: String, array: Array<String>): Void;
+	public function setArray(key: String, array: Array<String>): Void {}
 }

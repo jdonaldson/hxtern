@@ -4,19 +4,19 @@
 package google.maps;
 @:native("google.maps.event")
 class Event{
-	public static function addDomListener(instance: Dynamic, eventName: String, handler: Dynamic, ?capture: Bool): google.maps.MapsEventListener;
+	public static function addDomListener(instance: Dynamic, eventName: String, handler: Dynamic, ?capture: Bool): google.maps.MapsEventListener {}
 
-	public static function addDomListenerOnce(instance: Dynamic, eventName: String, handler: Dynamic, ?capture: Bool): google.maps.MapsEventListener;
+	public static function addDomListenerOnce(instance: Dynamic, eventName: String, handler: Dynamic, ?capture: Bool): google.maps.MapsEventListener {}
 
-	public static function addListener(instance: Dynamic, eventName: String, handler: Dynamic): google.maps.MapsEventListener;
+	public static function addListener(instance: Dynamic, eventName: String, handler: Dynamic): google.maps.MapsEventListener {}
 
-	public static function addListenerOnce(instance: Dynamic, eventName: String, handler: Dynamic): google.maps.MapsEventListener;
+	public static function addListenerOnce(instance: Dynamic, eventName: String, handler: Dynamic): google.maps.MapsEventListener {}
 
-	public static function clearInstanceListeners(instance: Dynamic): Null<Dynamic>;
+	public static function clearInstanceListeners(instance: Dynamic): Null<Dynamic> {}
 
-	public static function clearListeners(instance: Dynamic, eventName: String): Null<Dynamic>;
+	public static function clearListeners(instance: Dynamic, eventName: String): Null<Dynamic> {}
 
-	public static function removeListener(listener: google.maps.MapsEventListener): Null<Dynamic>;
+	public static function removeListener(listener: google.maps.MapsEventListener): Null<Dynamic> {}
 
-	public static function trigger(instance: Dynamic, eventName: String, ?_opt0: Dynamic, ?_opt1: Dynamic, ?_opt2: Dynamic, ?_opt3: Dynamic, ?_opt4: Dynamic, ?_opt5: Dynamic): Null<Dynamic>;
+	public static function trigger(instance: Dynamic, eventName: String, ?_opt0: Dynamic, ?_opt1: Dynamic, ?_opt2: Dynamic, ?_opt3: Dynamic, ?_opt4: Dynamic, ?_opt5: Dynamic): Null<Dynamic> {}
 }

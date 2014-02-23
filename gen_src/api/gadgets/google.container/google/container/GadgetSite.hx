@@ -6,29 +6,29 @@ package google.container;
 class GadgetSite{
 	public function new(service: google.container.Service, gadgetEl: js.html.Element, ?opt_bufferEl: js.html.Element);
 
-	public function close(): Void;
+	public function close(): Void {}
 
-	public function getActiveGadgetHolder(): google.container.GadgetHolder;
+	public function getActiveGadgetHolder(): google.container.GadgetHolder {}
 
-	public function getFeature(name: String, ?opt_gadgetInfo: Dynamic): Dynamic;
+	public function getFeature(name: String, ?opt_gadgetInfo: Dynamic): Dynamic {}
 
-	public function getGadgetHolder(id: String): google.container.GadgetHolder;
+	public function getGadgetHolder(id: String): google.container.GadgetHolder {}
 
-	public function getId(): Float;
+	public function getId(): Float {}
 
-	public function getParentId(): String;
+	public function getParentId(): String {}
 
-	public function navigateTo(gadgetUrl: String, gadgetParams: Dynamic, renderParams: Dynamic, ?opt_callback: Dynamic): Void;
+	public function navigateTo(gadgetUrl: String, gadgetParams: Dynamic, renderParams: Dynamic, ?opt_callback: Dynamic): Void {}
 
-	public function onConstructed(): Void;
+	public function onConstructed(): Void {}
 
-	public function render(gadgetInfo: Dynamic, gadgetParams: Dynamic, renderParams: Dynamic): Void;
+	public function render(gadgetInfo: Dynamic, gadgetParams: Dynamic, renderParams: Dynamic): Void {}
 
-	public function rpcCall(serviceName: String, _callback: Dynamic, ?_opt0: Float, ?_opt1: Float, ?_opt2: Float, ?_opt3: Float, ?_opt4: Float, ?_opt5: Float): Void;
+	public function rpcCall(serviceName: String, _callback: Dynamic, ?_opt0: Float, ?_opt1: Float, ?_opt2: Float, ?_opt3: Float, ?_opt4: Float, ?_opt5: Float): Void {}
 
-	public function setHeight(height: Float): Void;
+	public function setHeight(height: Float): Void {}
 
-	public function setParentId(value: Float): Void;
+	public function setParentId(value: Float): Void {}
 
-	public function setWidth(width: Float): Void;
+	public function setWidth(width: Float): Void {}
 }

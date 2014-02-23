@@ -6,19 +6,19 @@ package google.maps;
 class StyledMapType{
 	public function new(style: Array<google.maps.MapTypeStyle>, ?options: Dynamic<Dynamic>);
 
-	public function bindTo(key: String, target: google.maps.MVCObject, ?targetKey: String, ?noNotify: Bool): Null<Dynamic>;
+	public function bindTo(key: String, target: google.maps.MVCObject, ?targetKey: String, ?noNotify: Bool): Null<Dynamic> {}
 
-	public function changed(key: String): Null<Dynamic>;
+	public function changed(key: String): Null<Dynamic> {}
 
-	public function get(key: String): Dynamic;
+	public function get(key: String): Dynamic {}
 
-	public function notify(key: String): Null<Dynamic>;
+	public function notify(key: String): Null<Dynamic> {}
 
-	public function set(key: String, value: Dynamic): Null<Dynamic>;
+	public function set(key: String, value: Dynamic): Null<Dynamic> {}
 
-	public function setValues(values: hxtern.Any.Any2<Dynamic,Null<Dynamic>>): Null<Dynamic>;
+	public function setValues(values: hxtern.Any.Any2<Dynamic,Null<Dynamic>>): Null<Dynamic> {}
 
-	public function unbind(key: String): Null<Dynamic>;
+	public function unbind(key: String): Null<Dynamic> {}
 
-	public function unbindAll(): Null<Dynamic>;
+	public function unbindAll(): Null<Dynamic> {}
 }

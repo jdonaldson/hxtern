@@ -7,19 +7,19 @@ package iframes;
 class Iframes{
 	public function new();
 
-	public function allow(name: String, ?opt_func: ?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->Dynamic): Void;
+	public function allow(name: String, ?opt_func: ?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->Dynamic): Void {}
 
-	public function close(?opt_params: Dynamic, ?opt_callback: ?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->Dynamic): Void;
+	public function close(?opt_params: Dynamic, ?opt_callback: ?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->Dynamic): Void {}
 
-	public function CROSS_ORIGIN_IFRAMES_FILTER(iframe: Dynamic): Void;
+	public function CROSS_ORIGIN_IFRAMES_FILTER(iframe: Dynamic): Void {}
 
-	public function getDeferredHandler(style: String): Void->Void->Void;
+	public function getDeferredHandler(style: String): Void->Void->Void {}
 
-	public function getGoogleConnectJsUri(): String;
+	public function getGoogleConnectJsUri(): String {}
 
-	public function getHandler(style: String): hxtern.Any.Any2<Dynamic,Dynamic>;
+	public function getHandler(style: String): hxtern.Any.Any2<Dynamic,Dynamic> {}
 
-	public function getParentInfo(_callback: Dynamic): Void;
+	public function getParentInfo(_callback: Dynamic): Void {}
 
 	/**
 	  Inside an iframe, the properties of the iframer object are the data and
@@ -27,25 +27,25 @@ class Iframes{
 	 */
 	public var iframer: hxtern.Any.Any2<Dynamic,Null<Dynamic>>;
 
-	public function open(url: String, openParams: Dynamic, params: Dynamic, ?opt_methods: hxtern.Any.Any2<Dynamic,?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->Dynamic>, ?opt_callback: ?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->Dynamic): iframes.Iframe;
+	public function open(url: String, openParams: Dynamic, params: Dynamic, ?opt_methods: hxtern.Any.Any2<Dynamic,?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->Dynamic>, ?opt_callback: ?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->Dynamic): iframes.Iframe {}
 
-	public function propagate(events: Array<String>): Void;
+	public function propagate(events: Array<String>): Void {}
 
-	public function ready(?opt_params: Dynamic, ?opt_methods: hxtern.Any.Any2<Dynamic,?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->Dynamic>, ?opt_callback: ?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->Dynamic): Void;
+	public function ready(?opt_params: Dynamic, ?opt_methods: hxtern.Any.Any2<Dynamic,?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->Dynamic>, ?opt_callback: ?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->Dynamic): Void {}
 
-	public function resize(params: Dynamic): Void;
+	public function resize(params: Dynamic): Void {}
 
-	public function resizeMe(params: Dynamic): Void;
+	public function resizeMe(params: Dynamic): Void {}
 
-	public function setBootstrapHint(hint: String): Void;
+	public function setBootstrapHint(hint: String): Void {}
 
-	public function setDeferredHandler(style: String, loader: Void->Void->Void): Void;
+	public function setDeferredHandler(style: String, loader: Void->Void->Void): Void {}
 
-	public function setGoogleConnectJsVersion(version: String): Void;
+	public function setGoogleConnectJsVersion(version: String): Void {}
 
-	public function setHandler(style: String, handler: hxtern.Any.Any2<Dynamic,Dynamic>): Void;
+	public function setHandler(style: String, handler: hxtern.Any.Any2<Dynamic,Dynamic>): Void {}
 
-	public function setJsHint(hint: String): Void;
+	public function setJsHint(hint: String): Void {}
 
-	public function setVersionOverride(version: String): Void;
+	public function setVersionOverride(version: String): Void {}
 }

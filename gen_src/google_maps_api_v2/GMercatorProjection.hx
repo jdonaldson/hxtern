@@ -6,11 +6,11 @@ package ;
 class GMercatorProjection{
 	public function new(zoomlevels: Float);
 
-	public function fromLatLngToPixel(latlng: GLatLng, zoom: Float): GPoint;
+	public function fromLatLngToPixel(latlng: GLatLng, zoom: Float): GPoint {}
 
-	public function fromPixelToLatLng(pixel: GPoint, zoom: Float, ?unbounded: Bool): GLatLng;
+	public function fromPixelToLatLng(pixel: GPoint, zoom: Float, ?unbounded: Bool): GLatLng {}
 
-	public function getWrapWidth(zoom: Float): Void;
+	public function getWrapWidth(zoom: Float): Void {}
 
-	public function tileCheckRange(tile: GPoint, zoom: Float, tilesize: Float): Bool;
+	public function tileCheckRange(tile: GPoint, zoom: Float, tilesize: Float): Bool {}
 }

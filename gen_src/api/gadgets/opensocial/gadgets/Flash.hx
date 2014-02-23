@@ -4,9 +4,9 @@
 package gadgets;
 @:native("gadgets.flash")
 class Flash{
-	public static function embedCachedFlash(): Bool;
+	public static function embedCachedFlash(): Bool {}
 
-	public static function embedFlash(url: String, container: hxtern.Any.Any2<String,js.html.Element>, minVersion: Float, ?opt_params: Dynamic): Bool;
+	public static function embedFlash(url: String, container: hxtern.Any.Any2<String,js.html.Element>, minVersion: Float, ?opt_params: Dynamic): Bool {}
 
-	public static function getMajorVersion(): Float;
+	public static function getMajorVersion(): Float {}
 }

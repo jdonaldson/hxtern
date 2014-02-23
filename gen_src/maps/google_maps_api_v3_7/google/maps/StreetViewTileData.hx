@@ -8,7 +8,7 @@ class StreetViewTileData{
 
 	public var centerHeading: Float;
 
-	public function getTileUrl(pano: String, tileZoom: Float, tileX: Float, tileY: Float): String;
+	public function getTileUrl(pano: String, tileZoom: Float, tileX: Float, tileY: Float): String {}
 
 	public var tileSize: google.maps.Size;
 

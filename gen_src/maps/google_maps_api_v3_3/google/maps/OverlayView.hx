@@ -6,33 +6,33 @@ package google.maps;
 class OverlayView{
 	public function new();
 
-	public function bindTo(key: String, target: google.maps.MVCObject, ?targetKey: String, ?noNotify: Bool): Null<Dynamic>;
+	public function bindTo(key: String, target: google.maps.MVCObject, ?targetKey: String, ?noNotify: Bool): Null<Dynamic> {}
 
-	public function changed(key: String): Null<Dynamic>;
+	public function changed(key: String): Null<Dynamic> {}
 
-	public function draw(): Null<Dynamic>;
+	public function draw(): Null<Dynamic> {}
 
-	public function get(key: String): Dynamic;
+	public function get(key: String): Dynamic {}
 
-	public function getMap(): google.maps.Map;
+	public function getMap(): google.maps.Map {}
 
-	public function getPanes(): google.maps.MapPanes;
+	public function getPanes(): google.maps.MapPanes {}
 
-	public function getProjection(): google.maps.MapCanvasProjection;
+	public function getProjection(): google.maps.MapCanvasProjection {}
 
-	public function notify(key: String): Null<Dynamic>;
+	public function notify(key: String): Null<Dynamic> {}
 
-	public function onAdd(): Null<Dynamic>;
+	public function onAdd(): Null<Dynamic> {}
 
-	public function onRemove(): Null<Dynamic>;
+	public function onRemove(): Null<Dynamic> {}
 
-	public function set(key: String, value: Dynamic): Null<Dynamic>;
+	public function set(key: String, value: Dynamic): Null<Dynamic> {}
 
-	public function setMap(map: hxtern.Any.Any2<google.maps.Map,google.maps.StreetViewPanorama>): Null<Dynamic>;
+	public function setMap(map: hxtern.Any.Any2<google.maps.Map,google.maps.StreetViewPanorama>): Null<Dynamic> {}
 
-	public function setValues(values: hxtern.Any.Any2<Dynamic,Null<Dynamic>>): Null<Dynamic>;
+	public function setValues(values: hxtern.Any.Any2<Dynamic,Null<Dynamic>>): Null<Dynamic> {}
 
-	public function unbind(key: String): Null<Dynamic>;
+	public function unbind(key: String): Null<Dynamic> {}
 
-	public function unbindAll(): Null<Dynamic>;
+	public function unbindAll(): Null<Dynamic> {}
 }

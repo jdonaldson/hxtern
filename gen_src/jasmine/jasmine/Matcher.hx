@@ -8,31 +8,31 @@ class Matcher{
 
 	public var not: jasmine.Matcher;
 
-	public function toBe(value: Dynamic): Void;
+	public function toBe(value: Dynamic): Void {}
 
-	public function toBeDefined(): Void;
+	public function toBeDefined(): Void {}
 
-	public function toBeFalsy(): Void;
+	public function toBeFalsy(): Void {}
 
-	public function toBeGreaterThan(value: Dynamic): Void;
+	public function toBeGreaterThan(value: Dynamic): Void {}
 
-	public function toBeLessThan(value: Dynamic): Void;
+	public function toBeLessThan(value: Dynamic): Void {}
 
-	public function toBeNull(): Void;
+	public function toBeNull(): Void {}
 
-	public function toBeTruthy(): Void;
+	public function toBeTruthy(): Void {}
 
-	public function toBeUndefined(): Void;
+	public function toBeUndefined(): Void {}
 
-	public function toContain(value: Dynamic): Void;
+	public function toContain(value: Dynamic): Void {}
 
-	public function toEqual(value: Dynamic): Void;
+	public function toEqual(value: Dynamic): Void {}
 
-	public function toHaveBeenCalled(): Void;
+	public function toHaveBeenCalled(): Void {}
 
-	public function toHaveBeenCalledWith(?_opt0: Dynamic, ?_opt1: Dynamic, ?_opt2: Dynamic, ?_opt3: Dynamic, ?_opt4: Dynamic, ?_opt5: Dynamic): Void;
+	public function toHaveBeenCalledWith(?_opt0: Dynamic, ?_opt1: Dynamic, ?_opt2: Dynamic, ?_opt3: Dynamic, ?_opt4: Dynamic, ?_opt5: Dynamic): Void {}
 
-	public function toMatch(pattern: hxtern.Any.Any2<String,RegExp>): Void;
+	public function toMatch(pattern: hxtern.Any.Any2<String,RegExp>): Void {}
 
-	public function toThrow(?opt_expected: Error): Void;
+	public function toThrow(?opt_expected: Error): Void {}
 }

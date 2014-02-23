@@ -6,11 +6,11 @@ package jasmine;
 class Env{
 	public function new();
 
-	public function addReporter(reporter: jasmine.JsApiReporter): Void;
+	public function addReporter(reporter: jasmine.JsApiReporter): Void {}
 
-	public function afterEach(handler: Void->Void): Void;
+	public function afterEach(handler: Void->Void): Void {}
 
-	public function beforeEach(handler: Void->Void): Void;
+	public function beforeEach(handler: Void->Void): Void {}
 
-	public function execute(): Void;
+	public function execute(): Void {}
 }

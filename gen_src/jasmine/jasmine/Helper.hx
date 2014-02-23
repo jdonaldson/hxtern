@@ -8,7 +8,7 @@ class Helper{
 
 	public var actual: Dynamic;
 
-	public function addMatchers(value: Dynamic): Void;
+	public function addMatchers(value: Dynamic): Void {}
 
 	public var isNot: Bool;
 

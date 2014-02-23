@@ -8,9 +8,9 @@ class Clock{
 
 	public static var installed: jasmine.Clock;
 
-	public static function tick(ms: Float): Void;
+	public static function tick(ms: Float): Void {}
 
-	public static function useMock(): Void;
+	public static function useMock(): Void {}
 
 	public var nowMillis: Float;
 }

@@ -7,7 +7,7 @@ package gadgets.oauth;
 class Popup{
 	public function new(destination: String, windowOptions: String, openCallback: Dynamic, closeCallback: Dynamic);
 
-	public function createApprovedOnClick(): Dynamic;
+	public function createApprovedOnClick(): Dynamic {}
 
-	public function createOpenerOnClick(): Dynamic;
+	public function createOpenerOnClick(): Dynamic {}
 }

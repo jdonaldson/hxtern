@@ -6,15 +6,15 @@ package ;
 class GTileLayer{
 	public function new(copyrights: GCopyrightCollection, minResolution: Float, maxResolution: Float, ?options: Dynamic<Dynamic>);
 
-	public function getCopyright(bounds: GLatLngBounds, zoom: Float): String;
+	public function getCopyright(bounds: GLatLngBounds, zoom: Float): String {}
 
-	public function getOpacity(): Float;
+	public function getOpacity(): Float {}
 
-	public function getTileUrl(tile: GPoint, zoom: Float): String;
+	public function getTileUrl(tile: GPoint, zoom: Float): String {}
 
-	public function isPng(): Bool;
+	public function isPng(): Bool {}
 
-	public function maxResolution(): Float;
+	public function maxResolution(): Float {}
 
-	public function minResolution(): Float;
+	public function minResolution(): Float {}
 }

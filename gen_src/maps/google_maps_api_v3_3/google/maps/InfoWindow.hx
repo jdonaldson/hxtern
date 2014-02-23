@@ -6,37 +6,37 @@ package google.maps;
 class InfoWindow{
 	public function new(?opt_opts: Dynamic<Dynamic>);
 
-	public function bindTo(key: String, target: google.maps.MVCObject, ?targetKey: String, ?noNotify: Bool): Null<Dynamic>;
+	public function bindTo(key: String, target: google.maps.MVCObject, ?targetKey: String, ?noNotify: Bool): Null<Dynamic> {}
 
-	public function changed(key: String): Null<Dynamic>;
+	public function changed(key: String): Null<Dynamic> {}
 
-	public function close(): Null<Dynamic>;
+	public function close(): Null<Dynamic> {}
 
-	public function get(key: String): Dynamic;
+	public function get(key: String): Dynamic {}
 
-	public function getContent(): hxtern.Any.Any2<String,Node>;
+	public function getContent(): hxtern.Any.Any2<String,Node> {}
 
-	public function getPosition(): google.maps.LatLng;
+	public function getPosition(): google.maps.LatLng {}
 
-	public function getZIndex(): Float;
+	public function getZIndex(): Float {}
 
-	public function notify(key: String): Null<Dynamic>;
+	public function notify(key: String): Null<Dynamic> {}
 
-	public function open(?map: hxtern.Any.Any2<google.maps.Map,google.maps.StreetViewPanorama>, ?anchor: google.maps.MVCObject): Null<Dynamic>;
+	public function open(?map: hxtern.Any.Any2<google.maps.Map,google.maps.StreetViewPanorama>, ?anchor: google.maps.MVCObject): Null<Dynamic> {}
 
-	public function set(key: String, value: Dynamic): Null<Dynamic>;
+	public function set(key: String, value: Dynamic): Null<Dynamic> {}
 
-	public function setContent(content: hxtern.Any.Any2<String,Node>): Null<Dynamic>;
+	public function setContent(content: hxtern.Any.Any2<String,Node>): Null<Dynamic> {}
 
-	public function setOptions(options: Dynamic<Dynamic>): Null<Dynamic>;
+	public function setOptions(options: Dynamic<Dynamic>): Null<Dynamic> {}
 
-	public function setPosition(position: google.maps.LatLng): Null<Dynamic>;
+	public function setPosition(position: google.maps.LatLng): Null<Dynamic> {}
 
-	public function setValues(values: hxtern.Any.Any2<Dynamic,Null<Dynamic>>): Null<Dynamic>;
+	public function setValues(values: hxtern.Any.Any2<Dynamic,Null<Dynamic>>): Null<Dynamic> {}
 
-	public function setZIndex(zIndex: Float): Null<Dynamic>;
+	public function setZIndex(zIndex: Float): Null<Dynamic> {}
 
-	public function unbind(key: String): Null<Dynamic>;
+	public function unbind(key: String): Null<Dynamic> {}
 
-	public function unbindAll(): Null<Dynamic>;
+	public function unbindAll(): Null<Dynamic> {}
 }

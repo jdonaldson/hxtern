@@ -6,7 +6,7 @@ package ;
 class SpeechRecognitionResultList{
 	public function new();
 
-	public function item(): Void;
+	public function item(): Void {}
 
 	public var length: Float;
 }

@@ -9,5 +9,5 @@ class IceCandidate{
 
 	public var label: String;
 
-	public function toSdp(): String;
+	public function toSdp(): String {}
 }

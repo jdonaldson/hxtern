@@ -6,13 +6,13 @@ package ;
 class SourceBuffer{
 	public function new();
 
-	public function abort(): Void;
+	public function abort(): Void {}
 
-	public function addEventListener(): Void;
+	public function addEventListener(): Void {}
 
-	public function append(data: Uint8Array): Void;
+	public function append(data: Uint8Array): Void {}
 
-	public function appendBuffer(data: hxtern.Any.Any2<ArrayBuffer,ArrayBufferView>): Void;
+	public function appendBuffer(data: hxtern.Any.Any2<ArrayBuffer,ArrayBufferView>): Void {}
 
 	public var appendMode: String;
 
@@ -22,11 +22,11 @@ class SourceBuffer{
 
 	public var buffered: TimeRanges;
 
-	public function dispatchEvent(): Void;
+	public function dispatchEvent(): Void {}
 
-	public function remove(start: Float, end: Float): Void;
+	public function remove(start: Float, end: Float): Void {}
 
-	public function removeEventListener(): Void;
+	public function removeEventListener(): Void {}
 
 	public var timestampOffset: Float;
 

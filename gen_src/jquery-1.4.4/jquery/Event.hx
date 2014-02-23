@@ -10,11 +10,11 @@ class Event{
 
 	public var data: Dynamic;
 
-	public function isDefaultPrevented(): Bool;
+	public function isDefaultPrevented(): Bool {}
 
-	public function isImmediatePropagationStopped(): Bool;
+	public function isImmediatePropagationStopped(): Bool {}
 
-	public function isPropagationStopped(): Bool;
+	public function isPropagationStopped(): Bool {}
 
 	public var namespace: String;
 
@@ -22,15 +22,15 @@ class Event{
 
 	public var pageY: Float;
 
-	public function preventDefault(): Null<Dynamic>;
+	public function preventDefault(): Null<Dynamic> {}
 
 	public var relatedTarget: js.html.Element;
 
 	public var result: Dynamic;
 
-	public function stopImmediatePropagation(): Null<Dynamic>;
+	public function stopImmediatePropagation(): Null<Dynamic> {}
 
-	public function stopPropagation(): Null<Dynamic>;
+	public function stopPropagation(): Null<Dynamic> {}
 
 	public var target: js.html.Element;
 

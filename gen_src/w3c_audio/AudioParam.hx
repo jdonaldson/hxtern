@@ -6,13 +6,13 @@ package ;
 class AudioParam{
 	public function new();
 
-	public function cancelScheduledValues(startTime: Float): Void;
+	public function cancelScheduledValues(startTime: Float): Void {}
 
 	public var defaultValue: Float;
 
-	public function exponentialRampToValueAtTime(value: Float, endTime: Float): Void;
+	public function exponentialRampToValueAtTime(value: Float, endTime: Float): Void {}
 
-	public function linearRampToValueAtTime(value: Float, endTime: Float): Void;
+	public function linearRampToValueAtTime(value: Float, endTime: Float): Void {}
 
 	/**
 	  To be deprecated.
@@ -24,11 +24,11 @@ class AudioParam{
 	 */
 	public var minValue: Float;
 
-	public function setTargetValueAtTime(target: Float, startTime: Float, timeConstant: Float): Void;
+	public function setTargetValueAtTime(target: Float, startTime: Float, timeConstant: Float): Void {}
 
-	public function setValueAtTime(value: Float, startTime: Float): Void;
+	public function setValueAtTime(value: Float, startTime: Float): Void {}
 
-	public function setValueCurveAtTime(values: Float32Array, startTime: Float, duration: Float): Void;
+	public function setValueCurveAtTime(values: Float32Array, startTime: Float, duration: Float): Void {}
 
 	/**
 	  To be deprecated.

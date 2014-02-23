@@ -6,7 +6,7 @@ package google.maps;
 class Projection{
 	public function new();
 
-	public function fromLatLngToPoint(latLng: google.maps.LatLng, ?opt_point: google.maps.Point): google.maps.Point;
+	public function fromLatLngToPoint(latLng: google.maps.LatLng, ?opt_point: google.maps.Point): google.maps.Point {}
 
-	public function fromPointToLatLng(pixel: google.maps.Point, ?opt_nowrap: Bool): google.maps.LatLng;
+	public function fromPointToLatLng(pixel: google.maps.Point, ?opt_nowrap: Bool): google.maps.LatLng {}
 }

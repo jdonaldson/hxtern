@@ -4,7 +4,7 @@
 package gadgets;
 @:native("gadgets.json")
 class Json{
-	public static function parse(s: String): Dynamic;
+	public static function parse(s: String): Dynamic {}
 
-	public static function stringify(json: Dynamic): String;
+	public static function stringify(json: Dynamic): String {}
 }

@@ -4,9 +4,9 @@
 package google.maps.api;
 
 class Global{
-	public static function GBrowserIsCompatible(): Bool;
+	public static function GBrowserIsCompatible(): Bool {}
 
-	public static function GDownloadUrl(url: String, onload: String->Float->Void, ?postBody: String, ?postContentType: String): Void;
+	public static function GDownloadUrl(url: String, onload: String->Float->Void, ?postBody: String, ?postContentType: String): Void {}
 
-	public static function GUnload(): Null<Dynamic>;
+	public static function GUnload(): Null<Dynamic> {}
 }

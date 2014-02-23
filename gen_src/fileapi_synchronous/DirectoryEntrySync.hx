@@ -6,23 +6,23 @@ package ;
 class DirectoryEntrySync{
 	public function new();
 
-	public function copyTo(parent: DirectoryEntrySync, ?newName: String): EntrySync;
+	public function copyTo(parent: DirectoryEntrySync, ?newName: String): EntrySync {}
 
-	public function createReader(): DirectoryReaderSync;
+	public function createReader(): DirectoryReaderSync {}
 
-	public function getDirectory(path: String, ?options: Dynamic): DirectoryEntrySync;
+	public function getDirectory(path: String, ?options: Dynamic): DirectoryEntrySync {}
 
-	public function getFile(path: String, ?options: Dynamic): FileEntrySync;
+	public function getFile(path: String, ?options: Dynamic): FileEntrySync {}
 
-	public function getMetadata(): Metadata;
+	public function getMetadata(): Metadata {}
 
-	public function getParent(): DirectoryEntrySync;
+	public function getParent(): DirectoryEntrySync {}
 
-	public function moveTo(parent: DirectoryEntrySync, ?newName: String): EntrySync;
+	public function moveTo(parent: DirectoryEntrySync, ?newName: String): EntrySync {}
 
-	public function remove(): Void;
+	public function remove(): Void {}
 
-	public function removeRecursively(): Void;
+	public function removeRecursively(): Void {}
 
-	public function toURL(?mimeType: String): String;
+	public function toURL(?mimeType: String): String {}
 }

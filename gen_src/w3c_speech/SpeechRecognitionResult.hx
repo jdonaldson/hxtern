@@ -8,7 +8,7 @@ class SpeechRecognitionResult{
 
 	public var isFinal: Bool;
 
-	public function item(): Void;
+	public function item(): Void {}
 
 	public var length: Float;
 }

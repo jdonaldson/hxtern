@@ -6,11 +6,11 @@ package ;
 class FileReaderSync{
 	public function new();
 
-	public function readAsArrayBuffer(blob: Blob): Void;
+	public function readAsArrayBuffer(blob: Blob): Void {}
 
-	public function readAsBinaryString(blob: Blob): Void;
+	public function readAsBinaryString(blob: Blob): Void {}
 
-	public function readAsDataURL(blob: Blob): Void;
+	public function readAsDataURL(blob: Blob): Void {}
 
-	public function readAsText(blob: Blob, ?encoding: String): Void;
+	public function readAsText(blob: Blob, ?encoding: String): Void {}
 }

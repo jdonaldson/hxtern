@@ -4,5 +4,5 @@
 package youtubeplayer;
 
 class Window{
-	public function onYouTubePlayerReady(playerapiid: String): Void;
+	public function onYouTubePlayerReady(playerapiid: String): Void {}
 }

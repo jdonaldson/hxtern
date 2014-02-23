@@ -6,57 +6,57 @@ package ;
 class GMarker{
 	public function new(latlng: GLatLng, ?opts: Dynamic<Dynamic>);
 
-	public function bindInfoWindow(content: Node, ?opts: Dynamic<Dynamic>): Void;
+	public function bindInfoWindow(content: Node, ?opts: Dynamic<Dynamic>): Void {}
 
-	public function bindInfoWindowHtml(content: String, ?opts: Dynamic<Dynamic>): Void;
+	public function bindInfoWindowHtml(content: String, ?opts: Dynamic<Dynamic>): Void {}
 
-	public function bindInfoWindowTabs(tabs: Array<GInfoWindowTab>, ?opts: Dynamic<Dynamic>): Void;
+	public function bindInfoWindowTabs(tabs: Array<GInfoWindowTab>, ?opts: Dynamic<Dynamic>): Void {}
 
-	public function bindInfoWindowTabsHtml(tabs: Array<GInfoWindowTab>, ?opts: Dynamic<Dynamic>): Void;
+	public function bindInfoWindowTabsHtml(tabs: Array<GInfoWindowTab>, ?opts: Dynamic<Dynamic>): Void {}
 
-	public function closeInfoWindow(): Null<Dynamic>;
+	public function closeInfoWindow(): Null<Dynamic> {}
 
-	public function copy(): GOverlay;
+	public function copy(): GOverlay {}
 
-	public function disableDragging(): Null<Dynamic>;
+	public function disableDragging(): Null<Dynamic> {}
 
-	public function draggable(): Bool;
+	public function draggable(): Bool {}
 
-	public function draggingEnabled(): Bool;
+	public function draggingEnabled(): Bool {}
 
-	public function enableDragging(): Null<Dynamic>;
+	public function enableDragging(): Null<Dynamic> {}
 
-	public function getIcon(): GIcon;
+	public function getIcon(): GIcon {}
 
-	public function getKml(_callback: String->Void): Void;
+	public function getKml(_callback: String->Void): Void {}
 
-	public function getLatLng(): GLatLng;
+	public function getLatLng(): GLatLng {}
 
-	public function getTitle(): String;
+	public function getTitle(): String {}
 
-	public function hide(): Null<Dynamic>;
+	public function hide(): Null<Dynamic> {}
 
-	public function initialize(map: GMap2): Void;
+	public function initialize(map: GMap2): Void {}
 
-	public function isHidden(): Bool;
+	public function isHidden(): Bool {}
 
-	public function openInfoWindow(content: Node, ?opts: Dynamic<Dynamic>): Void;
+	public function openInfoWindow(content: Node, ?opts: Dynamic<Dynamic>): Void {}
 
-	public function openInfoWindowHtml(content: String, ?opts: Dynamic<Dynamic>): Void;
+	public function openInfoWindowHtml(content: String, ?opts: Dynamic<Dynamic>): Void {}
 
-	public function openInfoWindowTabs(tabs: Array<GInfoWindowTab>, ?opts: Dynamic<Dynamic>): Void;
+	public function openInfoWindowTabs(tabs: Array<GInfoWindowTab>, ?opts: Dynamic<Dynamic>): Void {}
 
-	public function openInfoWindowTabsHtml(tabs: Array<GInfoWindowTab>, ?opts: Dynamic<Dynamic>): Void;
+	public function openInfoWindowTabsHtml(tabs: Array<GInfoWindowTab>, ?opts: Dynamic<Dynamic>): Void {}
 
-	public function redraw(force: Bool): Void;
+	public function redraw(force: Bool): Void {}
 
-	public function remove(): Null<Dynamic>;
+	public function remove(): Null<Dynamic> {}
 
-	public function setImage(url: String): Void;
+	public function setImage(url: String): Void {}
 
-	public function setLatLng(latlng: GLatLng): Void;
+	public function setLatLng(latlng: GLatLng): Void {}
 
-	public function show(): Null<Dynamic>;
+	public function show(): Null<Dynamic> {}
 
-	public function showMapBlowup(?opts: Dynamic<Dynamic>): Void;
+	public function showMapBlowup(?opts: Dynamic<Dynamic>): Void {}
 }

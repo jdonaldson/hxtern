@@ -6,7 +6,7 @@ package ;
 class GAdsManager{
 	public function new(map: GMap2, publisherId: String, ?adsManagerOptions: Dynamic<Dynamic>);
 
-	public function disable(): Null<Dynamic>;
+	public function disable(): Null<Dynamic> {}
 
-	public function enable(): Null<Dynamic>;
+	public function enable(): Null<Dynamic> {}
 }

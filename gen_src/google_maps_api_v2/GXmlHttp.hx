@@ -4,5 +4,5 @@
 package ;
 
 class GXmlHttp{
-	public static function create(): XMLHttpRequest;
+	public static function create(): XMLHttpRequest {}
 }

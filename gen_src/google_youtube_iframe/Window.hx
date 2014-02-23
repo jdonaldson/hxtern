@@ -4,5 +4,5 @@
 package ;
 @:native("window")
 class Window{
-	public static function onYouTubePlayerAPIReady(): Null<Dynamic>;
+	public static function onYouTubePlayerAPIReady(): Null<Dynamic> {}
 }

@@ -6,5 +6,5 @@ package ;
 class GFactualGeocodeCache{
 	public function new();
 
-	public function isCachable(reply: Dynamic): Bool;
+	public function isCachable(reply: Dynamic): Bool {}
 }

@@ -16,11 +16,11 @@ class Io{
 	 */
 	public static var ContentType: Dynamic;
 
-	public static function encodeValues(fields: Dynamic): String;
+	public static function encodeValues(fields: Dynamic): String {}
 
-	public static function getProxyUrl(url: String, ?opt_params: Dynamic): String;
+	public static function getProxyUrl(url: String, ?opt_params: Dynamic): String {}
 
-	public static function makeRequest(url: String, _callback: Dynamic, ?opt_params: Dynamic): Void;
+	public static function makeRequest(url: String, _callback: Dynamic, ?opt_params: Dynamic): Void {}
 
 	/**
 	  Enumeration of content types that can be specified in

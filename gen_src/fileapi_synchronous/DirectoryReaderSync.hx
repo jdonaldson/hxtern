@@ -6,5 +6,5 @@ package ;
 class DirectoryReaderSync{
 	public function new();
 
-	public function readEntries(): Array<EntrySync>;
+	public function readEntries(): Array<EntrySync> {}
 }

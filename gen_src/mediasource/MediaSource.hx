@@ -6,25 +6,25 @@ package ;
 class MediaSource{
 	public function new();
 
-	public static function isTypeSupported(type: String): Bool;
+	public static function isTypeSupported(type: String): Bool {}
 
 	public var activeSourceBuffers: Array;
 
-	public function addEventListener(): Void;
+	public function addEventListener(): Void {}
 
-	public function addSourceBuffer(type: String): SourceBuffer;
+	public function addSourceBuffer(type: String): SourceBuffer {}
 
-	public function dispatchEvent(): Void;
+	public function dispatchEvent(): Void {}
 
 	public var duration: Float;
 
-	public function endOfStream(?opt_error: String): Void;
+	public function endOfStream(?opt_error: String): Void {}
 
 	public var readyState: String;
 
-	public function removeEventListener(): Void;
+	public function removeEventListener(): Void {}
 
-	public function removeSourceBuffer(sourceBuffer: SourceBuffer): Void;
+	public function removeSourceBuffer(sourceBuffer: SourceBuffer): Void {}
 
 	public var sourceBuffers: Array;
 }

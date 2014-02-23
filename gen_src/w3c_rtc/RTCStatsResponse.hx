@@ -6,5 +6,5 @@ package ;
 class RTCStatsResponse{
 	public function new();
 
-	public function result(): Array<RTCStatsReport>;
+	public function result(): Array<RTCStatsReport> {}
 }

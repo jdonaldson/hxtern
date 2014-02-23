@@ -6,7 +6,7 @@ package gadgets.views;
 class View{
 	public function new();
 
-	public function getName(): String;
+	public function getName(): String {}
 
-	public function isOnlyVisibleGadget(): Bool;
+	public function isOnlyVisibleGadget(): Bool {}
 }

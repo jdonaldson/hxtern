@@ -4,11 +4,11 @@
 package ;
 @:native("jasmine")
 class Jasmine{
-	public static function any(clazz: Dynamic): jasmine.Matcher;
+	public static function any(clazz: Dynamic): jasmine.Matcher {}
 
-	public static function createSpy(name: String): jasmine.Spy;
+	public static function createSpy(name: String): jasmine.Spy {}
 
-	public static function createSpyObj(baseName: String, methodNames: Array): Void;
+	public static function createSpyObj(baseName: String, methodNames: Array): Void {}
 
-	public static function getEnv(): jasmine.Env;
+	public static function getEnv(): jasmine.Env {}
 }

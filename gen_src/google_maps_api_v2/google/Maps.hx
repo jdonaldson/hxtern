@@ -4,9 +4,9 @@
 package google;
 @:native("google.maps")
 class Maps{
-	public static function BrowserIsCompatible(): Bool;
+	public static function BrowserIsCompatible(): Bool {}
 
-	public static function DownloadUrl(url: String, onload: String->Float->Void, ?postBody: String, ?postContentType: String): Void;
+	public static function DownloadUrl(url: String, onload: String->Float->Void, ?postBody: String, ?postContentType: String): Void {}
 
 	public static var Event: Dynamic;
 
@@ -14,7 +14,7 @@ class Maps{
 
 	public static var Log: Dynamic;
 
-	public static function Unload(): Null<Dynamic>;
+	public static function Unload(): Null<Dynamic> {}
 
 	public static var Xml: Dynamic;
 

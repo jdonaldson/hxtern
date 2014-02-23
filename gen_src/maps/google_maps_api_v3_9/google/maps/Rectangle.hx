@@ -6,37 +6,37 @@ package google.maps;
 class Rectangle{
 	public function new(?opt_opts: hxtern.Any.Any2<google.maps.RectangleOptions,Dynamic<String>>);
 
-	public function bindTo(key: String, target: google.maps.MVCObject, ?opt_targetKey: String, ?opt_noNotify: Bool): Null<Dynamic>;
+	public function bindTo(key: String, target: google.maps.MVCObject, ?opt_targetKey: String, ?opt_noNotify: Bool): Null<Dynamic> {}
 
-	public function changed(key: String): Null<Dynamic>;
+	public function changed(key: String): Null<Dynamic> {}
 
-	public function get(key: String): Dynamic;
+	public function get(key: String): Dynamic {}
 
-	public function getBounds(): google.maps.LatLngBounds;
+	public function getBounds(): google.maps.LatLngBounds {}
 
-	public function getEditable(): Bool;
+	public function getEditable(): Bool {}
 
-	public function getMap(): google.maps.Map;
+	public function getMap(): google.maps.Map {}
 
-	public function getVisible(): Bool;
+	public function getVisible(): Bool {}
 
-	public function notify(key: String): Null<Dynamic>;
+	public function notify(key: String): Null<Dynamic> {}
 
-	public function set(key: String, value: Dynamic): Null<Dynamic>;
+	public function set(key: String, value: Dynamic): Null<Dynamic> {}
 
-	public function setBounds(bounds: google.maps.LatLngBounds): Null<Dynamic>;
+	public function setBounds(bounds: google.maps.LatLngBounds): Null<Dynamic> {}
 
-	public function setEditable(editable: Bool): Null<Dynamic>;
+	public function setEditable(editable: Bool): Null<Dynamic> {}
 
-	public function setMap(map: google.maps.Map): Null<Dynamic>;
+	public function setMap(map: google.maps.Map): Null<Dynamic> {}
 
-	public function setOptions(options: hxtern.Any.Any2<google.maps.RectangleOptions,Dynamic<String>>): Null<Dynamic>;
+	public function setOptions(options: hxtern.Any.Any2<google.maps.RectangleOptions,Dynamic<String>>): Null<Dynamic> {}
 
-	public function setValues(values: hxtern.Any.Any2<Dynamic,Null<Dynamic>>): Null<Dynamic>;
+	public function setValues(values: hxtern.Any.Any2<Dynamic,Null<Dynamic>>): Null<Dynamic> {}
 
-	public function setVisible(visible: Bool): Null<Dynamic>;
+	public function setVisible(visible: Bool): Null<Dynamic> {}
 
-	public function unbind(key: String): Null<Dynamic>;
+	public function unbind(key: String): Null<Dynamic> {}
 
-	public function unbindAll(): Null<Dynamic>;
+	public function unbindAll(): Null<Dynamic> {}
 }

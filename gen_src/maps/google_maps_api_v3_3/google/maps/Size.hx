@@ -6,11 +6,11 @@ package google.maps;
 class Size{
 	public function new(width: Float, height: Float, ?widthUnit: String, ?heightUnit: String);
 
-	public function equals(other: google.maps.Size): Bool;
+	public function equals(other: google.maps.Size): Bool {}
 
 	public var height: Float;
 
-	public function toString(): String;
+	public function toString(): String {}
 
 	public var width: Float;
 }

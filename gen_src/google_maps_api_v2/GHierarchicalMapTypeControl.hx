@@ -6,19 +6,19 @@ package ;
 class GHierarchicalMapTypeControl{
 	public function new();
 
-	public function addRelationship(parentType: GMapType, childType: GMapType, ?childText: String, ?isDefault: Bool): Void;
+	public function addRelationship(parentType: GMapType, childType: GMapType, ?childText: String, ?isDefault: Bool): Void {}
 
-	public function allowSetVisibility(): Bool;
+	public function allowSetVisibility(): Bool {}
 
-	public function clearRelationships(): Null<Dynamic>;
+	public function clearRelationships(): Null<Dynamic> {}
 
-	public function getDefaultPosition(): GControlPosition;
+	public function getDefaultPosition(): GControlPosition {}
 
-	public function initialize(map: GMap2): Node;
+	public function initialize(map: GMap2): Node {}
 
-	public function printable(): Bool;
+	public function printable(): Bool {}
 
-	public function removeRelationship(mapType: GMapType): Void;
+	public function removeRelationship(mapType: GMapType): Void {}
 
-	public function selectable(): Bool;
+	public function selectable(): Bool {}
 }

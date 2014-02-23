@@ -23,11 +23,11 @@ class AudioPannerNode{
 
 	public var coneOuterGain: Float;
 
-	public function connect(destination: AudioNode, ?output: Float, ?input: Float): Void;
+	public function connect(destination: AudioNode, ?output: Float, ?input: Float): Void {}
 
 	public var context: AudioContext;
 
-	public function disconnect(?output: Float): Void;
+	public function disconnect(?output: Float): Void {}
 
 	/**
 	  To be deprecated.
@@ -48,9 +48,9 @@ class AudioPannerNode{
 
 	public var rolloffFactor: Float;
 
-	public function setOrientation(x: Float, y: Float, z: Float): Void;
+	public function setOrientation(x: Float, y: Float, z: Float): Void {}
 
-	public function setPosition(x: Float, y: Float, z: Float): Void;
+	public function setPosition(x: Float, y: Float, z: Float): Void {}
 
-	public function setVelocity(x: Float, y: Float, z: Float): Void;
+	public function setVelocity(x: Float, y: Float, z: Float): Void {}
 }

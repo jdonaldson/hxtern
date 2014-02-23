@@ -10,13 +10,13 @@ class DeliveredIntent{
 
 	public var data: Dynamic;
 
-	public function getExtra(key: String): String;
+	public function getExtra(key: String): String {}
 
 	public var ports: Array<MessagePort>;
 
-	public function postFailure(result: Dynamic): Void;
+	public function postFailure(result: Dynamic): Void {}
 
-	public function postResult(result: Dynamic): Void;
+	public function postResult(result: Dynamic): Void {}
 
 	public var type: String;
 }
