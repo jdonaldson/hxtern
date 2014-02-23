@@ -22,7 +22,7 @@ help specify GMapUIOptions.
 
 
 class Controls_{
-	public function new();
+	private function new();
 
 	public var largemapcontrol3d: Bool;
 
@@ -42,7 +42,7 @@ help specify GMapUIOptions.
 
 
 class MapTypes_{
-	public function new();
+	private function new();
 
 	public var hybrid: Bool;
 
@@ -60,7 +60,7 @@ help specify GMapUIOptions.
 
 
 class Zoom_{
-	public function new();
+	private function new();
 
 	public var doubleclick: Bool;
 

@@ -4,6 +4,8 @@
 package ;
 
 class MediaTrackConstraintsInterface_{
+	public function new();
+
 	public var mandatory: MediaTrackConstraintSet;
 
 	public var optional: Array<MediaTrackConstraintSet>;

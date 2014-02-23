@@ -4,6 +4,8 @@
 package ;
 
 class RTCDataChannel{
+	public function new();
+
 	public var binaryType: String;
 
 	public var bufferedAmount: Float;

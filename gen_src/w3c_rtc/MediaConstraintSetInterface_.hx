@@ -4,6 +4,8 @@
 package ;
 
 class MediaConstraintSetInterface_{
+	public function new();
+
 	public var DtlsSrtpKeyAgreement: Bool;
 
 	public var OfferToReceiveAudio: Bool;

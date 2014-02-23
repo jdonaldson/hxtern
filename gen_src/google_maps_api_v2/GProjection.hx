@@ -4,6 +4,8 @@
 package ;
 
 class GProjection{
+	public function new();
+
 	public function fromLatLngToPixel(latlng: GLatLng, zoom: Float): GPoint;
 
 	public function fromPixelToLatLng(pixel: GPoint, zoom: Float, ?unbounded: Bool): GLatLng;

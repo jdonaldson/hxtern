@@ -4,6 +4,8 @@
 package ;
 
 class MediaStreamTrack{
+	public function new();
+
 	public static function getSources(_callback: Array<SourceInfo>->Void): Void;
 
 	public function clone(): MediaStreamTrack;

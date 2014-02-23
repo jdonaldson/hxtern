@@ -4,6 +4,8 @@
 package ;
 
 class MediaTrackConstraintSetInterface_{
+	public function new();
+
 	public var maxAspectRatio: Float;
 
 	public var maxFrameRate: Float;

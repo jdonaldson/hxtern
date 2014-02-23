@@ -16,9 +16,9 @@ class JQuery{
 
 	public static var cssHooks: Dynamic<Dynamic>;
 
-	public static function data(elem: Element, ?key: String, ?value: Dynamic): hxtern.Any2<jQueryObject,Dynamic>;
+	public static function data(elem: Element, ?key: String, ?value: Dynamic): hxtern.Any2<JQueryObject,Dynamic>;
 
-	public static function dequeue(elem: Element, ?queueName: String): jQueryObject;
+	public static function dequeue(elem: Element, ?queueName: String): JQueryObject;
 
 	public static function each(collection: Dynamic, _callback: Float->Dynamic->Void): Dynamic;
 
@@ -70,9 +70,9 @@ class JQuery{
 
 	public static function proxy(arg1: hxtern.Any2<Void->Void,Dynamic>, arg2: hxtern.Any2<Dynamic,String>): Void->Void;
 
-	public static function queue(elem: Element, ?queueName: String, ?arg3: hxtern.Any2<Array,Void->Void>): hxtern.Any2<Array,jQueryObject>;
+	public static function queue(elem: Element, ?queueName: String, ?arg3: hxtern.Any2<Array,Void->Void>): hxtern.Any2<Array,JQueryObject>;
 
-	public static function removeData(elem: Element, ?name: String): jQueryObject;
+	public static function removeData(elem: Element, ?name: String): JQueryObject;
 
 	public static function trim(str: String): String;
 

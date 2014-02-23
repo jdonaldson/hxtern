@@ -4,6 +4,8 @@
 package ;
 
 class MediaConstraintsInterface_{
+	public function new();
+
 	public var mandatory: MediaConstraintSet_;
 
 	public var optional: Array<MediaConstraintSet_>;

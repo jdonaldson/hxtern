@@ -4,6 +4,8 @@
 package ;
 
 class _ga_tracker{
+	public function new();
+
 	public function _addIgnoredOrganic(newIgnoredOrganicKeyword: String): Null<Dynamic>;
 
 	public function _addIgnoredRef(newIgnoredReferrer: String): Null<Dynamic>;

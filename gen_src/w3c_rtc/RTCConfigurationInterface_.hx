@@ -4,5 +4,7 @@
 package ;
 
 class RTCConfigurationInterface_{
+	public function new();
+
 	public var iceServers: Array<RTCIceServer>;
 }

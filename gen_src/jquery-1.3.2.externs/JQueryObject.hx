@@ -6,213 +6,213 @@ package ;
 class JQueryObject{
 	public function new();
 
-	public function add(expr: hxtern.Any3<String,Element,Array<Element>>): jQueryObject;
+	public function add(expr: hxtern.Any3<String,Element,Array<Element>>): JQueryObject;
 
-	public function addClass(klass: String): jQueryObject;
+	public function addClass(klass: String): JQueryObject;
 
-	public function after(?_opt0: hxtern.Any4<String,Node,Element,jQueryObject>, ?_opt1: hxtern.Any4<String,Node,Element,jQueryObject>, ?_opt2: hxtern.Any4<String,Node,Element,jQueryObject>, ?_opt3: hxtern.Any4<String,Node,Element,jQueryObject>, ?_opt4: hxtern.Any4<String,Node,Element,jQueryObject>, ?_opt5: hxtern.Any4<String,Node,Element,jQueryObject>): jQueryObject;
+	public function after(?_opt0: hxtern.Any4<String,Node,Element,JQueryObject>, ?_opt1: hxtern.Any4<String,Node,Element,JQueryObject>, ?_opt2: hxtern.Any4<String,Node,Element,JQueryObject>, ?_opt3: hxtern.Any4<String,Node,Element,JQueryObject>, ?_opt4: hxtern.Any4<String,Node,Element,JQueryObject>, ?_opt5: hxtern.Any4<String,Node,Element,JQueryObject>): JQueryObject;
 
-	public function andSelf(): jQueryObject;
+	public function andSelf(): JQueryObject;
 
-	public function animate(params: Dynamic, ?opt_durationOrOptions: hxtern.Any3<Float,String,Dynamic>, ?opt_easing: String, ?opt_fn: Dynamic): jQueryObject;
+	public function animate(params: Dynamic, ?opt_durationOrOptions: hxtern.Any3<Float,String,Dynamic>, ?opt_easing: String, ?opt_fn: Dynamic): JQueryObject;
 
-	public function append(?_opt0: hxtern.Any4<String,Node,Element,jQueryObject>, ?_opt1: hxtern.Any4<String,Node,Element,jQueryObject>, ?_opt2: hxtern.Any4<String,Node,Element,jQueryObject>, ?_opt3: hxtern.Any4<String,Node,Element,jQueryObject>, ?_opt4: hxtern.Any4<String,Node,Element,jQueryObject>, ?_opt5: hxtern.Any4<String,Node,Element,jQueryObject>): jQueryObject;
+	public function append(?_opt0: hxtern.Any4<String,Node,Element,JQueryObject>, ?_opt1: hxtern.Any4<String,Node,Element,JQueryObject>, ?_opt2: hxtern.Any4<String,Node,Element,JQueryObject>, ?_opt3: hxtern.Any4<String,Node,Element,JQueryObject>, ?_opt4: hxtern.Any4<String,Node,Element,JQueryObject>, ?_opt5: hxtern.Any4<String,Node,Element,JQueryObject>): JQueryObject;
 
-	public function appendTo(target: hxtern.Any4<String,Node,Element,jQueryObject>): jQueryObject;
+	public function appendTo(target: hxtern.Any4<String,Node,Element,JQueryObject>): JQueryObject;
 
-	public function attr(nameOrProperties: hxtern.Any2<String,Dynamic>, ?opt_value: Dynamic): hxtern.Any2<Dynamic,jQueryObject>;
+	public function attr(nameOrProperties: hxtern.Any2<String,Dynamic>, ?opt_value: Dynamic): hxtern.Any2<Dynamic,JQueryObject>;
 
-	public function before(?_opt0: hxtern.Any4<String,Node,Element,jQueryObject>, ?_opt1: hxtern.Any4<String,Node,Element,jQueryObject>, ?_opt2: hxtern.Any4<String,Node,Element,jQueryObject>, ?_opt3: hxtern.Any4<String,Node,Element,jQueryObject>, ?_opt4: hxtern.Any4<String,Node,Element,jQueryObject>, ?_opt5: hxtern.Any4<String,Node,Element,jQueryObject>): jQueryObject;
+	public function before(?_opt0: hxtern.Any4<String,Node,Element,JQueryObject>, ?_opt1: hxtern.Any4<String,Node,Element,JQueryObject>, ?_opt2: hxtern.Any4<String,Node,Element,JQueryObject>, ?_opt3: hxtern.Any4<String,Node,Element,JQueryObject>, ?_opt4: hxtern.Any4<String,Node,Element,JQueryObject>, ?_opt5: hxtern.Any4<String,Node,Element,JQueryObject>): JQueryObject;
 
-	public function blur(?opt_fn: Dynamic): jQueryObject;
+	public function blur(?opt_fn: Dynamic): JQueryObject;
 
-	public function change(?opt_fn: Dynamic): jQueryObject;
+	public function change(?opt_fn: Dynamic): JQueryObject;
 
-	public function children(?opt_expr: String): jQueryObject;
+	public function children(?opt_expr: String): JQueryObject;
 
-	public function click(?opt_fn: Dynamic): jQueryObject;
+	public function click(?opt_fn: Dynamic): JQueryObject;
 
-	public function clone(?opt_cloneEvents: Bool): jQueryObject;
+	public function clone(?opt_cloneEvents: Bool): JQueryObject;
 
-	public function closest(expr: String): jQueryObject;
+	public function closest(expr: String): JQueryObject;
 
-	public function contents(): jQueryObject;
+	public function contents(): JQueryObject;
 
 	public function context(): Element;
 
-	public function css(nameOrProperties: hxtern.Any2<String,Dynamic>, ?opt_value: hxtern.Any3<String,Float,Dynamic>): hxtern.Any3<Dynamic,jQueryObject,String>;
+	public function css(nameOrProperties: hxtern.Any2<String,Dynamic>, ?opt_value: hxtern.Any3<String,Float,Dynamic>): hxtern.Any3<Dynamic,JQueryObject,String>;
 
 	public function data(name: String, ?opt_value: String): Dynamic;
 
-	public function dblclick(?opt_fn: Dynamic): jQueryObject;
+	public function dblclick(?opt_fn: Dynamic): JQueryObject;
 
-	public function dequeue(?opt_name: String): jQueryObject;
+	public function dequeue(?opt_name: String): JQueryObject;
 
-	public function die(?opt_type: String, ?opt_fn: Dynamic): jQueryObject;
+	public function die(?opt_type: String, ?opt_fn: Dynamic): JQueryObject;
 
-	public function each(_callback: Dynamic): jQueryObject;
+	public function each(_callback: Dynamic): JQueryObject;
 
-	public function empty(): jQueryObject;
+	public function empty(): JQueryObject;
 
-	public function end(): jQueryObject;
+	public function end(): JQueryObject;
 
-	public function eq(index: Float): jQueryObject;
+	public function eq(index: Float): JQueryObject;
 
-	public function error(?opt_fn: Dynamic): jQueryObject;
+	public function error(?opt_fn: Dynamic): JQueryObject;
 
-	public function fadeIn(?opt_speed: hxtern.Any2<Float,String>, ?opt_fn: Dynamic): jQueryObject;
+	public function fadeIn(?opt_speed: hxtern.Any2<Float,String>, ?opt_fn: Dynamic): JQueryObject;
 
-	public function fadeOut(?opt_speed: hxtern.Any2<Float,String>, ?opt_fn: Dynamic): jQueryObject;
+	public function fadeOut(?opt_speed: hxtern.Any2<Float,String>, ?opt_fn: Dynamic): JQueryObject;
 
-	public function fadeTo(?opt_speed: hxtern.Any2<Float,String>, ?opt_opacity: Float, ?opt_fn: Dynamic): jQueryObject;
+	public function fadeTo(?opt_speed: hxtern.Any2<Float,String>, ?opt_opacity: Float, ?opt_fn: Dynamic): JQueryObject;
 
-	public function filter(arg: hxtern.Any2<String,Dynamic>): jQueryObject;
+	public function filter(arg: hxtern.Any2<String,Dynamic>): JQueryObject;
 
-	public function find(expr: String): jQueryObject;
+	public function find(expr: String): JQueryObject;
 
-	public function focus(?opt_fn: Dynamic): jQueryObject;
+	public function focus(?opt_fn: Dynamic): JQueryObject;
 
 	public function get(?opt_index: Float): hxtern.Any2<Element,Array<Element>>;
 
 	public function hasClass(klass: String): Bool;
 
-	public function height(?opt_val: Float): hxtern.Any2<Float,jQueryObject>;
+	public function height(?opt_val: Float): hxtern.Any2<Float,JQueryObject>;
 
-	public function hide(?opt_speed: hxtern.Any2<Float,String>, ?opt_fn: Dynamic): jQueryObject;
+	public function hide(?opt_speed: hxtern.Any2<Float,String>, ?opt_fn: Dynamic): JQueryObject;
 
-	public function hover(over: Dynamic, out: Dynamic): jQueryObject;
+	public function hover(over: Dynamic, out: Dynamic): JQueryObject;
 
-	public function html(opt_val: String): hxtern.Any2<String,jQueryObject>;
+	public function html(opt_val: String): hxtern.Any2<String,JQueryObject>;
 
 	public function inArray(value: hxtern.Any3<Float,String,Dynamic>, array: Array): Float;
 
-	public function index(subject: hxtern.Any2<Element,jQueryObject>): Float;
+	public function index(subject: hxtern.Any2<Element,JQueryObject>): Float;
 
 	public function innerHeight(): Float;
 
 	public function innerWidth(): Float;
 
-	public function insertAfter(target: hxtern.Any4<String,Node,Element,jQueryObject>): jQueryObject;
+	public function insertAfter(target: hxtern.Any4<String,Node,Element,JQueryObject>): JQueryObject;
 
-	public function insertBefore(target: hxtern.Any4<String,Node,Element,jQueryObject>): jQueryObject;
+	public function insertBefore(target: hxtern.Any4<String,Node,Element,JQueryObject>): JQueryObject;
 
 	public function is(expr: String): Bool;
 
-	public function keydown(?opt_fn: Dynamic): jQueryObject;
+	public function keydown(?opt_fn: Dynamic): JQueryObject;
 
-	public function keypress(?opt_fn: Dynamic): jQueryObject;
+	public function keypress(?opt_fn: Dynamic): JQueryObject;
 
-	public function keyup(fn: Dynamic): jQueryObject;
+	public function keyup(fn: Dynamic): JQueryObject;
 
 	public var length: Float;
 
-	public function live(type: String, fn: Dynamic): jQueryObject;
+	public function live(type: String, fn: Dynamic): JQueryObject;
 
-	public function load(fn: Dynamic): jQueryObject;
+	public function load(fn: Dynamic): JQueryObject;
 
-	public function map(_callback: Dynamic): jQueryObject;
+	public function map(_callback: Dynamic): JQueryObject;
 
-	public function mousedown(fn: Dynamic): jQueryObject;
+	public function mousedown(fn: Dynamic): JQueryObject;
 
-	public function mouseenter(fn: Dynamic): jQueryObject;
+	public function mouseenter(fn: Dynamic): JQueryObject;
 
-	public function mouseleave(fn: Dynamic): jQueryObject;
+	public function mouseleave(fn: Dynamic): JQueryObject;
 
-	public function mousemove(fn: Dynamic): jQueryObject;
+	public function mousemove(fn: Dynamic): JQueryObject;
 
-	public function mouseout(fn: Dynamic): jQueryObject;
+	public function mouseout(fn: Dynamic): JQueryObject;
 
-	public function mouseover(fn: Dynamic): jQueryObject;
+	public function mouseover(fn: Dynamic): JQueryObject;
 
-	public function mouseup(fn: Dynamic): jQueryObject;
+	public function mouseup(fn: Dynamic): JQueryObject;
 
-	public function next(?opt_expr: String): jQueryObject;
+	public function next(?opt_expr: String): JQueryObject;
 
-	public function nextAll(?opt_expr: String): jQueryObject;
+	public function nextAll(?opt_expr: String): JQueryObject;
 
-	public function not(expr: String): jQueryObject;
+	public function not(expr: String): JQueryObject;
 
 	public function offset(): Dynamic;
 
-	public function offsetParent(): jQueryObject;
+	public function offsetParent(): JQueryObject;
 
 	public function outerHeight(?opt_margin: Bool): Float;
 
 	public function outerWidth(?opt_margin: Bool): Float;
 
-	public function parent(?opt_expr: String): jQueryObject;
+	public function parent(?opt_expr: String): JQueryObject;
 
-	public function parents(?opt_expr: String): jQueryObject;
+	public function parents(?opt_expr: String): JQueryObject;
 
 	public function position(): Dynamic;
 
-	public function prepend(?_opt0: hxtern.Any4<String,Node,Element,jQueryObject>, ?_opt1: hxtern.Any4<String,Node,Element,jQueryObject>, ?_opt2: hxtern.Any4<String,Node,Element,jQueryObject>, ?_opt3: hxtern.Any4<String,Node,Element,jQueryObject>, ?_opt4: hxtern.Any4<String,Node,Element,jQueryObject>, ?_opt5: hxtern.Any4<String,Node,Element,jQueryObject>): jQueryObject;
+	public function prepend(?_opt0: hxtern.Any4<String,Node,Element,JQueryObject>, ?_opt1: hxtern.Any4<String,Node,Element,JQueryObject>, ?_opt2: hxtern.Any4<String,Node,Element,JQueryObject>, ?_opt3: hxtern.Any4<String,Node,Element,JQueryObject>, ?_opt4: hxtern.Any4<String,Node,Element,JQueryObject>, ?_opt5: hxtern.Any4<String,Node,Element,JQueryObject>): JQueryObject;
 
-	public function prependTo(target: hxtern.Any4<String,Node,Element,jQueryObject>): jQueryObject;
+	public function prependTo(target: hxtern.Any4<String,Node,Element,JQueryObject>): JQueryObject;
 
-	public function prev(?opt_expr: String): jQueryObject;
+	public function prev(?opt_expr: String): JQueryObject;
 
-	public function prevAll(?opt_expr: String): jQueryObject;
+	public function prevAll(?opt_expr: String): JQueryObject;
 
-	public function queue(?opt_arg1: hxtern.Any3<String,Dynamic,Array<Dynamic>>, ?opt_arg2: hxtern.Any2<Dynamic,Array<Dynamic>>): hxtern.Any2<Array<Dynamic>,jQueryObject>;
+	public function queue(?opt_arg1: hxtern.Any3<String,Dynamic,Array<Dynamic>>, ?opt_arg2: hxtern.Any2<Dynamic,Array<Dynamic>>): hxtern.Any2<Array<Dynamic>,JQueryObject>;
 
-	public function remove(?opt_expr: String): jQueryObject;
+	public function remove(?opt_expr: String): JQueryObject;
 
-	public function removeAttr(name: String): jQueryObject;
+	public function removeAttr(name: String): JQueryObject;
 
-	public function removeClass(?opt_klass: String): jQueryObject;
+	public function removeClass(?opt_klass: String): JQueryObject;
 
-	public function removeData(name: String): jQueryObject;
+	public function removeData(name: String): JQueryObject;
 
-	public function replaceAll(selector: String): jQueryObject;
+	public function replaceAll(selector: String): JQueryObject;
 
-	public function replaceWith(content: hxtern.Any4<String,Node,Element,jQueryObject>): jQueryObject;
+	public function replaceWith(content: hxtern.Any4<String,Node,Element,JQueryObject>): JQueryObject;
 
-	public function resize(fn: Dynamic): jQueryObject;
+	public function resize(fn: Dynamic): JQueryObject;
 
-	public function scroll(fn: Dynamic): jQueryObject;
+	public function scroll(fn: Dynamic): JQueryObject;
 
-	public function scrollLeft(?opt_val: Float): hxtern.Any2<Float,jQueryObject>;
+	public function scrollLeft(?opt_val: Float): hxtern.Any2<Float,JQueryObject>;
 
-	public function scrollTop(?opt_val: Float): hxtern.Any2<Float,jQueryObject>;
+	public function scrollTop(?opt_val: Float): hxtern.Any2<Float,JQueryObject>;
 
-	public function select(?opt_fn: Dynamic): jQueryObject;
+	public function select(?opt_fn: Dynamic): JQueryObject;
 
 	public function selector(): String;
 
-	public function show(?opt_speed: hxtern.Any2<Float,String>, ?opt_fn: Dynamic): jQueryObject;
+	public function show(?opt_speed: hxtern.Any2<Float,String>, ?opt_fn: Dynamic): JQueryObject;
 
-	public function siblings(?opt_expr: String): jQueryObject;
+	public function siblings(?opt_expr: String): JQueryObject;
 
 	public function size(): Float;
 
-	public function slice(start: Float, ?opt_end: Float): jQueryObject;
+	public function slice(start: Float, ?opt_end: Float): JQueryObject;
 
-	public function slideDown(?optionsOrDuration: hxtern.Any3<Dynamic<Dynamic>,Float,String>, ?complete: Dynamic): jQueryObject;
+	public function slideDown(?optionsOrDuration: hxtern.Any3<Dynamic<Dynamic>,Float,String>, ?complete: Dynamic): JQueryObject;
 
-	public function slideToggle(?optionsOrDuration: hxtern.Any3<Dynamic<Dynamic>,Float,String>, ?complete: Dynamic): jQueryObject;
+	public function slideToggle(?optionsOrDuration: hxtern.Any3<Dynamic<Dynamic>,Float,String>, ?complete: Dynamic): JQueryObject;
 
-	public function slideUp(?optionsOrDuration: hxtern.Any3<Dynamic<Dynamic>,Float,String>, ?complete: Dynamic): jQueryObject;
+	public function slideUp(?optionsOrDuration: hxtern.Any3<Dynamic<Dynamic>,Float,String>, ?complete: Dynamic): JQueryObject;
 
-	public function stop(opt_clearQueue: Bool, opt_gotoEnd: Bool): jQueryObject;
+	public function stop(opt_clearQueue: Bool, opt_gotoEnd: Bool): JQueryObject;
 
-	public function submit(?opt_fn: Dynamic): jQueryObject;
+	public function submit(?opt_fn: Dynamic): JQueryObject;
 
-	public function text(?opt_val: String): hxtern.Any2<String,jQueryObject>;
+	public function text(?opt_val: String): hxtern.Any2<String,JQueryObject>;
 
-	public function toggle(?opt_arg1: hxtern.Any4<Dynamic,Bool,Float,String>, ?opt_fn2: Dynamic, ?_opt0: Dynamic, ?_opt1: Dynamic, ?_opt2: Dynamic, ?_opt3: Dynamic, ?_opt4: Dynamic, ?_opt5: Dynamic): jQueryObject;
+	public function toggle(?opt_arg1: hxtern.Any4<Dynamic,Bool,Float,String>, ?opt_fn2: Dynamic, ?_opt0: Dynamic, ?_opt1: Dynamic, ?_opt2: Dynamic, ?_opt3: Dynamic, ?_opt4: Dynamic, ?_opt5: Dynamic): JQueryObject;
 
-	public function toggleClass(klass: String, ?opt_switch: Bool): jQueryObject;
+	public function toggleClass(klass: String, ?opt_switch: Bool): JQueryObject;
 
-	public function unload(fn: Dynamic): jQueryObject;
+	public function unload(fn: Dynamic): JQueryObject;
 
-	public function val(opt_val: hxtern.Any2<String,Array<String>>): hxtern.Any3<String,Array,jQueryObject>;
+	public function val(opt_val: hxtern.Any2<String,Array<String>>): hxtern.Any3<String,Array,JQueryObject>;
 
-	public function width(?opt_val: Float): hxtern.Any2<Float,jQueryObject>;
+	public function width(?opt_val: Float): hxtern.Any2<Float,JQueryObject>;
 
-	public function wrap(arg: hxtern.Any2<String,Element>): jQueryObject;
+	public function wrap(arg: hxtern.Any2<String,Element>): JQueryObject;
 
-	public function wrapAll(arg: hxtern.Any2<String,Element>): jQueryObject;
+	public function wrapAll(arg: hxtern.Any2<String,Element>): JQueryObject;
 
-	public function wrapInner(arg: hxtern.Any2<String,Element>): jQueryObject;
+	public function wrapInner(arg: hxtern.Any2<String,Element>): JQueryObject;
 }

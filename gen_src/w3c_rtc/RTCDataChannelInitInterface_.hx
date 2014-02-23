@@ -4,5 +4,7 @@
 package ;
 
 class RTCDataChannelInitInterface_{
+	public function new();
+
 	public var reliable: Bool;
 }

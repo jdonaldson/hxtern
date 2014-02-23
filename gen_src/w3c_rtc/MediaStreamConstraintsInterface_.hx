@@ -4,6 +4,8 @@
 package ;
 
 class MediaStreamConstraintsInterface_{
+	public function new();
+
 	public var audio: hxtern.Any2<Bool,MediaTrackConstraints>;
 
 	public var video: hxtern.Any2<Bool,MediaTrackConstraints>;

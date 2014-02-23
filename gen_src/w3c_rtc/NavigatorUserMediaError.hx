@@ -4,6 +4,8 @@
 package ;
 
 class NavigatorUserMediaError{
+	public function new();
+
 	public var code: Float;
 
 	public var constraintName: String;
