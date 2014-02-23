@@ -8,7 +8,7 @@ class StreetViewPanoramaOptions{
 
 	public var addressControl: Bool;
 
-	public var addressControlOptions: hxtern.Any2<google.maps.StreetViewAddressControlOptions,Dynamic<Dynamic>>;
+	public var addressControlOptions: hxtern.Any.Any2<google.maps.StreetViewAddressControlOptions,Dynamic<Dynamic>>;
 
 	public var disableDoubleClickZoom: Bool;
 
@@ -18,7 +18,7 @@ class StreetViewPanoramaOptions{
 
 	public var panControl: Bool;
 
-	public var panControlOptions: hxtern.Any2<google.maps.PanControlOptions,Dynamic<Dynamic>>;
+	public var panControlOptions: hxtern.Any.Any2<google.maps.PanControlOptions,Dynamic<Dynamic>>;
 
 	public var pano: String;
 
@@ -34,5 +34,5 @@ class StreetViewPanoramaOptions{
 
 	public var zoomControl: Bool;
 
-	public var zoomControlOptions: hxtern.Any2<google.maps.ZoomControlOptions,Dynamic<Dynamic>>;
+	public var zoomControlOptions: hxtern.Any.Any2<google.maps.ZoomControlOptions,Dynamic<Dynamic>>;
 }

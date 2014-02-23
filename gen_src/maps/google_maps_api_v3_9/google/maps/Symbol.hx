@@ -12,7 +12,7 @@ class Symbol{
 
 	public var fillOpacity: Float;
 
-	public var path: hxtern.Any2<google.maps.SymbolPath,String>;
+	public var path: hxtern.Any.Any2<google.maps.SymbolPath,String>;
 
 	public var rotation: Float;
 

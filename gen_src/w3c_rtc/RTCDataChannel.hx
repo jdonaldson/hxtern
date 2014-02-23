@@ -26,5 +26,5 @@ class RTCDataChannel{
 	 */
 	public var readyState: String;
 
-	public function send(data: hxtern.Any4<String,Blob,ArrayBuffer,ArrayBufferView>): Void;
+	public function send(data: hxtern.Any.Any4<String,Blob,ArrayBuffer,ArrayBufferView>): Void;
 }

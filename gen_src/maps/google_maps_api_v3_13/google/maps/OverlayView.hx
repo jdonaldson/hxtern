@@ -16,7 +16,7 @@ class OverlayView{
 
 	public function get(key: String): Dynamic;
 
-	public function getMap(): hxtern.Any2<google.maps.Map,google.maps.StreetViewPanorama>;
+	public function getMap(): hxtern.Any.Any2<google.maps.Map,google.maps.StreetViewPanorama>;
 
 	public function getPanes(): google.maps.MapPanes;
 
@@ -30,9 +30,9 @@ class OverlayView{
 
 	public function set(key: String, value: Dynamic): Null<Dynamic>;
 
-	public function setMap(map: hxtern.Any2<google.maps.Map,google.maps.StreetViewPanorama>): Null<Dynamic>;
+	public function setMap(map: hxtern.Any.Any2<google.maps.Map,google.maps.StreetViewPanorama>): Null<Dynamic>;
 
-	public function setValues(values: hxtern.Any2<Dynamic,Null<Dynamic>>): Null<Dynamic>;
+	public function setValues(values: hxtern.Any.Any2<Dynamic,Null<Dynamic>>): Null<Dynamic>;
 
 	public function unbind(key: String): Null<Dynamic>;
 

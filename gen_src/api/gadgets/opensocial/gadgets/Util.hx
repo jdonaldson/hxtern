@@ -6,13 +6,13 @@ package gadgets;
 class Util{
 	public static function attachBrowserEvent(elem: Dynamic, eventName: String, _callback: Void->Void, useCapture: Bool): Void;
 
-	public static function createElement(tagName: String): Element;
+	public static function createElement(tagName: String): js.html.Element;
 
-	public static function createIframeElement(?opt_attribs: Dynamic): Element;
+	public static function createIframeElement(?opt_attribs: Dynamic): js.html.Element;
 
 	public static function escapeString(str: String): String;
 
-	public static function getBodyElement(): Element;
+	public static function getBodyElement(): js.html.Element;
 
 	public static function getFeatureParameters(feature: String): Dynamic;
 

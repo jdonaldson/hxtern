@@ -3,5 +3,5 @@
 */
 package ;
 
-typedef RTCIceServer = hxtern.Any2<RTCIceServerRecord_,RTCIceServerInterface_>
+typedef RTCIceServer = hxtern.Any.Any2<RTCIceServerRecord_,RTCIceServerInterface_>
 

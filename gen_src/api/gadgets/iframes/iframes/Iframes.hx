@@ -17,7 +17,7 @@ class Iframes{
 
 	public function getGoogleConnectJsUri(): String;
 
-	public function getHandler(style: String): hxtern.Any2<Dynamic,Dynamic>;
+	public function getHandler(style: String): hxtern.Any.Any2<Dynamic,Dynamic>;
 
 	public function getParentInfo(_callback: Dynamic): Void;
 
@@ -25,13 +25,13 @@ class Iframes{
 	  Inside an iframe, the properties of the iframer object are the data and
 	  functions provided in iframes.open.
 	 */
-	public var iframer: hxtern.Any2<Dynamic,Null<Dynamic>>;
+	public var iframer: hxtern.Any.Any2<Dynamic,Null<Dynamic>>;
 
-	public function open(url: String, openParams: Dynamic, params: Dynamic, ?opt_methods: hxtern.Any2<Dynamic,?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->Dynamic>, ?opt_callback: ?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->Dynamic): iframes.Iframe;
+	public function open(url: String, openParams: Dynamic, params: Dynamic, ?opt_methods: hxtern.Any.Any2<Dynamic,?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->Dynamic>, ?opt_callback: ?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->Dynamic): iframes.Iframe;
 
 	public function propagate(events: Array<String>): Void;
 
-	public function ready(?opt_params: Dynamic, ?opt_methods: hxtern.Any2<Dynamic,?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->Dynamic>, ?opt_callback: ?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->Dynamic): Void;
+	public function ready(?opt_params: Dynamic, ?opt_methods: hxtern.Any.Any2<Dynamic,?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->Dynamic>, ?opt_callback: ?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->Dynamic): Void;
 
 	public function resize(params: Dynamic): Void;
 
@@ -43,7 +43,7 @@ class Iframes{
 
 	public function setGoogleConnectJsVersion(version: String): Void;
 
-	public function setHandler(style: String, handler: hxtern.Any2<Dynamic,Dynamic>): Void;
+	public function setHandler(style: String, handler: hxtern.Any.Any2<Dynamic,Dynamic>): Void;
 
 	public function setJsHint(hint: String): Void;
 

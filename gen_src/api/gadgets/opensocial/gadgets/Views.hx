@@ -10,5 +10,5 @@ class Views{
 
 	public static function getSupportedViews(): Dynamic;
 
-	public static function requestNavigateTo(view: hxtern.Any2<gadgets.views.View,String>, ?opt_params: Dynamic, ?opt_ownerId: String): Void;
+	public static function requestNavigateTo(view: hxtern.Any.Any2<gadgets.views.View,String>, ?opt_params: Dynamic, ?opt_ownerId: String): Void;
 }

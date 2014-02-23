@@ -26,11 +26,11 @@ class Polygon{
 
 	public function setOptions(options: Dynamic<Dynamic>): Null<Dynamic>;
 
-	public function setPath(path: hxtern.Any2<google.maps.MVCArray<google.maps.LatLng>,Array<google.maps.LatLng>>): Null<Dynamic>;
+	public function setPath(path: hxtern.Any.Any2<google.maps.MVCArray<google.maps.LatLng>,Array<google.maps.LatLng>>): Null<Dynamic>;
 
-	public function setPaths(paths: hxtern.Any4<google.maps.MVCArray<google.maps.MVCArray<google.maps.LatLng>>,google.maps.MVCArray<google.maps.LatLng>,Array<Array<google.maps.LatLng>>,Array<google.maps.LatLng>>): Null<Dynamic>;
+	public function setPaths(paths: hxtern.Any.Any4<google.maps.MVCArray<google.maps.MVCArray<google.maps.LatLng>>,google.maps.MVCArray<google.maps.LatLng>,Array<Array<google.maps.LatLng>>,Array<google.maps.LatLng>>): Null<Dynamic>;
 
-	public function setValues(values: hxtern.Any2<Dynamic,Null<Dynamic>>): Null<Dynamic>;
+	public function setValues(values: hxtern.Any.Any2<Dynamic,Null<Dynamic>>): Null<Dynamic>;
 
 	public function unbind(key: String): Null<Dynamic>;
 

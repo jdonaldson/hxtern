@@ -6,5 +6,5 @@ package google.maps;
 class MaxZoomService{
 	public function new();
 
-	public function getMaxZoomAtLatLng(latlng: google.maps.LatLng, _callback: hxtern.Any2<google.maps.MaxZoomResult,Dynamic<Dynamic>>->Void): Null<Dynamic>;
+	public function getMaxZoomAtLatLng(latlng: google.maps.LatLng, _callback: hxtern.Any.Any2<google.maps.MaxZoomResult,Dynamic<Dynamic>>->Void): Null<Dynamic>;
 }

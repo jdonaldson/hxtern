@@ -6,7 +6,7 @@ package google.maps;
 class InfoWindowOptions{
 	public function new();
 
-	public var content: hxtern.Any2<String,Node>;
+	public var content: hxtern.Any.Any2<String,Node>;
 
 	public var disableAutoPan: Bool;
 

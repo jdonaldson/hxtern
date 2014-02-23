@@ -6,7 +6,7 @@ package jQuery;
 class Event{
 	public function new(eventType: String);
 
-	public var currentTarget: Element;
+	public var currentTarget: js.html.Element;
 
 	public var data: Dynamic;
 
@@ -24,7 +24,7 @@ class Event{
 
 	public function preventDefault(): Null<Dynamic>;
 
-	public var relatedTarget: Element;
+	public var relatedTarget: js.html.Element;
 
 	public var result: Dynamic;
 
@@ -32,7 +32,7 @@ class Event{
 
 	public function stopPropagation(): Null<Dynamic>;
 
-	public var target: Element;
+	public var target: js.html.Element;
 
 	public var timeStamp: Float;
 

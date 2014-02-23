@@ -10,7 +10,7 @@ class WebkitAudioContext{
 
 	public function createBiquadFilter(): BiquadFilterNode;
 
-	public function createBuffer(a: hxtern.Any2<Float,ArrayBuffer>, b: hxtern.Any2<Float,Bool>, ?sampleRate: Float): AudioBuffer;
+	public function createBuffer(a: hxtern.Any.Any2<Float,ArrayBuffer>, b: hxtern.Any.Any2<Float,Bool>, ?sampleRate: Float): AudioBuffer;
 
 	public function createBufferSource(): AudioBufferSourceNode;
 

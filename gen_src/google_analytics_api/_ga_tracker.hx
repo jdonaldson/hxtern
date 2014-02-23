@@ -44,7 +44,7 @@ class _ga_tracker{
 
 	public function _getVersion(): String;
 
-	public function _getVisitorCustomVar(index: Float): hxtern.Any2<String,Null<Dynamic>>;
+	public function _getVisitorCustomVar(index: Float): hxtern.Any.Any2<String,Null<Dynamic>>;
 
 	public function _initData(): Null<Dynamic>;
 

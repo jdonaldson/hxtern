@@ -20,7 +20,7 @@ class TrafficLayer{
 
 	public function setMap(map: google.maps.Map): Null<Dynamic>;
 
-	public function setValues(values: hxtern.Any2<Dynamic,Null<Dynamic>>): Null<Dynamic>;
+	public function setValues(values: hxtern.Any.Any2<Dynamic,Null<Dynamic>>): Null<Dynamic>;
 
 	public function unbind(key: String): Null<Dynamic>;
 

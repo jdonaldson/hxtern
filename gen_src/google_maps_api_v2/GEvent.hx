@@ -16,9 +16,9 @@ class GEvent{
 
 	public static function callbackArgs(object: Dynamic, method: ?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->Void, ?_opt0: Array<Dynamic>, ?_opt1: Array<Dynamic>, ?_opt2: Array<Dynamic>, ?_opt3: Array<Dynamic>, ?_opt4: Array<Dynamic>, ?_opt5: Array<Dynamic>): ?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->Void;
 
-	public static function clearInstanceListeners(source: hxtern.Any2<Dynamic,Node>): Void;
+	public static function clearInstanceListeners(source: hxtern.Any.Any2<Dynamic,Node>): Void;
 
-	public static function clearListeners(source: hxtern.Any2<Dynamic,Node>, event: String): Void;
+	public static function clearListeners(source: hxtern.Any.Any2<Dynamic,Node>, event: String): Void;
 
 	public static function clearNode(source: Node): Void;
 

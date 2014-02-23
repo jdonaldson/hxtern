@@ -24,9 +24,9 @@ class Polyline{
 
 	public function setOptions(options: Dynamic<Dynamic>): Null<Dynamic>;
 
-	public function setPath(path: hxtern.Any2<google.maps.MVCArray<google.maps.LatLng>,Array<google.maps.LatLng>>): Null<Dynamic>;
+	public function setPath(path: hxtern.Any.Any2<google.maps.MVCArray<google.maps.LatLng>,Array<google.maps.LatLng>>): Null<Dynamic>;
 
-	public function setValues(values: hxtern.Any2<Dynamic,Null<Dynamic>>): Null<Dynamic>;
+	public function setValues(values: hxtern.Any.Any2<Dynamic,Null<Dynamic>>): Null<Dynamic>;
 
 	public function unbind(key: String): Null<Dynamic>;
 

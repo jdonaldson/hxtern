@@ -52,7 +52,7 @@ class Map{
 
 	public function setStreetView(panorama: google.maps.StreetViewPanorama): Null<Dynamic>;
 
-	public function setValues(values: hxtern.Any2<Dynamic,Null<Dynamic>>): Null<Dynamic>;
+	public function setValues(values: hxtern.Any.Any2<Dynamic,Null<Dynamic>>): Null<Dynamic>;
 
 	public function setZoom(zoom: Float): Null<Dynamic>;
 

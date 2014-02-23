@@ -16,7 +16,7 @@ class Container{
 
 	public function navigateGadget(site: google.container.GadgetSite, gadgetUrl: String, gadgetParams: Dynamic, renderParams: Dynamic, ?opt_callback: Dynamic): Void;
 
-	public function newGadgetSite(gadgetEl: Element, ?opt_bufferEl: Element): google.container.GadgetSite;
+	public function newGadgetSite(gadgetEl: js.html.Element, ?opt_bufferEl: js.html.Element): google.container.GadgetSite;
 
 	public function onConstructed(?opt_config: Dynamic): Void;
 

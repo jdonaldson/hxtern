@@ -11,13 +11,13 @@ class Iframe{
 
 	public function close(?opt_params: Dynamic): Dynamic;
 
-	public var containerDiv: Element;
+	public var containerDiv: js.html.Element;
 
 	public function exposeMethod(name: String, method: Dynamic): Void;
 
 	public function getId(): String;
 
-	public function getIframeEl(): Element;
+	public function getIframeEl(): js.html.Element;
 
 	public function getMethods(): Dynamic;
 
@@ -27,9 +27,9 @@ class Iframe{
 
 	public function getParams(): Dynamic;
 
-	public function getSiteEl(): Element;
+	public function getSiteEl(): js.html.Element;
 
-	public function openInto(el: hxtern.Any2<String,Element>, ?opt_iframeAttributes: Dynamic): iframes.Iframe;
+	public function openInto(el: hxtern.Any.Any2<String,js.html.Element>, ?opt_iframeAttributes: Dynamic): iframes.Iframe;
 
 	public function register(message: String, _callback: Dynamic, ?opt_filter: Dynamic): Void;
 
@@ -39,5 +39,5 @@ class Iframe{
 
 	public function send(message: String, ?opt_data: Dynamic, ?opt_callback: Dynamic, ?opt_filter: Dynamic): Void;
 
-	public function setSiteEl(element: Element): Void;
+	public function setSiteEl(element: js.html.Element): Void;
 }

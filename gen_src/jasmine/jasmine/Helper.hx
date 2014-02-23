@@ -12,5 +12,5 @@ class Helper{
 
 	public var isNot: Bool;
 
-	public var message: hxtern.Any2<Null<Dynamic>,Void->String>;
+	public var message: hxtern.Any.Any2<Null<Dynamic>,Void->String>;
 }

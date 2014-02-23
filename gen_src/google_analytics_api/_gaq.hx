@@ -8,5 +8,5 @@ class _gaq{
 
 	public static function _getAsyncTracker(?opt_name: String): _ga_tracker;
 
-	public static function push(?_opt0: hxtern.Any2<Void->Void,Array<Dynamic>>, ?_opt1: hxtern.Any2<Void->Void,Array<Dynamic>>, ?_opt2: hxtern.Any2<Void->Void,Array<Dynamic>>, ?_opt3: hxtern.Any2<Void->Void,Array<Dynamic>>, ?_opt4: hxtern.Any2<Void->Void,Array<Dynamic>>, ?_opt5: hxtern.Any2<Void->Void,Array<Dynamic>>): Float;
+	public static function push(?_opt0: hxtern.Any.Any2<Void->Void,Array<Dynamic>>, ?_opt1: hxtern.Any.Any2<Void->Void,Array<Dynamic>>, ?_opt2: hxtern.Any.Any2<Void->Void,Array<Dynamic>>, ?_opt3: hxtern.Any.Any2<Void->Void,Array<Dynamic>>, ?_opt4: hxtern.Any.Any2<Void->Void,Array<Dynamic>>, ?_opt5: hxtern.Any.Any2<Void->Void,Array<Dynamic>>): Float;
 }

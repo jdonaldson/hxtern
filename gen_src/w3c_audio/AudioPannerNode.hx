@@ -34,7 +34,7 @@ class AudioPannerNode{
 	 */
 	public var distanceGain: AudioGain;
 
-	public var distanceModel: hxtern.Any2<Float,String>;
+	public var distanceModel: hxtern.Any.Any2<Float,String>;
 
 	public var maxDistance: Float;
 
@@ -42,7 +42,7 @@ class AudioPannerNode{
 
 	public var numberOfOutputs: Float;
 
-	public var panningModel: hxtern.Any2<Float,String>;
+	public var panningModel: hxtern.Any.Any2<Float,String>;
 
 	public var refDistance: Float;
 

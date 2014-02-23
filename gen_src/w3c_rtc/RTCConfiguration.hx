@@ -3,5 +3,5 @@
 */
 package ;
 
-typedef RTCConfiguration = hxtern.Any2<RTCConfigurationRecord_,RTCConfigurationInterface_>
+typedef RTCConfiguration = hxtern.Any.Any2<RTCConfigurationRecord_,RTCConfigurationInterface_>
 

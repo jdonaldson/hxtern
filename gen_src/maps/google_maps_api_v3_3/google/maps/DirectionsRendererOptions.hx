@@ -6,7 +6,7 @@ package google.maps;
 class DirectionsRendererOptions{
 	public function new();
 
-	public var directions: hxtern.Any2<google.maps.DirectionsResult,Dynamic<Dynamic>>;
+	public var directions: hxtern.Any.Any2<google.maps.DirectionsResult,Dynamic<Dynamic>>;
 
 	public var draggable: Bool;
 
