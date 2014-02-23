@@ -3,5 +3,5 @@
 */
 package google.maps;
 
-typedef HierarchicalMapTypeControl = GHierarchicalMapTypeControl
+extern typedef HierarchicalMapTypeControl = GHierarchicalMapTypeControl
 

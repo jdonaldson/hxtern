@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-class GeocoderRequest{
+extern class GeocoderRequest{
 	public function new();
 
 	public var address: String;

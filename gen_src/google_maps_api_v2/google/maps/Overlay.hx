@@ -3,5 +3,5 @@
 */
 package google.maps;
 
-typedef Overlay = GOverlay
+extern typedef Overlay = GOverlay
 

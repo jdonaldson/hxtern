@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-class UnitSystem{
+extern class UnitSystem{
 	public static var IMPERIAL: Dynamic;
 
 	public static var METRIC: Dynamic;

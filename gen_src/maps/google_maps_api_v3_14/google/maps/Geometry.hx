@@ -3,7 +3,7 @@
 */
 package google.maps;
 @:native("google.maps.geometry")
-class Geometry{
+extern class Geometry{
 	public static var encoding: Dynamic;
 
 	public static var poly: Dynamic;

@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-class Distance{
+extern class Distance{
 	public function new();
 
 	public var text: String;

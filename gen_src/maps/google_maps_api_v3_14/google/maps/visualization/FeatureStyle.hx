@@ -3,7 +3,7 @@
 */
 package google.maps.visualization;
 
-class FeatureStyle{
+extern class FeatureStyle{
 	public function new();
 
 	public var fillColor: String;

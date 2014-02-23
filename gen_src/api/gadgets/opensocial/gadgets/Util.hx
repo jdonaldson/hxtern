@@ -3,7 +3,7 @@
 */
 package gadgets;
 @:native("gadgets.util")
-class Util{
+extern class Util{
 	public static function attachBrowserEvent(elem: Dynamic, eventName: String, _callback: Void->Void, useCapture: Bool): Void {}
 
 	public static function createElement(tagName: String): js.html.Element {}

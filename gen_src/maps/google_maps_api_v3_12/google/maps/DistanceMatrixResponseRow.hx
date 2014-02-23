@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-class DistanceMatrixResponseRow{
+extern class DistanceMatrixResponseRow{
 	public function new();
 
 	public var elements: Array<google.maps.DistanceMatrixResponseElement>;

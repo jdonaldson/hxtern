@@ -3,7 +3,7 @@
 */
 package google.maps.places;
 
-class PredictionSubstring{
+extern class PredictionSubstring{
 	public function new();
 
 	public var length: Float;

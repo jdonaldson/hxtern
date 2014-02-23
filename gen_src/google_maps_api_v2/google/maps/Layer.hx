@@ -3,5 +3,5 @@
 */
 package google.maps;
 
-typedef Layer = GLayer
+extern typedef Layer = GLayer
 

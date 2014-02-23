@@ -3,6 +3,6 @@
 */
 package ;
 
-class SourceInfo{
+extern class SourceInfo{
 	public function new();
 }

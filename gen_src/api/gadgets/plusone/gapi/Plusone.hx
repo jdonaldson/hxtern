@@ -3,7 +3,7 @@
 */
 package gapi;
 @:native("gapi.plusone")
-class Plusone{
+extern class Plusone{
 	public static function go(?opt_container: js.html.Element): Void {}
 
 	public static function render(id: hxtern.Any.Any2<js.html.Element,String>, params: Dynamic): Void {}

@@ -3,5 +3,5 @@
 */
 package google.maps;
 
-typedef GeoXml = GGeoXml
+extern typedef GeoXml = GGeoXml
 

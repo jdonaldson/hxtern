@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-class TravelMode{
+extern class TravelMode{
 	public static var BICYCLING: Dynamic;
 
 	public static var DRIVING: Dynamic;

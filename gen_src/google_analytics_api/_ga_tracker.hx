@@ -3,7 +3,7 @@
 */
 package ;
 
-class _ga_tracker{
+extern class _ga_tracker{
 	public function new();
 
 	public function _addIgnoredOrganic(newIgnoredOrganicKeyword: String): Null<Dynamic> {}

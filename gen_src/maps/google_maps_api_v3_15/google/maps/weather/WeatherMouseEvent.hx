@@ -3,7 +3,7 @@
 */
 package google.maps.weather;
 
-class WeatherMouseEvent{
+extern class WeatherMouseEvent{
 	public function new();
 
 	public var featureDetails: google.maps.weather.WeatherFeature;

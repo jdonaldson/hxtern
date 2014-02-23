@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-class InfoWindowOptions{
+extern class InfoWindowOptions{
 	public function new();
 
 	public var content: hxtern.Any.Any2<String,Node>;

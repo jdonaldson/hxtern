@@ -3,5 +3,5 @@
 */
 package ;
 
-typedef Gamepad = {}
+extern typedef Gamepad = {}
 

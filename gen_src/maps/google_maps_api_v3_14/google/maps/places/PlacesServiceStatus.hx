@@ -3,7 +3,7 @@
 */
 package google.maps.places;
 
-class PlacesServiceStatus{
+extern class PlacesServiceStatus{
 	public static var INVALID_REQUEST: Dynamic;
 
 	public static var OK: Dynamic;

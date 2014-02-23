@@ -3,5 +3,5 @@
 */
 package google.maps;
 
-typedef AdsManagerStyle = GAdsManagerStyle
+extern typedef AdsManagerStyle = GAdsManagerStyle
 

@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-class SymbolPath{
+extern class SymbolPath{
 	public static var BACKWARD_CLOSED_ARROW: Dynamic;
 
 	public static var BACKWARD_OPEN_ARROW: Dynamic;

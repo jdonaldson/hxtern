@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-class FusionTablesMouseEvent{
+extern class FusionTablesMouseEvent{
 	public function new();
 
 	public var infoWindowHtml: String;

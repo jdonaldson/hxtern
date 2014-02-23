@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-class ScaleControlOptions{
+extern class ScaleControlOptions{
 	public function new();
 
 	public var position: google.maps.ControlPosition;

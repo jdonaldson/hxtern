@@ -3,5 +3,5 @@
 */
 package google.maps;
 
-typedef TrafficOverlay = GTrafficOverlay
+extern typedef TrafficOverlay = GTrafficOverlay
 

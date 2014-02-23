@@ -3,7 +3,7 @@
 */
 package ;
 
-class GEvent{
+extern class GEvent{
 	public static function addDomListener(source: Node, event: String, handler: Dynamic->Void): GEventListener {}
 
 	public static function addListener(source: Dynamic, event: String, handler: Dynamic->Void): GEventListener {}

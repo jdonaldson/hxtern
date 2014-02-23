@@ -3,6 +3,6 @@
 */
 package youtubeplayer;
 
-class Window{
+extern class Window{
 	public function onYouTubePlayerReady(playerapiid: String): Void {}
 }

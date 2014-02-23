@@ -3,7 +3,7 @@
 */
 package google;
 @:native("google.maps")
-class Maps{
+extern class Maps{
 	public static var adsense: Dynamic;
 
 	public static var Animation: Dynamic;

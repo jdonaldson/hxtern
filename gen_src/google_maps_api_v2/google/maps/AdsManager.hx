@@ -3,5 +3,5 @@
 */
 package google.maps;
 
-typedef AdsManager = GAdsManager
+extern typedef AdsManager = GAdsManager
 

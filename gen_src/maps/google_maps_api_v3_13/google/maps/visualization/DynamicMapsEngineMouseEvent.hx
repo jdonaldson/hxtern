@@ -3,7 +3,7 @@
 */
 package google.maps.visualization;
 
-class DynamicMapsEngineMouseEvent{
+extern class DynamicMapsEngineMouseEvent{
 	public function new();
 
 	public var featureId: String;

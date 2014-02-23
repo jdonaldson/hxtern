@@ -3,5 +3,5 @@
 */
 package google.maps;
 
-typedef MenuMapTypeControl = GMenuMapTypeControl
+extern typedef MenuMapTypeControl = GMenuMapTypeControl
 

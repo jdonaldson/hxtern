@@ -3,7 +3,7 @@
 */
 package ;
 @:native("jasmine")
-class Jasmine{
+extern class Jasmine{
 	public static function any(clazz: Dynamic): jasmine.Matcher {}
 
 	public static function createSpy(name: String): jasmine.Spy {}

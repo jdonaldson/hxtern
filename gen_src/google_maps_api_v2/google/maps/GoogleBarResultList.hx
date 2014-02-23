@@ -3,5 +3,5 @@
 */
 package google.maps;
 
-typedef GoogleBarResultList = GGoogleBarResultList
+extern typedef GoogleBarResultList = GGoogleBarResultList
 

@@ -3,6 +3,6 @@
 */
 package youtubeplayer;
 
-class Global{
+extern class Global{
 	public static function onYouTubePlayerReady(playerapiid: String): Void {}
 }

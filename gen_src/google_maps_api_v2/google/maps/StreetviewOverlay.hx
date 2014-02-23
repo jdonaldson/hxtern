@@ -3,5 +3,5 @@
 */
 package google.maps;
 
-typedef StreetviewOverlay = GStreetviewOverlay
+extern typedef StreetviewOverlay = GStreetviewOverlay
 

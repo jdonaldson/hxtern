@@ -3,6 +3,6 @@
 */
 package google.maps.places;
 
-class SearchBoxOptions{
+extern class SearchBoxOptions{
 	public function new();
 }

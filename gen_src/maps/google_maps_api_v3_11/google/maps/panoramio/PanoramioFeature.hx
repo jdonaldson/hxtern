@@ -3,7 +3,7 @@
 */
 package google.maps.panoramio;
 
-class PanoramioFeature{
+extern class PanoramioFeature{
 	public function new();
 
 	public var author: String;

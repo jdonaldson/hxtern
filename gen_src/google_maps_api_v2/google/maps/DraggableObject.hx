@@ -3,5 +3,5 @@
 */
 package google.maps;
 
-typedef DraggableObject = GDraggableObject
+extern typedef DraggableObject = GDraggableObject
 

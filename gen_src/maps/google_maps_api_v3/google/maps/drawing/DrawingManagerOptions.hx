@@ -3,7 +3,7 @@
 */
 package google.maps.drawing;
 
-class DrawingManagerOptions{
+extern class DrawingManagerOptions{
 	public function new();
 
 	public var circleOptions: hxtern.Any.Any2<google.maps.CircleOptions,Dynamic<String>>;

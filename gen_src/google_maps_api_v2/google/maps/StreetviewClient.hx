@@ -3,5 +3,5 @@
 */
 package google.maps;
 
-typedef StreetviewClient = GStreetviewClient
+extern typedef StreetviewClient = GStreetviewClient
 

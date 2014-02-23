@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-class MapTypeId{
+extern class MapTypeId{
 	public static var HYBRID: Dynamic;
 
 	public static var ROADMAP: Dynamic;

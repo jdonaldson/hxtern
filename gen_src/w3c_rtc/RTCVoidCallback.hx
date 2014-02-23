@@ -3,5 +3,5 @@
 */
 package ;
 
-typedef RTCVoidCallback = Void->Void
+extern typedef RTCVoidCallback = Void->Void
 

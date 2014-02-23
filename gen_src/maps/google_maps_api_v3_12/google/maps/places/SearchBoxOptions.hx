@@ -3,7 +3,7 @@
 */
 package google.maps.places;
 
-class SearchBoxOptions{
+extern class SearchBoxOptions{
 	public function new();
 
 	public var bounds: google.maps.LatLngBounds;

@@ -3,7 +3,7 @@
 */
 package ;
 
-class FB{
+extern class FB{
 	public static function api(path: String, ?method: hxtern.Any.Any3<String,Dynamic<Dynamic>,Dynamic<Dynamic>->Void>, ?params: hxtern.Any.Any2<Dynamic<Dynamic>,Dynamic<Dynamic>->Void>, ?_callback: Dynamic<Dynamic>->Void): Void {}
 
 	public static function getLoginStatus(_callback: Dynamic<Dynamic>->Void, ?force: Bool): Void {}
@@ -23,7 +23,7 @@ class FB{
 */
 
 
-class Canvas{
+extern class Canvas{
 	public static function getPageInfo(_callback: Dynamic<Dynamic>->Void): Void {}
 
 	public static function setAutoResize(?onOrOff: hxtern.Any.Any2<Bool,Float>, ?interval: Float): Void {}
@@ -35,7 +35,7 @@ class Canvas{
 */
 
 
-class Data{
+extern class Data{
 	public static function query(template: String, ?_opt0: hxtern.Any.Any3<String,Float,FB.QueryObject>, ?_opt1: hxtern.Any.Any3<String,Float,FB.QueryObject>, ?_opt2: hxtern.Any.Any3<String,Float,FB.QueryObject>, ?_opt3: hxtern.Any.Any3<String,Float,FB.QueryObject>, ?_opt4: hxtern.Any.Any3<String,Float,FB.QueryObject>, ?_opt5: hxtern.Any.Any3<String,Float,FB.QueryObject>): FB.QueryObject {}
 
 	public static function waitOn(dependencies: Array<Dynamic>, _callback: Dynamic<Dynamic>->Void): Dynamic<Dynamic> {}
@@ -47,7 +47,7 @@ FB.Data.Query.
 */
 
 @:native("FB.Data.queryObject")
-class QueryObject{
+extern class QueryObject{
 	private function new();
 }
 /**
@@ -55,7 +55,7 @@ class QueryObject{
 */
 
 
-class Event{
+extern class Event{
 	public static function subscribe(eventName: String, _callback: Dynamic<Dynamic>->Void): Void {}
 
 	public static function unsubscribe(eventName: String, _callback: Dynamic<Dynamic>->Void): Void {}
@@ -65,6 +65,6 @@ class Event{
 */
 
 
-class XFBML{
+extern class XFBML{
 	public static function parse(?node: js.html.Element, ?_callback: Dynamic<Dynamic>->Void): Void {}
 }

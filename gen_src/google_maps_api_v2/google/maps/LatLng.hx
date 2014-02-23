@@ -3,5 +3,5 @@
 */
 package google.maps;
 
-typedef LatLng = GLatLng
+extern typedef LatLng = GLatLng
 

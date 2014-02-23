@@ -3,5 +3,5 @@
 */
 package google.maps;
 
-typedef ObliqueMercator = GObliqueMercator
+extern typedef ObliqueMercator = GObliqueMercator
 

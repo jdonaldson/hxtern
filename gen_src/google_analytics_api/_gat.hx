@@ -3,7 +3,7 @@
 */
 package ;
 
-class _gat{
+extern class _gat{
 	public static function _anonymizeIp(): Null<Dynamic> {}
 
 	public static function _createTracker(?opt_account: String, ?opt_name: String): _ga_tracker {}

@@ -3,7 +3,7 @@
 */
 package jQuery;
 @:native("jQuery.support")
-class Support{
+extern class Support{
 	public static var boxModel: Bool;
 
 	public static var changeBubbles: Bool;

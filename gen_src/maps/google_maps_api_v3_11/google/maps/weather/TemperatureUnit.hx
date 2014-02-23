@@ -3,7 +3,7 @@
 */
 package google.maps.weather;
 
-class TemperatureUnit{
+extern class TemperatureUnit{
 	public static var CELSIUS: Dynamic;
 
 	public static var FAHRENHEIT: Dynamic;

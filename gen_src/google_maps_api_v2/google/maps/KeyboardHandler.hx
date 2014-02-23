@@ -3,5 +3,5 @@
 */
 package google.maps;
 
-typedef KeyboardHandler = GKeyboardHandler
+extern typedef KeyboardHandler = GKeyboardHandler
 

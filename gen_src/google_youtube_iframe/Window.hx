@@ -3,6 +3,6 @@
 */
 package ;
 @:native("window")
-class Window{
+extern class Window{
 	public static function onYouTubePlayerAPIReady(): Null<Dynamic> {}
 }

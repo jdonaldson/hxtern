@@ -4,7 +4,7 @@ To be deprecated. Use ScriptProcessorNode instead.
 */
 package ;
 
-class JavaScriptAudioNode{
+extern class JavaScriptAudioNode{
 	public function new();
 
 	public var channelCount: Float;

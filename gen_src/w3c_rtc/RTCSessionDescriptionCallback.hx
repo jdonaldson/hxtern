@@ -3,5 +3,5 @@
 */
 package ;
 
-typedef RTCSessionDescriptionCallback = RTCSessionDescription->Void
+extern typedef RTCSessionDescriptionCallback = RTCSessionDescription->Void
 

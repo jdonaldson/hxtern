@@ -3,5 +3,5 @@
 */
 package ;
 
-typedef RTCConfigurationRecord_ = {iceServers: Array<RTCIceServer>}
+extern typedef RTCConfigurationRecord_ = {iceServers: Array<RTCIceServer>}
 

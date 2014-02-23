@@ -3,5 +3,5 @@
 */
 package google.maps;
 
-typedef Polyline = GPolyline
+extern typedef Polyline = GPolyline
 

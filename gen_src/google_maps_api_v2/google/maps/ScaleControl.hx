@@ -3,5 +3,5 @@
 */
 package google.maps;
 
-typedef ScaleControl = GScaleControl
+extern typedef ScaleControl = GScaleControl
 

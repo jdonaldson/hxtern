@@ -3,5 +3,5 @@
 */
 package ;
 
-typedef RTCIceServerRecord_ = {url: String}
+extern typedef RTCIceServerRecord_ = {url: String}
 

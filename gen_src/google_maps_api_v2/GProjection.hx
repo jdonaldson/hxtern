@@ -3,7 +3,7 @@
 */
 package ;
 
-class GProjection{
+extern class GProjection{
 	public function new();
 
 	public function fromLatLngToPixel(latlng: GLatLng, zoom: Float): GPoint {}

@@ -3,5 +3,5 @@
 */
 package google.maps;
 
-typedef GoogleBarListingTypes = GGoogleBarListingTypes
+extern typedef GoogleBarListingTypes = GGoogleBarListingTypes
 

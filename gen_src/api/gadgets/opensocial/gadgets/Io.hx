@@ -3,7 +3,7 @@
 */
 package gadgets;
 @:native("gadgets.io")
-class Io{
+extern class Io{
 	/**
 	  Enumeration of content types that can be specified in
 	  {@link gadgets.io.RequestParameters.AUTHORIZATION}

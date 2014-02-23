@@ -3,5 +3,5 @@
 */
 package google.maps;
 
-typedef Directions = GDirections
+extern typedef Directions = GDirections
 

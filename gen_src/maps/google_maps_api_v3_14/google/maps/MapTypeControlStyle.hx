@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-class MapTypeControlStyle{
+extern class MapTypeControlStyle{
 	public static var DEFAULT: Dynamic;
 
 	public static var DROPDOWN_MENU: Dynamic;

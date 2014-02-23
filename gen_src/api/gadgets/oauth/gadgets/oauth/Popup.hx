@@ -4,7 +4,7 @@ An OAuth popup for granting one time access to user data.
 */
 package gadgets.oauth;
 
-class Popup{
+extern class Popup{
 	public function new(destination: String, windowOptions: String, openCallback: Dynamic, closeCallback: Dynamic);
 
 	public function createApprovedOnClick(): Dynamic {}

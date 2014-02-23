@@ -3,5 +3,5 @@
 */
 package google.maps;
 
-typedef Marker = GMarker
+extern typedef Marker = GMarker
 

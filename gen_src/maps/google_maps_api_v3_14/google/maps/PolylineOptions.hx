@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-class PolylineOptions{
+extern class PolylineOptions{
 	public function new();
 
 	public var clickable: Bool;

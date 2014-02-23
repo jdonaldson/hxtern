@@ -3,5 +3,5 @@
 */
 package google.maps;
 
-typedef MercatorProjection = GMercatorProjection
+extern typedef MercatorProjection = GMercatorProjection
 

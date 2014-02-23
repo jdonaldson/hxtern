@@ -3,5 +3,5 @@
 */
 package google.maps;
 
-typedef SmallZoomControl = GSmallZoomControl
+extern typedef SmallZoomControl = GSmallZoomControl
 

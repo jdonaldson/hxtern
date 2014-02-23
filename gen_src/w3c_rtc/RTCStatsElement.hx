@@ -3,5 +3,5 @@
 */
 package ;
 
-typedef RTCStatsElement = RTCStatsReport
+extern typedef RTCStatsElement = RTCStatsReport
 

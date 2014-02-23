@@ -3,7 +3,7 @@
 */
 package google.maps.geometry;
 @:native("google.maps.geometry.encoding")
-class Encoding{
+extern class Encoding{
 	public static function decodePath(encodedPath: String): Array<google.maps.LatLng> {}
 
 	public static function encodePath(path: hxtern.Any.Any2<Array<google.maps.LatLng>,google.maps.MVCArray<google.maps.LatLng>>): String {}

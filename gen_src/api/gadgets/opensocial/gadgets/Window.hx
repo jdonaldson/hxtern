@@ -3,7 +3,7 @@
 */
 package gadgets;
 @:native("gadgets.window")
-class Window{
+extern class Window{
 	public static function adjustHeight(?opt_height: Float): Void {}
 
 	public static function getHeight(): Float {}

@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-class PanControlOptions{
+extern class PanControlOptions{
 	public function new();
 
 	public var position: google.maps.ControlPosition;

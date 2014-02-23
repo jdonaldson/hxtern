@@ -3,5 +3,5 @@
 */
 package ;
 
-typedef RTCDataChannelInitRecord_ = {reliable: Bool}
+extern typedef RTCDataChannelInitRecord_ = {reliable: Bool}
 

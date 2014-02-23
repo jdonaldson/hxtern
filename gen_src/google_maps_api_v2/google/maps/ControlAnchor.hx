@@ -3,5 +3,5 @@
 */
 package google.maps;
 
-typedef ControlAnchor = GControlAnchor
+extern typedef ControlAnchor = GControlAnchor
 

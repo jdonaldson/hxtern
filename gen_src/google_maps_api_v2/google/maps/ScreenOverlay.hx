@@ -3,5 +3,5 @@
 */
 package google.maps;
 
-typedef ScreenOverlay = GScreenOverlay
+extern typedef ScreenOverlay = GScreenOverlay
 

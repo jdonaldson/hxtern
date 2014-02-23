@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-class ControlPosition{
+extern class ControlPosition{
 	public static var BOTTOM_CENTER: Dynamic;
 
 	public static var BOTTOM_LEFT: Dynamic;

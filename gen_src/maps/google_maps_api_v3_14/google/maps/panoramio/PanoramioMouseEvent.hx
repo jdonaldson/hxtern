@@ -3,7 +3,7 @@
 */
 package google.maps.panoramio;
 
-class PanoramioMouseEvent{
+extern class PanoramioMouseEvent{
 	public function new();
 
 	public var featureDetails: google.maps.panoramio.PanoramioFeature;

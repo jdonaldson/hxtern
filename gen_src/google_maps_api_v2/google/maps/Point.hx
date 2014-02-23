@@ -3,5 +3,5 @@
 */
 package google.maps;
 
-typedef Point = GPoint
+extern typedef Point = GPoint
 

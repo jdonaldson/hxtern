@@ -3,5 +3,5 @@
 */
 package ;
 
-typedef RTCSignalingState = String
+extern typedef RTCSignalingState = String
 

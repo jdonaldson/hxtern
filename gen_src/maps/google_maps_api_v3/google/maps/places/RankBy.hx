@@ -3,7 +3,7 @@
 */
 package google.maps.places;
 
-class RankBy{
+extern class RankBy{
 	public static var DISTANCE: Dynamic;
 
 	public static var PROMINENCE: Dynamic;

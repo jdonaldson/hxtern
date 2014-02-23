@@ -3,5 +3,5 @@
 */
 package ;
 
-typedef RTCSdpType = String
+extern typedef RTCSdpType = String
 

@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-class KmlLayerStatus{
+extern class KmlLayerStatus{
 	public static var DOCUMENT_NOT_FOUND: Dynamic;
 
 	public static var DOCUMENT_TOO_LARGE: Dynamic;

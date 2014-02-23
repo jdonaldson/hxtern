@@ -3,7 +3,7 @@
 */
 package ;
 
-class _gaq{
+extern class _gaq{
 	public static function _createAsyncTracker(accountId: String, ?opt_name: String): _ga_tracker {}
 
 	public static function _getAsyncTracker(?opt_name: String): _ga_tracker {}

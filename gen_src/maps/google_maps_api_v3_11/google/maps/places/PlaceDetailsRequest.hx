@@ -3,7 +3,7 @@
 */
 package google.maps.places;
 
-class PlaceDetailsRequest{
+extern class PlaceDetailsRequest{
 	public function new();
 
 	public var reference: String;

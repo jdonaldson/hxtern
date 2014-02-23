@@ -3,5 +3,5 @@
 */
 package google.maps;
 
-typedef ScreenSize = GScreenSize
+extern typedef ScreenSize = GScreenSize
 

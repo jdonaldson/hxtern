@@ -3,7 +3,7 @@
 */
 package ;
 @:native("jQuery")
-class JQuery{
+extern class JQuery{
 	public static function ajax(settings: Dynamic<Dynamic>): XMLHttpRequest {}
 
 	public static function ajaxSetup(options: Dynamic<Dynamic>): Void {}

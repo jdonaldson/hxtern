@@ -3,5 +3,5 @@
 */
 package google.maps;
 
-typedef LargeMapControl3D = GLargeMapControl3D
+extern typedef LargeMapControl3D = GLargeMapControl3D
 

@@ -3,7 +3,7 @@
 */
 package google.maps.adsense;
 
-class AdFormat{
+extern class AdFormat{
 	public static var BANNER: Dynamic;
 
 	public static var BUTTON: Dynamic;

@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-class ImageMapTypeOptions{
+extern class ImageMapTypeOptions{
 	public function new();
 
 	public var alt: String;

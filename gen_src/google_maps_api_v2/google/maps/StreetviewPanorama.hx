@@ -3,5 +3,5 @@
 */
 package google.maps;
 
-typedef StreetviewPanorama = GStreetviewPanorama
+extern typedef StreetviewPanorama = GStreetviewPanorama
 

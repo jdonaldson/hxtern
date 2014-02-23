@@ -3,5 +3,5 @@
 */
 package google.maps;
 
-typedef Icon = GIcon
+extern typedef Icon = GIcon
 

@@ -3,5 +3,5 @@
 */
 package google.maps;
 
-typedef SmallMapControl = GSmallMapControl
+extern typedef SmallMapControl = GSmallMapControl
 

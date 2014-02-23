@@ -3,5 +3,5 @@
 */
 package google.maps;
 
-typedef Control = GControl
+extern typedef Control = GControl
 

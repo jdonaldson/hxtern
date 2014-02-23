@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-class GeocoderLocationType{
+extern class GeocoderLocationType{
 	public static var APPROXIMATE: Dynamic;
 
 	public static var GEOMETRIC_CENTER: Dynamic;

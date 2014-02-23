@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-class DirectionsRequest{
+extern class DirectionsRequest{
 	public function new();
 
 	public var avoidHighways: Bool;

@@ -3,5 +3,5 @@
 */
 package ;
 
-typedef MediaStreamTrackState = String
+extern typedef MediaStreamTrackState = String
 

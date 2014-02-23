@@ -3,5 +3,5 @@
 */
 package ;
 
-typedef RTCStatsCallback = RTCStatsResponse->MediaStreamTrack->Void
+extern typedef RTCStatsCallback = RTCStatsResponse->MediaStreamTrack->Void
 

@@ -3,7 +3,7 @@
 */
 package google.maps.visualization;
 
-class DynamicMapsEngineLayerOptions{
+extern class DynamicMapsEngineLayerOptions{
 	public function new();
 
 	public var accessToken: String;

@@ -3,6 +3,6 @@
 */
 package google.maps;
 @:native("google.maps.places")
-class Places{
+extern class Places{
 	public static var PlacesServiceStatus: Dynamic;
 }

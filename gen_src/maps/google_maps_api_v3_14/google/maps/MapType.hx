@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-class MapType{
+extern class MapType{
 	public function new();
 
 	public var alt: String;

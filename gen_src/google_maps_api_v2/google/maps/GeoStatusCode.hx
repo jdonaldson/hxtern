@@ -3,5 +3,5 @@
 */
 package google.maps;
 
-typedef GeoStatusCode = GGeoStatusCode
+extern typedef GeoStatusCode = GGeoStatusCode
 

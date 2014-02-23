@@ -3,6 +3,6 @@
 */
 package ;
 
-class Navigator{
+extern class Navigator{
 	public function webkitGetUserMedia(constraints: MediaStreamConstraints, successCallback: MediaStream->Void, ?errorCallback: NavigatorUserMediaError->Void): Void {}
 }

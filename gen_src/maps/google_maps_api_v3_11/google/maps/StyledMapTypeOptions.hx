@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-class StyledMapTypeOptions{
+extern class StyledMapTypeOptions{
 	public function new();
 
 	public var alt: String;

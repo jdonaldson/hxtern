@@ -3,7 +3,7 @@
 */
 package google.maps.weather;
 
-class WeatherForecast{
+extern class WeatherForecast{
 	public function new();
 
 	public var day: String;

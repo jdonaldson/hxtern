@@ -3,7 +3,7 @@
 */
 package ;
 
-class GLanguage{
+extern class GLanguage{
 	public static function getLanguageCode(): String {}
 
 	public static function isRtl(): Bool {}

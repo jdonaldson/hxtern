@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-class StreetViewLink{
+extern class StreetViewLink{
 	public function new();
 
 	public var description: String;

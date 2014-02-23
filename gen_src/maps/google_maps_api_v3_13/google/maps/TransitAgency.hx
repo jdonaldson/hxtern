@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-class TransitAgency{
+extern class TransitAgency{
 	public function new();
 
 	public var name: String;

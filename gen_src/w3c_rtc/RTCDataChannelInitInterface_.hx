@@ -3,7 +3,7 @@
 */
 package ;
 
-class RTCDataChannelInitInterface_{
+extern class RTCDataChannelInitInterface_{
 	public function new();
 
 	public var reliable: Bool;

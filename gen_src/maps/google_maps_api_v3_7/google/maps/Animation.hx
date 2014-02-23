@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-class Animation{
+extern class Animation{
 	public static var BOUNCE: Dynamic;
 
 	public static var DROP: Dynamic;

@@ -3,5 +3,5 @@
 */
 package ;
 
-typedef RTCPeerConnectionErrorCallback = String->Void
+extern typedef RTCPeerConnectionErrorCallback = String->Void
 

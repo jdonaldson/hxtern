@@ -3,5 +3,5 @@
 */
 package google.maps;
 
-typedef Size = GSize
+extern typedef Size = GSize
 

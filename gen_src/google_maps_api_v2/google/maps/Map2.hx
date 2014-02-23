@@ -3,5 +3,5 @@
 */
 package google.maps;
 
-typedef Map2 = GMap2
+extern typedef Map2 = GMap2
 

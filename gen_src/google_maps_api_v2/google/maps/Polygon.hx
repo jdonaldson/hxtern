@@ -3,5 +3,5 @@
 */
 package google.maps;
 
-typedef Polygon = GPolygon
+extern typedef Polygon = GPolygon
 

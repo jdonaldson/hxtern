@@ -3,7 +3,7 @@
 */
 package google.maps.places;
 
-class PlacePhoto{
+extern class PlacePhoto{
 	public function new();
 
 	public function getUrl(opts: hxtern.Any.Any2<google.maps.places.PhotoOptions,Dynamic<String>>): String {}

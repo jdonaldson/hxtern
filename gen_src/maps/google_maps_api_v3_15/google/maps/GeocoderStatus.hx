@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-class GeocoderStatus{
+extern class GeocoderStatus{
 	public static var ERROR: Dynamic;
 
 	public static var INVALID_REQUEST: Dynamic;

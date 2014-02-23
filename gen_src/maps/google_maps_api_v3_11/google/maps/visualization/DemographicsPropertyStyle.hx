@@ -3,7 +3,7 @@
 */
 package google.maps.visualization;
 
-class DemographicsPropertyStyle{
+extern class DemographicsPropertyStyle{
 	public function new();
 
 	public var expression: String;

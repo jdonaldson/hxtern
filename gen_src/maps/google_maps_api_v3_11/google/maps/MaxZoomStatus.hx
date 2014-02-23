@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-class MaxZoomStatus{
+extern class MaxZoomStatus{
 	public static var ERROR: Dynamic;
 
 	public static var OK: Dynamic;

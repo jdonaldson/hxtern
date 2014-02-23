@@ -3,7 +3,7 @@
 */
 package ;
 
-class MediaConstraintsInterface_{
+extern class MediaConstraintsInterface_{
 	public function new();
 
 	public var mandatory: MediaConstraintSet_;

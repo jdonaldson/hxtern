@@ -3,7 +3,7 @@
 */
 package gadgets.io;
 
-class ResponseObject{
+extern class ResponseObject{
 	public static var data: Dynamic;
 
 	public static var errors: Array<String>;

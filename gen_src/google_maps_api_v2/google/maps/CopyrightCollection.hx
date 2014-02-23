@@ -3,5 +3,5 @@
 */
 package google.maps;
 
-typedef CopyrightCollection = GCopyrightCollection
+extern typedef CopyrightCollection = GCopyrightCollection
 

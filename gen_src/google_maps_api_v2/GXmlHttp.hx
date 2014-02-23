@@ -3,6 +3,6 @@
 */
 package ;
 
-class GXmlHttp{
+extern class GXmlHttp{
 	public static function create(): XMLHttpRequest {}
 }

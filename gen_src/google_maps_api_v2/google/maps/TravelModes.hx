@@ -3,5 +3,5 @@
 */
 package google.maps;
 
-typedef TravelModes = GTravelModes
+extern typedef TravelModes = GTravelModes
 

@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-class MapTypeStyler{
+extern class MapTypeStyler{
 	public function new();
 
 	public var color: String;

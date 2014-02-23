@@ -3,6 +3,6 @@
 */
 package ;
 @:native("google")
-class Google{
+extern class Google{
 	public static var maps: Dynamic;
 }

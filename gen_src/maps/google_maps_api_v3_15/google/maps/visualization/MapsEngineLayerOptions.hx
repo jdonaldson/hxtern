@@ -3,7 +3,7 @@
 */
 package google.maps.visualization;
 
-class MapsEngineLayerOptions{
+extern class MapsEngineLayerOptions{
 	public function new();
 
 	public var accessToken: String;

@@ -3,5 +3,5 @@
 */
 package google.maps;
 
-typedef MapPane = GMapPane
+extern typedef MapPane = GMapPane
 

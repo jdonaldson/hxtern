@@ -3,5 +3,5 @@
 */
 package google.maps;
 
-typedef TileLayer = GTileLayer
+extern typedef TileLayer = GTileLayer
 

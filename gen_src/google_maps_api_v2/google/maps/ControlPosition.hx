@@ -3,5 +3,5 @@
 */
 package google.maps;
 
-typedef ControlPosition = GControlPosition
+extern typedef ControlPosition = GControlPosition
 

@@ -3,7 +3,7 @@
 */
 package google.maps.places;
 
-class PlaceSearchRequest{
+extern class PlaceSearchRequest{
 	public function new();
 
 	public var bounds: google.maps.LatLngBounds;

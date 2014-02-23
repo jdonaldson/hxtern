@@ -3,7 +3,7 @@
 */
 package ;
 
-class HTMLInputElement{
+extern class HTMLInputElement{
 	public var onwebkitspeechchange: Event->Void;
 
 	public var webkitspeech: Bool;

@@ -3,5 +3,5 @@
 */
 package google.maps;
 
-typedef Bounds = GBounds
+extern typedef Bounds = GBounds
 

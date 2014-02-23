@@ -3,5 +3,5 @@
 */
 package google.maps;
 
-typedef Projection = GProjection
+extern typedef Projection = GProjection
 

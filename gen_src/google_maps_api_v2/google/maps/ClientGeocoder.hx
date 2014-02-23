@@ -3,5 +3,5 @@
 */
 package google.maps;
 
-typedef ClientGeocoder = GClientGeocoder
+extern typedef ClientGeocoder = GClientGeocoder
 

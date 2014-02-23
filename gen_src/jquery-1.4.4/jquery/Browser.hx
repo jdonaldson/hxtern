@@ -3,6 +3,6 @@
 */
 package jQuery;
 @:native("jQuery.browser")
-class Browser{
+extern class Browser{
 	public static var version: String;
 }

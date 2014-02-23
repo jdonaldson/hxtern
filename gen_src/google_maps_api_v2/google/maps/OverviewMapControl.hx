@@ -3,5 +3,5 @@
 */
 package google.maps;
 
-typedef OverviewMapControl = GOverviewMapControl
+extern typedef OverviewMapControl = GOverviewMapControl
 

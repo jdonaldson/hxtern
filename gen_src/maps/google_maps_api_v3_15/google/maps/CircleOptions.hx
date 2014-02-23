@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-class CircleOptions{
+extern class CircleOptions{
 	public function new();
 
 	public var center: google.maps.LatLng;

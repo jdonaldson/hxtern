@@ -3,6 +3,6 @@
 */
 package jasmine;
 
-class Spy#mostRecentCall{
+extern class Spy#mostRecentCall{
 	public static var args: Array;
 }

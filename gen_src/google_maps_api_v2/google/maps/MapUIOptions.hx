@@ -3,5 +3,5 @@
 */
 package google.maps;
 
-typedef MapUIOptions = GMapUIOptions
+extern typedef MapUIOptions = GMapUIOptions
 

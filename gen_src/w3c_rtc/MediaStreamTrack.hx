@@ -3,7 +3,7 @@
 */
 package ;
 
-class MediaStreamTrack{
+extern class MediaStreamTrack{
 	public function new();
 
 	public static function getSources(_callback: Array<SourceInfo>->Void): Void {}

@@ -3,5 +3,5 @@
 */
 package ;
 
-typedef RTCIceGatheringState = String
+extern typedef RTCIceGatheringState = String
 

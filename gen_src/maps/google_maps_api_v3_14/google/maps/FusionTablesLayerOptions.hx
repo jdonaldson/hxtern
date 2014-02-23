@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-class FusionTablesLayerOptions{
+extern class FusionTablesLayerOptions{
 	public function new();
 
 	public var clickable: Bool;

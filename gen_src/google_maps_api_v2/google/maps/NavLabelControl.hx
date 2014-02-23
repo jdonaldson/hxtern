@@ -3,5 +3,5 @@
 */
 package google.maps;
 
-typedef NavLabelControl = GNavLabelControl
+extern typedef NavLabelControl = GNavLabelControl
 

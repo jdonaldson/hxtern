@@ -3,5 +3,5 @@
 */
 package google.maps;
 
-typedef InfoWindowTab = GInfoWindowTab
+extern typedef InfoWindowTab = GInfoWindowTab
 

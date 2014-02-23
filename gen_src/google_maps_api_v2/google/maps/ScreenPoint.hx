@@ -3,5 +3,5 @@
 */
 package google.maps;
 
-typedef ScreenPoint = GScreenPoint
+extern typedef ScreenPoint = GScreenPoint
 
