@@ -3,5 +3,5 @@
 */
 package ;
 
-extern typedef Gamepad = {}
+extern typedef Gamepad = {id: String, index: Float, timestamp: Float, axes: Array<Float>, buttons: Array<Float>}
 

@@ -4,5 +4,5 @@
 package ;
 
 extern class Navigator{
-	public function webkitGetUserMedia(constraints: MediaStreamConstraints, successCallback: MediaStream->Void, ?errorCallback: NavigatorUserMediaError->Void): Void {}
+	public function webkitGetUserMedia(constraints: MediaStreamConstraints, successCallbackA: MediaStream->Void, ?errorCallback: NavigatorUserMediaError->Void): Void {}
 }

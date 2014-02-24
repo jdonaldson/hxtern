@@ -3,5 +3,5 @@
 */
 package ;
 @:native("jQuerySelector")
-extern typedef JQuerySelector = {}
+extern typedef JQuerySelector = Hxtern.Any7<Window,Document,js.html.Element,Array<js.html.Element>,String,JQuery,NodeList>
 
