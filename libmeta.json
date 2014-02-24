@@ -1,9 +1,16 @@
 {
     "ignore" : {
-        "jquery-1.5.js": "$.deferred,$.Deferred,jQuery.deferred,$.event,jQuery.event",
-        "jquery-1.6.js": "$.deferred,$.Deferred,jQuery.deferred,$.event,jQuery.event",
-        "jquery-1.7.js": "$.deferred,$.Deferred,jQuery.deferred,$.event,jQuery.event",
-        "jquery-1.8.js": "$.deferred,$.Deferred,jQuery.deferred,$.event,jQuery.event",
-        "jquery-1.9.js": "$.deferred,$.Deferred,jQuery.deferred,$.event,jQuery.event"
+        "jquery-1.5.js": "$.deferred,$.Deferred,$.event,$,jQuery.deferred,jQuery.event",
+        "jquery-1.6.js": "$.deferred,$.Deferred,$.event,$,jQuery.deferred,jQuery.event",
+        "jquery-1.7.js": "$.deferred,$.Deferred,$.event,$,jQuery.deferred,jQuery.event",
+        "jquery-1.8.js": "$.deferred,$.Deferred,$.event,$,jQuery.deferred,jQuery.event",
+        "jquery-1.9.js": "$.deferred,$.Deferred,$.event,$,jQuery.deferred,jQuery.event"
+    },
+    "global" : {
+        "jquery-1.5.js": "jQuery",
+        "jquery-1.6.js": "jQuery",
+        "jquery-1.7.js": "jQuery",
+        "jquery-1.8.js": "jQuery",
+        "jquery-1.9.js": "jQuery"
     }
 }

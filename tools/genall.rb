@@ -14,6 +14,11 @@ Dir.glob(files) do |file|
     potential_packs = base.split("_")
     packs = potential_packs.reject{ |x| x.match(/^v\d+/) or x.match(/^\d+/) }
     global_pack =  packs.join('.')
+    if libmeta['global'] != nil
+        if libmeta['global'][File.basename(file)] != nil
+            global_pack = libmeta['global'][File.basename(file)]
+        end
+    end
     output = File.join(output_folder, output_dir , basename)
     filename = File.basename(file)
     ignore = libmeta['ignore']
@@ -22,8 +27,6 @@ Dir.glob(files) do |file|
         ignore_list = ignore[File.basename(file)]
         if ignore_list == nil
             ignore_list = ''
-        else
-            p ignore_list
         end
     end
     command = "jsdoc -t #{template} #{file} -d #{output} -q 'global=#{global_pack}&ignore=#{ignore_list}'"
