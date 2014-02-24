@@ -30,5 +30,5 @@ extern class AjaxSettings{
 
 	public static var url: String;
 
-	public static function xhr(): Hxtern.Any2<XMLHttpRequest,ActiveXObject> {}
+	public static function xhr(): Hxtern.Any2<js.html.XMLHttpRequest,ActiveXObject> {}
 }

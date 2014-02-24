@@ -4,7 +4,7 @@
 package ;
 @:native("jQuery")
 extern class JQuery{
-	public static function ajax(settings: Dynamic<Dynamic>): XMLHttpRequest {}
+	public static function ajax(settings: Dynamic<Dynamic>): js.html.XMLHttpRequest {}
 
 	public static function ajaxSetup(options: Dynamic<Dynamic>): Void {}
 
@@ -28,11 +28,11 @@ extern class JQuery{
 
 	public static var fx: Dynamic;
 
-	public static function get(url: String, ?data: Hxtern.Any2<Dynamic<Dynamic>,String>, ?_callback: String->String->XMLHttpRequest->Void, ?dataType: String): XMLHttpRequest {}
+	public static function get(url: String, ?data: Hxtern.Any2<Dynamic<Dynamic>,String>, ?_callback: String->String->js.html.XMLHttpRequest->Void, ?dataType: String): js.html.XMLHttpRequest {}
 
-	public static function getJSON(url: String, ?data: Dynamic<Dynamic>, ?_callback: String->String->XMLHttpRequest->Void): XMLHttpRequest {}
+	public static function getJSON(url: String, ?data: Dynamic<Dynamic>, ?_callback: String->String->js.html.XMLHttpRequest->Void): js.html.XMLHttpRequest {}
 
-	public static function getScript(url: String, ?success: String->String->Void): XMLHttpRequest {}
+	public static function getScript(url: String, ?success: String->String->Void): js.html.XMLHttpRequest {}
 
 	public static function globalEval(code: String): Void {}
 
@@ -66,7 +66,7 @@ extern class JQuery{
 
 	public static function parseJSON(json: String): Dynamic {}
 
-	public static function post(url: String, ?data: Hxtern.Any2<Dynamic<Dynamic>,String>, ?success: String->String->XMLHttpRequest->Void, ?dataType: String): XMLHttpRequest {}
+	public static function post(url: String, ?data: Hxtern.Any2<Dynamic<Dynamic>,String>, ?success: String->String->js.html.XMLHttpRequest->Void, ?dataType: String): js.html.XMLHttpRequest {}
 
 	public static function proxy(arg1: Hxtern.Any2<Void->Void,Dynamic>, arg2: Hxtern.Any2<Dynamic,String>): Void->Void {}
 

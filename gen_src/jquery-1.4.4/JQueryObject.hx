@@ -12,17 +12,17 @@ extern class JQueryObject{
 
 	public function after(arg1: Hxtern.Any4<String,js.html.Element,JQueryObject,Float->Void>): JQueryObject {}
 
-	public function ajaxComplete(handler: jQuery.Event->XMLHttpRequest->Dynamic<Dynamic>->Void): JQueryObject {}
+	public function ajaxComplete(handler: jQuery.Event->js.html.XMLHttpRequest->Dynamic<Dynamic>->Void): JQueryObject {}
 
-	public function ajaxError(handler: jQuery.Event->XMLHttpRequest->Dynamic<Dynamic>->Dynamic->Void): JQueryObject {}
+	public function ajaxError(handler: jQuery.Event->js.html.XMLHttpRequest->Dynamic<Dynamic>->Dynamic->Void): JQueryObject {}
 
-	public function ajaxSend(handler: jQuery.Event->XMLHttpRequest->Dynamic<Dynamic>->Void): JQueryObject {}
+	public function ajaxSend(handler: jQuery.Event->js.html.XMLHttpRequest->Dynamic<Dynamic>->Void): JQueryObject {}
 
 	public function ajaxStart(handler: Void->Void): JQueryObject {}
 
 	public function ajaxStop(handler: Void->Void): JQueryObject {}
 
-	public function ajaxSuccess(handler: jQuery.Event->XMLHttpRequest->Dynamic<Dynamic>->Void): JQueryObject {}
+	public function ajaxSuccess(handler: jQuery.Event->js.html.XMLHttpRequest->Dynamic<Dynamic>->Void): JQueryObject {}
 
 	public function andSelf(): JQueryObject {}
 
@@ -140,7 +140,7 @@ extern class JQueryObject{
 
 	public function live(eventType: String, arg2: Hxtern.Any2<Void->Void,Dynamic>, ?handler: Void->Void): JQueryObject {}
 
-	public function load(?arg1: Hxtern.Any3<jQuery.Event->Void,Dynamic,String>, ?arg2: Hxtern.Any3<jQuery.Event->Void,Dynamic<Dynamic>,String>, ?complete: String->String->XMLHttpRequest->Void): JQueryObject {}
+	public function load(?arg1: Hxtern.Any3<jQuery.Event->Void,Dynamic,String>, ?arg2: Hxtern.Any3<jQuery.Event->Void,Dynamic<Dynamic>,String>, ?complete: String->String->js.html.XMLHttpRequest->Void): JQueryObject {}
 
 	public function map(_callback: Float->js.html.Element->Void): JQueryObject {}
 

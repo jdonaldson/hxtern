@@ -18,7 +18,7 @@ extern class ImageMapType{
 
 	public function getOpacity(): Float {}
 
-	public function getTile(tileCoord: google.maps.Point, zoom: Float, ownerDocument: Document): Node {}
+	public function getTile(tileCoord: google.maps.Point, zoom: Float, ownerDocument: js.html.Document): Node {}
 
 	public var maxZoom: Float;
 

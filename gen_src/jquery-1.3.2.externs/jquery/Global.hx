@@ -4,5 +4,5 @@
 package jquery;
 
 extern class Global{
-	public static function $(arg: Hxtern.Any6<String,Node,js.html.Element,Array<js.html.Element>,Dynamic,Window>, ?opt_arg: Hxtern.Any2<JQueryObject,Document>): JQueryObject {}
+	public static function $(arg: Hxtern.Any6<String,Node,js.html.Element,Array<js.html.Element>,Dynamic,Window>, ?opt_arg: Hxtern.Any2<JQueryObject,js.html.Document>): JQueryObject {}
 }

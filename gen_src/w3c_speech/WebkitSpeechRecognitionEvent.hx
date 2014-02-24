@@ -6,7 +6,7 @@ package ;
 extern class WebkitSpeechRecognitionEvent{
 	public function new();
 
-	public var emma: Document;
+	public var emma: js.html.Document;
 
 	public var interpretation: Dynamic;
 

@@ -16,7 +16,7 @@ extern class StyledMapType{
 
 	public function get(key: String): Dynamic {}
 
-	public function getTile(tileCoord: google.maps.Point, zoom: Float, ownerDocument: Document): Node {}
+	public function getTile(tileCoord: google.maps.Point, zoom: Float, ownerDocument: js.html.Document): Node {}
 
 	public var maxZoom: Float;
 

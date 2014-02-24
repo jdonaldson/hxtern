@@ -8,7 +8,7 @@ extern class MapType{
 
 	public var alt: String;
 
-	public function getTile(tileCoord: google.maps.Point, zoom: Float, ownerDocument: Document): Node {}
+	public function getTile(tileCoord: google.maps.Point, zoom: Float, ownerDocument: js.html.Document): Node {}
 
 	public var maxZoom: Float;
 
