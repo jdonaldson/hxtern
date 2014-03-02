@@ -4,7 +4,7 @@
 package google.maps.drawing;
 
 extern class DrawingControlOptions{
-	public function new();
+	public function new() {}
 
 	public var drawingModes: Array<google.maps.drawing.OverlayType>;
 

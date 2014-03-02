@@ -4,7 +4,7 @@
 package ;
 
 extern class NavigatorUserMediaError{
-	public function new();
+	public function new() {}
 
 	public var code: Float;
 

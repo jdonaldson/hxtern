@@ -4,7 +4,7 @@
 package google.maps;
 
 extern class TransitAgency{
-	public function new();
+	public function new() {}
 
 	public var name: String;
 

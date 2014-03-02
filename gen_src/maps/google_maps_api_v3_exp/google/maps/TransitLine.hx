@@ -4,7 +4,7 @@
 package google.maps;
 
 extern class TransitLine{
-	public function new();
+	public function new() {}
 
 	public var agencies: Array<google.maps.TransitAgency>;
 

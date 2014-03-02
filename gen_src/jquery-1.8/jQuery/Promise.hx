@@ -4,7 +4,7 @@
 package jQuery;
 
 extern class Promise{
-	public function new();
+	public function new() {}
 
 	public function always(alwaysCallbacks: JQueryCallback, ?alwaysCallbacks2: JQueryCallback): jQuery.Promise {}
 

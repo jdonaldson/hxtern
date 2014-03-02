@@ -4,7 +4,7 @@
 package chrome.mediaGalleriesPrivate;
 
 extern class GalleryChangeEvent{
-	public function new();
+	public function new() {}
 
 	public function addListener(_callback: chrome.mediaGalleriesPrivate.GalleryChangeCallback): Void {}
 }

@@ -4,7 +4,7 @@
 package google.maps.visualization;
 
 extern class DemographicsLayerOptions{
-	public function new();
+	public function new() {}
 
 	public var clickable: Bool;
 

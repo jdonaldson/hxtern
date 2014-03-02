@@ -4,7 +4,7 @@
 package google.maps.visualization;
 
 extern class WeightedLocation{
-	public function new();
+	public function new() {}
 
 	public var location: google.maps.LatLng;
 

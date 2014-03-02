@@ -4,7 +4,7 @@
 package google.maps;
 
 extern class StreetViewPanoramaOptions{
-	public function new();
+	public function new() {}
 
 	public var addressControl: Bool;
 

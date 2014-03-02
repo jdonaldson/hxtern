@@ -4,7 +4,7 @@
 package google.maps.visualization;
 
 extern class MapsEngineMouseEvent{
-	public function new();
+	public function new() {}
 
 	public var featureId: String;
 

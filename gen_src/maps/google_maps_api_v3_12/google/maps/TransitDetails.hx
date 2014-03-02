@@ -4,7 +4,7 @@
 package google.maps;
 
 extern class TransitDetails{
-	public function new();
+	public function new() {}
 
 	public var arrival_stop: google.maps.TransitStop;
 

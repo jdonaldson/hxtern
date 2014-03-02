@@ -4,7 +4,7 @@
 package google.maps;
 
 extern class PolylineOptions{
-	public function new();
+	public function new() {}
 
 	public var clickable: Bool;
 

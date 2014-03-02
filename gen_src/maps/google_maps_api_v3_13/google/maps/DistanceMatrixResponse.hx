@@ -4,7 +4,7 @@
 package google.maps;
 
 extern class DistanceMatrixResponse{
-	public function new();
+	public function new() {}
 
 	public var destinationAddresses: Array<String>;
 

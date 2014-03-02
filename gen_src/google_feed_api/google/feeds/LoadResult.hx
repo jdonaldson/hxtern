@@ -4,7 +4,7 @@
 package google.feeds;
 
 extern class LoadResult{
-	public function new();
+	public function new() {}
 
 	public var error: google.feeds.FeedError_;
 

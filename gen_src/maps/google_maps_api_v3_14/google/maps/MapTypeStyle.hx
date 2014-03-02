@@ -4,7 +4,7 @@
 package google.maps;
 
 extern class MapTypeStyle{
-	public function new();
+	public function new() {}
 
 	public var elementType: String;
 

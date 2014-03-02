@@ -4,7 +4,7 @@
 package ;
 
 extern class RTCStatsReport{
-	public function new();
+	public function new() {}
 
 	public function names(): Array<String> {}
 

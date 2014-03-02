@@ -4,7 +4,7 @@
 package ;
 
 extern class GProjection{
-	public function new();
+	public function new() {}
 
 	public function fromLatLngToPixel(latlng: GLatLng, zoom: Float): GPoint {}
 

@@ -4,7 +4,7 @@
 package google.maps;
 
 extern class DirectionsResult{
-	public function new();
+	public function new() {}
 
 	public var routes: Array<google.maps.DirectionsRoute>;
 }

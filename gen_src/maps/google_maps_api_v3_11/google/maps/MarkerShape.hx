@@ -4,7 +4,7 @@
 package google.maps;
 
 extern class MarkerShape{
-	public function new();
+	public function new() {}
 
 	public var coords: Array<Float>;
 

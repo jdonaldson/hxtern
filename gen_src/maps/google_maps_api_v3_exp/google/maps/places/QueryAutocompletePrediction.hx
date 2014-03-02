@@ -4,7 +4,7 @@
 package google.maps.places;
 
 extern class QueryAutocompletePrediction{
-	public function new();
+	public function new() {}
 
 	public var description: String;
 

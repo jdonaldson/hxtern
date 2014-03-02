@@ -4,5 +4,5 @@
 package ;
 
 extern class SourceInfo{
-	public function new();
+	public function new() {}
 }

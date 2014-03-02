@@ -4,7 +4,7 @@
 package google.maps;
 
 extern class StreetViewTileData{
-	public function new();
+	public function new() {}
 
 	public var centerHeading: Float;
 

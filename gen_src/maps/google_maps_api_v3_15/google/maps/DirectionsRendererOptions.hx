@@ -4,7 +4,7 @@
 package google.maps;
 
 extern class DirectionsRendererOptions{
-	public function new();
+	public function new() {}
 
 	public var directions: google.maps.DirectionsResult;
 

@@ -4,7 +4,7 @@
 package google.maps;
 
 extern class Duration{
-	public function new();
+	public function new() {}
 
 	public var text: String;
 

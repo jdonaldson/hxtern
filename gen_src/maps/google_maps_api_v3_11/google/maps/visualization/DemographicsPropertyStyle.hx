@@ -4,7 +4,7 @@
 package google.maps.visualization;
 
 extern class DemographicsPropertyStyle{
-	public function new();
+	public function new() {}
 
 	public var expression: String;
 

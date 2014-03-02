@@ -4,7 +4,7 @@
 package google.maps.places;
 
 extern class RadarSearchRequest{
-	public function new();
+	public function new() {}
 
 	public var bounds: google.maps.LatLngBounds;
 

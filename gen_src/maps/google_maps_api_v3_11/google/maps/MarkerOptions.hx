@@ -4,7 +4,7 @@
 package google.maps;
 
 extern class MarkerOptions{
-	public function new();
+	public function new() {}
 
 	public var anchorPoint: google.maps.Point;
 

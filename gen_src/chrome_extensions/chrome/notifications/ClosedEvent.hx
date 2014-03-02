@@ -4,7 +4,7 @@
 package chrome.notifications;
 
 extern class ClosedEvent{
-	public function new();
+	public function new() {}
 
 	public function addListener(_callback: chrome.notifications.ClosedCallback): Void {}
 }

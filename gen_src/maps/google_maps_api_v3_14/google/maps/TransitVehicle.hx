@@ -4,7 +4,7 @@
 package google.maps;
 
 extern class TransitVehicle{
-	public function new();
+	public function new() {}
 
 	public var icon: String;
 

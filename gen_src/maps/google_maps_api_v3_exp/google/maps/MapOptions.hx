@@ -4,7 +4,7 @@
 package google.maps;
 
 extern class MapOptions{
-	public function new();
+	public function new() {}
 
 	public var backgroundColor: String;
 

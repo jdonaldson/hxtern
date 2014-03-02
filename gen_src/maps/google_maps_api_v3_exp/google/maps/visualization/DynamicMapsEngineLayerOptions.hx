@@ -4,7 +4,7 @@
 package google.maps.visualization;
 
 extern class DynamicMapsEngineLayerOptions{
-	public function new();
+	public function new() {}
 
 	public var accessToken: String;
 

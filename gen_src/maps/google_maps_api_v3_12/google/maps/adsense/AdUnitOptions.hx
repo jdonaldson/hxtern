@@ -4,7 +4,7 @@
 package google.maps.adsense;
 
 extern class AdUnitOptions{
-	public function new();
+	public function new() {}
 
 	public var backgroundColor: String;
 

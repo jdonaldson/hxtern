@@ -4,7 +4,7 @@
 package google.maps;
 
 extern class GeocoderComponentRestrictions{
-	public function new();
+	public function new() {}
 
 	public var administrativeArea: String;
 

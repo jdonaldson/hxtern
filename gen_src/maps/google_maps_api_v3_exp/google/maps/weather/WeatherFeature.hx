@@ -4,7 +4,7 @@
 package google.maps.weather;
 
 extern class WeatherFeature{
-	public function new();
+	public function new() {}
 
 	public var current: google.maps.weather.WeatherConditions;
 

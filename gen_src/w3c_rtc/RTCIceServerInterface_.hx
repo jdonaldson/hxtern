@@ -4,7 +4,7 @@
 package ;
 
 extern class RTCIceServerInterface_{
-	public function new();
+	public function new() {}
 
 	public var credential: String;
 

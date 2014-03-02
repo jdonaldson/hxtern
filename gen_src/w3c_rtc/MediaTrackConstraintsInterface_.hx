@@ -4,7 +4,7 @@
 package ;
 
 extern class MediaTrackConstraintsInterface_{
-	public function new();
+	public function new() {}
 
 	public var mandatory: MediaTrackConstraintSet;
 

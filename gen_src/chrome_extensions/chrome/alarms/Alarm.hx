@@ -4,7 +4,7 @@
 package chrome.alarms;
 
 extern class Alarm{
-	public function new();
+	public function new() {}
 
 	/**
 	  Name of this alarm.

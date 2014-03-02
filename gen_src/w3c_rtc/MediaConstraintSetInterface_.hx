@@ -4,7 +4,7 @@
 package ;
 
 extern class MediaConstraintSetInterface_{
-	public function new();
+	public function new() {}
 
 	public var DtlsSrtpKeyAgreement: Bool;
 

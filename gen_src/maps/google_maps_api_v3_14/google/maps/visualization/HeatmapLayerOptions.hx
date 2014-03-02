@@ -4,7 +4,7 @@
 package google.maps.visualization;
 
 extern class HeatmapLayerOptions{
-	public function new();
+	public function new() {}
 
 	public var data: google.maps.MVCArray<google.maps.LatLng>;
 

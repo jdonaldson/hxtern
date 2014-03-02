@@ -4,7 +4,7 @@
 package ;
 @:native("_ga_tracker")
 extern class Ga_tracker{
-	public function new();
+	public function new() {}
 
 	public function _addIgnoredOrganic(newIgnoredOrganicKeyword: String): Null<Dynamic> {}
 

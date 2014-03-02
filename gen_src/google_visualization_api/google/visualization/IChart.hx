@@ -4,7 +4,7 @@
 package google.visualization;
 
 extern class IChart{
-	public function new();
+	public function new() {}
 
 	public function clearChart(): Null<Dynamic> {}
 

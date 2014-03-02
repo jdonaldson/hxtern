@@ -4,7 +4,7 @@
 package google.maps;
 
 extern class IconSequence{
-	public function new();
+	public function new() {}
 
 	public var fixedRotation: Bool;
 

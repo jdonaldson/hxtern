@@ -4,7 +4,7 @@
 package google.maps;
 
 extern class ElevationResult{
-	public function new();
+	public function new() {}
 
 	public var elevation: Float;
 

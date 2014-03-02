@@ -4,7 +4,7 @@
 package google.feeds;
 
 extern class FeedResult{
-	public function new();
+	public function new() {}
 
 	public var author: String;
 

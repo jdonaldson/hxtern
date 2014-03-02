@@ -4,7 +4,7 @@
 package google.maps;
 
 extern class StreetViewLink{
-	public function new();
+	public function new() {}
 
 	public var description: String;
 

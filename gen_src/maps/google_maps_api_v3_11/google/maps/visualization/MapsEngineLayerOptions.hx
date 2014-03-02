@@ -4,7 +4,7 @@
 package google.maps.visualization;
 
 extern class MapsEngineLayerOptions{
-	public function new();
+	public function new() {}
 
 	public var clickable: Bool;
 

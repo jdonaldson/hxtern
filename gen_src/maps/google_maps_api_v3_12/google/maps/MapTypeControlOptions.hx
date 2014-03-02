@@ -4,7 +4,7 @@
 package google.maps;
 
 extern class MapTypeControlOptions{
-	public function new();
+	public function new() {}
 
 	public var mapTypeIds: Hxtern.Any2<Array<google.maps.MapTypeId>,Array<String>>;
 

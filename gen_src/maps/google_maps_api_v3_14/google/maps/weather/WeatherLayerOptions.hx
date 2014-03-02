@@ -4,7 +4,7 @@
 package google.maps.weather;
 
 extern class WeatherLayerOptions{
-	public function new();
+	public function new() {}
 
 	public var clickable: Bool;
 

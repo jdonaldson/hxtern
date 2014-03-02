@@ -4,7 +4,7 @@
 package google.maps.panoramio;
 
 extern class PanoramioFeature{
-	public function new();
+	public function new() {}
 
 	public var author: String;
 

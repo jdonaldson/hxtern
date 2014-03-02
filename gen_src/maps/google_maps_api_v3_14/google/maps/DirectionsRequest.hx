@@ -4,7 +4,7 @@
 package google.maps;
 
 extern class DirectionsRequest{
-	public function new();
+	public function new() {}
 
 	public var avoidHighways: Bool;
 
