@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-extern class ZoomControlOptions{
+extern class ZoomControlOptions {
 	public function new() {}
 
 	public var position: google.maps.ControlPosition;

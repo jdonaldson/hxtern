@@ -3,7 +3,7 @@
 */
 package chrome;
 @:native("chrome.cookies")
-extern class Cookies{
+extern class Cookies {
 	public static function get(details: Dynamic, _callback: Cookie->Void): Void {}
 
 	public static function getAll(details: Dynamic, _callback: Array<Cookie>->Void): Void {}

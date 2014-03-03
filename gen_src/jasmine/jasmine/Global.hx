@@ -3,7 +3,7 @@
 */
 package jasmine;
 
-extern class Global{
+extern class Global {
 	public static function afterEach(handler: Void->Void): Void {}
 
 	public static function beforeEach(handler: Void->Void): Void {}

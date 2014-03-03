@@ -3,7 +3,7 @@
 */
 package chrome;
 @:native("chrome.contentSettings")
-extern class ContentSettings{
+extern class ContentSettings {
 	public static var cookies: ContentSetting;
 
 	public static var images: ContentSetting;

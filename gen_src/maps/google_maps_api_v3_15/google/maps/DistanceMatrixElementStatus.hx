@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-extern class DistanceMatrixElementStatus{
+extern class DistanceMatrixElementStatus {
 	public static var NOT_FOUND: Dynamic;
 
 	public static var OK: Dynamic;

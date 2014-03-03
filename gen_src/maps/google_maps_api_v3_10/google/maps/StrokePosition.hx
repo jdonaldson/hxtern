@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-extern class StrokePosition{
+extern class StrokePosition {
 	public static var CENTER: Dynamic;
 
 	public static var INSIDE: Dynamic;

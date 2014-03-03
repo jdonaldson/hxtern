@@ -4,8 +4,8 @@ The type of chrome.app.runtime.onLaunched.
 */
 package chrome.app.runtime;
 
-extern class LaunchEvent{
-	public function new();
+extern class LaunchEvent {
+	public function new() {}
 
 	public function addListener(_callback: chrome.app.runtime.LaunchData->Void): Void {}
 

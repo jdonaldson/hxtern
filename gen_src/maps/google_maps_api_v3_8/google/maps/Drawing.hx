@@ -3,6 +3,6 @@
 */
 package google.maps;
 @:native("google.maps.drawing")
-extern class Drawing{
+extern class Drawing {
 	public static var OverlayType: Dynamic;
 }

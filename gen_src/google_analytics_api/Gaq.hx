@@ -3,7 +3,7 @@
 */
 package ;
 @:native("_gaq")
-extern class Gaq{
+extern class Gaq {
 	public static function _createAsyncTracker(accountId: String, ?opt_name: String): Ga_tracker {}
 
 	public static function _getAsyncTracker(?opt_name: String): Ga_tracker {}

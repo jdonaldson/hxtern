@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-extern class Icon{
+extern class Icon {
 	public function new() {}
 
 	public var anchor: google.maps.Point;

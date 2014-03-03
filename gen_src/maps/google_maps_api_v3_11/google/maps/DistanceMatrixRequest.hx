@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-extern class DistanceMatrixRequest{
+extern class DistanceMatrixRequest {
 	public function new() {}
 
 	public var avoidHighways: Bool;

@@ -4,8 +4,8 @@ This type is used internally to define the jQuery.support subtype
 */
 package jQuery;
 @:native("jQuery.support_")
-extern class Support_{
-	private function new();
+extern class Support_ {
+	private function new() {}
 
 	public var boxModel: Bool;
 

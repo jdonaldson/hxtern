@@ -3,7 +3,7 @@
 */
 package chrome;
 @:native("chrome.storage")
-extern class Storage{
+extern class Storage {
 	public static var local: StorageArea;
 
 	public static var onChanged: StorageChangeEvent;

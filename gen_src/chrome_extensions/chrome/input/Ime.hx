@@ -3,7 +3,7 @@
 */
 package chrome.input;
 @:native("chrome.input.ime")
-extern class Ime{
+extern class Ime {
 	public static function clearComposition(parameters: Dynamic<Float>, _callback: Bool->Void): Void {}
 
 	public static function commitText(parameters: Dynamic<Hxtern.Any2<String,Float>>, ?opt_callback: Bool->Void): Void {}

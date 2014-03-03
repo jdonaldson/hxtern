@@ -4,8 +4,8 @@ onKeyEvent
 */
 package ;
 
-extern class ExtensionInfo{
-	public function new();
+extern class ExtensionInfo {
+	public function new() {}
 
 	public var appLaunchUrl: String;
 

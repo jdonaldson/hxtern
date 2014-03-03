@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-extern class TransitOptions{
+extern class TransitOptions {
 	public function new() {}
 
 	public var arrivalTime: Date;

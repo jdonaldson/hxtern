@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-extern class FusionTablesCell{
+extern class FusionTablesCell {
 	public function new() {}
 
 	public var columnName: String;

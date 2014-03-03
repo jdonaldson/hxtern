@@ -4,8 +4,8 @@ The OnKeyEvent event takes an extra argument.
 */
 package ;
 
-extern class ChromeInputImeOnKeyEventEvent{
-	public function new();
+extern class ChromeInputImeOnKeyEventEvent {
+	public function new() {}
 
 	public function addListener(callbackcallback: String->ChromeKeyboardEvent->Hxtern.Any2<Bool,Null<Dynamic>>, ?opt_extraInfoSpec: Array<String>): Void {}
 

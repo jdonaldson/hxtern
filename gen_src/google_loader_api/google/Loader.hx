@@ -3,6 +3,6 @@
 */
 package google;
 @:native("google.loader")
-extern class Loader{
+extern class Loader {
 	public static var ClientLocation: Dynamic;
 }

@@ -3,7 +3,7 @@
 */
 package google.maps.api;
 
-extern class Global{
+extern class Global {
 	public static function GBrowserIsCompatible(): Bool {}
 
 	public static function GDownloadUrl(url: String, onload: String->Float->Void, ?postBody: String, ?postContentType: String): Void {}

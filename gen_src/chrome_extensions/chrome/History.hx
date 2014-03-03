@@ -3,7 +3,7 @@
 */
 package chrome;
 @:native("chrome.history")
-extern class History{
+extern class History {
 	public static function addUrl(details: Dynamic<String>): Void {}
 
 	public static function deleteAll(_callback: Void->Void): Void {}

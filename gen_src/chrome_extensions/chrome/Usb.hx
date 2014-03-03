@@ -3,7 +3,7 @@
 */
 package chrome;
 @:native("chrome.usb")
-extern class Usb{
+extern class Usb {
 	public static function bulkTransfer(handle: chrome.usb.ConnectionHandle, transferInfo: chrome.usb.GenericTransferInfo, _callback: chrome.usb.TransferResultInfo->Void): Void {}
 
 	public static function claimInterface(handle: chrome.usb.ConnectionHandle, interfaceNumber: Float, _callback: Void->Void): Void {}

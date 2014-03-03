@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-extern class GroundOverlayOptions{
+extern class GroundOverlayOptions {
 	public function new() {}
 
 	public var clickable: Bool;

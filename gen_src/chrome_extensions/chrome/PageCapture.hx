@@ -3,6 +3,6 @@
 */
 package chrome;
 @:native("chrome.pageCapture")
-extern class PageCapture{
+extern class PageCapture {
 	public static function saveAsMHTML(details: Dynamic<Float>, _callback: Blob->Void): Void {}
 }

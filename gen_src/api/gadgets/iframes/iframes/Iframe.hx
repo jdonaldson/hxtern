@@ -4,8 +4,8 @@ This is an internal class to represent an iframe, not the DOM element.
 */
 package iframes;
 
-extern class Iframe{
-	public function new();
+extern class Iframe {
+	public function new() {}
 
 	public function addCallback(type: String, _callback: Dynamic): Void {}
 

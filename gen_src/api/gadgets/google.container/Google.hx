@@ -3,6 +3,6 @@
 */
 package ;
 @:native("google")
-extern class Google{
+extern class Google {
 	public static var container: Dynamic;
 }

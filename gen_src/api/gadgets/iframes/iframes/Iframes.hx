@@ -4,8 +4,8 @@ The type for the Iframes API.
 */
 package iframes;
 
-extern class Iframes{
-	public function new();
+extern class Iframes {
+	public function new() {}
 
 	public function allow(name: String, ?opt_func: ?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->?Array<Dynamic>->Dynamic): Void {}
 

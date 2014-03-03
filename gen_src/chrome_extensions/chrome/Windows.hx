@@ -3,7 +3,7 @@
 */
 package chrome;
 @:native("chrome.windows")
-extern class Windows{
+extern class Windows {
 	public static function create(?opt_createData: Dynamic, ?opt_callback: ChromeWindow->Void): Void {}
 
 	public static function get(id: Float, ?opt_getInfo: Dynamic, ?opt_callback: ChromeWindow->Void): Void {}

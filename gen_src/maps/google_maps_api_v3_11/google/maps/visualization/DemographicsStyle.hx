@@ -3,7 +3,7 @@
 */
 package google.maps.visualization;
 
-extern class DemographicsStyle{
+extern class DemographicsStyle {
 	public function new() {}
 
 	public var polygonOptions: Hxtern.Any2<google.maps.visualization.DemographicsPolygonOptions,Dynamic<String>>;

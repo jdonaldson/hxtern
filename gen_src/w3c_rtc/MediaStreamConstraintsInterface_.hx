@@ -3,7 +3,7 @@
 */
 package ;
 
-extern class MediaStreamConstraintsInterface_{
+extern class MediaStreamConstraintsInterface_ {
 	public function new() {}
 
 	public var audio: Hxtern.Any2<Bool,MediaTrackConstraints>;

@@ -3,7 +3,7 @@
 */
 package google.feeds;
 
-extern class FindFeedResultEntry{
+extern class FindFeedResultEntry {
 	public function new() {}
 
 	public var contentSnippet: String;

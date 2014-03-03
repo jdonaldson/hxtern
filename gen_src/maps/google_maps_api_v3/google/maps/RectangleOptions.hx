@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-extern class RectangleOptions{
+extern class RectangleOptions {
 	public function new() {}
 
 	public var bounds: google.maps.LatLngBounds;

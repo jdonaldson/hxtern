@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-extern class StreetViewTileData{
+extern class StreetViewTileData {
 	public function new() {}
 
 	public var centerHeading: Float;

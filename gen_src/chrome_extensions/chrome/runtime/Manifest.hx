@@ -7,8 +7,8 @@ as needed.
 */
 package chrome.runtime;
 
-extern class Manifest{
-	public function new();
+extern class Manifest {
+	public function new() {}
 
 	public var description: Hxtern.Any2<String,Null<Dynamic>>;
 

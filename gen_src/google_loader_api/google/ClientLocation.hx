@@ -3,7 +3,7 @@
 */
 
 @:native("google.loader.ClientLocation.address")
-extern class Address{
+extern class Address {
 	public static var city: String;
 
 	public static var country: String;

@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-extern class DistanceMatrixResponseElement{
+extern class DistanceMatrixResponseElement {
 	public function new() {}
 
 	public var distance: google.maps.Distance;

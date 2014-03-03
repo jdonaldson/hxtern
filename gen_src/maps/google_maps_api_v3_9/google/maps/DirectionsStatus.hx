@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-extern class DirectionsStatus{
+extern class DirectionsStatus {
 	public static var INVALID_REQUEST: Dynamic;
 
 	public static var MAX_WAYPOINTS_EXCEEDED: Dynamic;

@@ -3,7 +3,7 @@
 */
 package google.maps.visualization;
 
-extern class MapsEngineLayerProperties{
+extern class MapsEngineLayerProperties {
 	public function new() {}
 
 	public var name: String;

@@ -3,7 +3,7 @@
 */
 package gadgets;
 @:native("gadgets.flash")
-extern class Flash{
+extern class Flash {
 	public static function embedCachedFlash(): Bool {}
 
 	public static function embedFlash(url: String, container: Hxtern.Any2<String,js.html.Element>, minVersion: Float, ?opt_params: Dynamic): Bool {}

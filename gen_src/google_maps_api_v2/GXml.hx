@@ -3,7 +3,7 @@
 */
 package ;
 
-extern class GXml{
+extern class GXml {
 	public static function parse(xmltext: String): Node {}
 
 	public static function value(xmlnode: Node): String {}

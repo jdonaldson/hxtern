@@ -3,7 +3,7 @@
 */
 package chrome;
 @:native("chrome.bookmarks")
-extern class Bookmarks{
+extern class Bookmarks {
 	public static function create(bookmark: Dynamic, ?opt_callback: BookmarkTreeNode->Void): BookmarkTreeNode {}
 
 	public static function get(idOrIdList: Hxtern.Any2<String,Array<String>>, _callback: Array<BookmarkTreeNode>->Void): Array<BookmarkTreeNode> {}

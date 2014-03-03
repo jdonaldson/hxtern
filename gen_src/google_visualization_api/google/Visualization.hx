@@ -3,6 +3,6 @@
 */
 package google;
 @:native("google.visualization")
-extern class Visualization{
+extern class Visualization {
 	public static function drawToolbar(): Void {}
 }

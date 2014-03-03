@@ -3,7 +3,7 @@
 */
 package ;
 
-extern class MediaTrackConstraintSetInterface_{
+extern class MediaTrackConstraintSetInterface_ {
 	public function new() {}
 
 	public var maxAspectRatio: Float;

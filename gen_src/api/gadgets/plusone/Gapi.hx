@@ -3,7 +3,7 @@
 */
 package ;
 @:native("gapi")
-extern class Gapi{
+extern class Gapi {
 	/**
 	  Namespace associated with Plusone API.
 	 */

@@ -3,7 +3,7 @@
 */
 package chrome.app;
 @:native("chrome.app.window")
-extern class Window{
+extern class Window {
 	public static function create(url: String, ?opt_options: chrome.app.window.CreateWindowOptions, ?opt_createWindowCallbackCallback: chrome.app.window.AppWindow->Void): Void {}
 
 	public static function current(): chrome.app.window.AppWindow {}

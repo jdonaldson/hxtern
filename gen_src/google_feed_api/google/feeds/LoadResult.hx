@@ -3,7 +3,7 @@
 */
 package google.feeds;
 
-extern class LoadResult{
+extern class LoadResult {
 	public function new() {}
 
 	public var error: google.feeds.FeedError_;

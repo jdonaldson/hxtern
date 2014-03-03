@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-extern class PolygonOptions{
+extern class PolygonOptions {
 	public function new() {}
 
 	public var clickable: Bool;

@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-extern class IconSequence{
+extern class IconSequence {
 	public function new() {}
 
 	public var fixedRotation: Bool;

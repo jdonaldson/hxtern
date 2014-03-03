@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-extern class StreetViewAddressControlOptions{
+extern class StreetViewAddressControlOptions {
 	public function new() {}
 
 	public var position: google.maps.ControlPosition;

@@ -4,8 +4,8 @@ A description of a voice available for speech synthesis.
 */
 package ;
 
-extern class TtsVoice{
-	public function new();
+extern class TtsVoice {
+	public function new() {}
 
 	public var eventTypes: Array<String>;
 

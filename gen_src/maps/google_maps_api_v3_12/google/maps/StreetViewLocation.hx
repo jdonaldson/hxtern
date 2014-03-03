@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-extern class StreetViewLocation{
+extern class StreetViewLocation {
 	public function new() {}
 
 	public var description: String;

@@ -3,7 +3,7 @@
 */
 package google.maps.panoramio;
 
-extern class PanoramioLayerOptions{
+extern class PanoramioLayerOptions {
 	public function new() {}
 
 	public var clickable: Bool;

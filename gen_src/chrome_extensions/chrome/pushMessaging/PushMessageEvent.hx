@@ -4,8 +4,8 @@ Event whose listeners take a chrome.pushMessaging.Message parameter.
 */
 package chrome.pushMessaging;
 
-extern class PushMessageEvent{
-	public function new();
+extern class PushMessageEvent {
+	public function new() {}
 
 	public function addListener(_callback: chrome.pushMessaging.Message->Void): Void {}
 

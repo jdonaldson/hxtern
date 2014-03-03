@@ -3,7 +3,7 @@
 */
 package google;
 @:native("google.maps")
-extern class Maps{
+extern class Maps {
 	public static function BrowserIsCompatible(): Bool {}
 
 	public static function DownloadUrl(url: String, onload: String->Float->Void, ?postBody: String, ?postContentType: String): Void {}

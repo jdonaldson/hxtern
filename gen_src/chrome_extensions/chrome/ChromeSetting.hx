@@ -3,6 +3,6 @@
 */
 package chrome;
 @:native("chrome.chromeSetting")
-extern class ChromeSetting{
+extern class ChromeSetting {
 	public static var onChange: ChromeEvent;
 }

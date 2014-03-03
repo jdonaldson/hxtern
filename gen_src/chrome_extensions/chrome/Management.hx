@@ -3,7 +3,7 @@
 */
 package chrome;
 @:native("chrome.management")
-extern class Management{
+extern class Management {
 	public static function get(id: String, _callback: ExtensionInfo->Void): Void {}
 
 	public static function getAll(_callback: Array<ExtensionInfo>->Void): Array<ExtensionInfo> {}

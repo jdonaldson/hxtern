@@ -3,7 +3,7 @@
 */
 package ;
 
-extern class Window{
+extern class Window {
 	public var intent: DeliveredIntent;
 
 	public var webkitIntent: DeliveredIntent;

@@ -4,6 +4,6 @@ LocalFileSystemSync interface, implemented by WorkerGlobalScope.
 */
 package ;
 
-extern class LocalFileSystemSync{
-	public function new();
+extern class LocalFileSystemSync {
+	public function new() {}
 }

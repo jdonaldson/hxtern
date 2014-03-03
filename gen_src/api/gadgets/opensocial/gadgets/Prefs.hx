@@ -4,8 +4,8 @@ Class providing access to user preferences, module dimensions, and messages.
 */
 package gadgets;
 
-extern class Prefs{
-	public function new(?opt_moduleId: String);
+extern class Prefs {
+	public function new(?opt_moduleId: String) {}
 
 	public function getArray(key: String): Array<String> {}
 

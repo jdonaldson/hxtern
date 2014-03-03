@@ -3,7 +3,7 @@
 */
 package ;
 @:native("_gat")
-extern class Gat{
+extern class Gat {
 	public static function _anonymizeIp(): Null<Dynamic> {}
 
 	public static function _createTracker(?opt_account: String, ?opt_name: String): Ga_tracker {}

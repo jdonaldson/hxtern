@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-extern class TransitStop{
+extern class TransitStop {
 	public function new() {}
 
 	public var location: google.maps.LatLng;

@@ -4,8 +4,8 @@ The onErrorOccurred event takes one less parameter than the others.
 */
 package ;
 
-extern class WebRequestOnErrorOccurredEvent{
-	public function new();
+extern class WebRequestOnErrorOccurredEvent {
+	public function new() {}
 
 	public function addListener(listener: Dynamic->Void, filter: RequestFilter): Void {}
 

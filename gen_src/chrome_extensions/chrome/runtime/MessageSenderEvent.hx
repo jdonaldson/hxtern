@@ -4,8 +4,8 @@ Event whose listeners take a MessageSender and additional parameters.
 */
 package chrome.runtime;
 
-extern class MessageSenderEvent{
-	public function new();
+extern class MessageSenderEvent {
+	public function new() {}
 
 	public function addListener(_callback: Dynamic->MessageSender->Dynamic->Void->Hxtern.Any2<Bool,Null<Dynamic>>): Void {}
 

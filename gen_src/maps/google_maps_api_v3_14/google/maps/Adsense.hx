@@ -3,6 +3,6 @@
 */
 package google.maps;
 @:native("google.maps.adsense")
-extern class Adsense{
+extern class Adsense {
 	public static var AdFormat: Dynamic;
 }

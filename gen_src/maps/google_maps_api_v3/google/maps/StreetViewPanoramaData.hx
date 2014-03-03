@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-extern class StreetViewPanoramaData{
+extern class StreetViewPanoramaData {
 	public function new() {}
 
 	public var copyright: String;

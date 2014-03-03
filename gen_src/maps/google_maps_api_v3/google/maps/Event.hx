@@ -3,7 +3,7 @@
 */
 package google.maps;
 @:native("google.maps.event")
-extern class Event{
+extern class Event {
 	public static function addDomListener(instance: Dynamic, eventName: String, handler: Dynamic, ?opt_capture: Bool): google.maps.MapsEventListener {}
 
 	public static function addDomListenerOnce(instance: Dynamic, eventName: String, handler: Dynamic, ?opt_capture: Bool): google.maps.MapsEventListener {}

@@ -3,7 +3,7 @@
 */
 package google.visualization;
 
-extern class IChart{
+extern class IChart {
 	public function new() {}
 
 	public function clearChart(): Null<Dynamic> {}

@@ -3,7 +3,7 @@
 */
 package chrome.alarms;
 
-extern class Alarm{
+extern class Alarm {
 	public function new() {}
 
 	/**

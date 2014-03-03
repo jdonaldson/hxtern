@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-extern class Projection{
+extern class Projection {
 	public function new() {}
 
 	public function fromLatLngToPoint(latLng: google.maps.LatLng, ?opt_point: google.maps.Point): google.maps.Point {}

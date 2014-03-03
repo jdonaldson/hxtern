@@ -5,8 +5,8 @@ key that changed to its corresponding StorageChange for that item.
 */
 package ;
 
-extern class StorageChangeEvent{
-	public function new();
+extern class StorageChangeEvent {
+	public function new() {}
 
 	public function addListener(callbackListener: Dynamic<StorageChange>->String->Void): Void {}
 

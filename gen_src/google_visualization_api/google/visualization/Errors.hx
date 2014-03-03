@@ -3,7 +3,7 @@
 */
 package google.visualization;
 @:native("google.visualization.errors")
-extern class Errors{
+extern class Errors {
 	public static function addError(container: Node, message: String, ?opt_detailedMessage: Dynamic, ?opt_options: Dynamic): String {}
 
 	public static function addErrorFromQueryResponse(container: Node, response: google.visualization.QueryResponse): String {}

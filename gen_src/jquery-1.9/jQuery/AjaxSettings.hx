@@ -3,7 +3,7 @@
 */
 package jQuery;
 @:native("jQuery.ajaxSettings")
-extern class AjaxSettings{
+extern class AjaxSettings {
 	public static var accepts: Dynamic<String>;
 
 	public static var async: Bool;

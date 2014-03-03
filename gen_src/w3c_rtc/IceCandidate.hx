@@ -4,8 +4,8 @@ TODO(bemasc): Remove this definition once it is removed from the browser.
 */
 package ;
 
-extern class IceCandidate{
-	public function new(label: String, sdp: String);
+extern class IceCandidate {
+	public function new(label: String, sdp: String) {}
 
 	public var label: String;
 

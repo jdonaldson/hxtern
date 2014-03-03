@@ -3,7 +3,7 @@
 */
 package chrome;
 @:native("chrome.permissions")
-extern class Permissions{
+extern class Permissions {
 	public static function contains(permissions: chrome.permissions.Permissions, _callback: Bool->Void): Void {}
 
 	public static function getAll(callbackCallback: chrome.permissions.Permissions->Void): Void {}

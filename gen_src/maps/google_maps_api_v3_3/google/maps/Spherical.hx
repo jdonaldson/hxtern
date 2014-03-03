@@ -3,7 +3,7 @@
 */
 package google.maps;
 @:native("google.maps.spherical")
-extern class Spherical{
+extern class Spherical {
 	public static function computeArea(loop: Hxtern.Any2<Array<google.maps.LatLng>,google.maps.MVCArray<google.maps.LatLng>>, ?radius: Float): Float {}
 
 	public static function computeDistanceBetween(from: google.maps.LatLng, to: google.maps.LatLng, ?radius: Float): Float {}

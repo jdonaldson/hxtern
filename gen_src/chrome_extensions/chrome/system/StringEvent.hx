@@ -4,8 +4,8 @@ Event whose listeners take a string parameter.
 */
 package chrome.system;
 
-extern class StringEvent{
-	public function new();
+extern class StringEvent {
+	public function new() {}
 
 	public function addListener(_callback: String->Void): Void {}
 

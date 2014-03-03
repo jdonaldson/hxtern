@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-extern class KmlLayerOptions{
+extern class KmlLayerOptions {
 	public function new() {}
 
 	public var clickable: Bool;

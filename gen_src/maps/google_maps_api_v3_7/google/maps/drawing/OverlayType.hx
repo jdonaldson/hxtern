@@ -3,7 +3,7 @@
 */
 package google.maps.drawing;
 
-extern class OverlayType{
+extern class OverlayType {
 	public static var CIRCLE: Dynamic;
 
 	public static var MARKER: Dynamic;

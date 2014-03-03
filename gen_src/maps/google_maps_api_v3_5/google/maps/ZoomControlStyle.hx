@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-extern class ZoomControlStyle{
+extern class ZoomControlStyle {
 	public static var DEFAULT: Dynamic;
 
 	public static var LARGE: Dynamic;

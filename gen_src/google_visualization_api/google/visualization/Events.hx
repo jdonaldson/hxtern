@@ -3,7 +3,7 @@
 */
 package google.visualization;
 @:native("google.visualization.events")
-extern class Events{
+extern class Events {
 	public static function addListener(eventSource: Dynamic, eventName: String, eventHandler: Dynamic): Dynamic {}
 
 	public static function removeAllListeners(eventSource: Dynamic): Null<Dynamic> {}

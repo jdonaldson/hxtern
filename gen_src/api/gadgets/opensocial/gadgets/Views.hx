@@ -3,7 +3,7 @@
 */
 package gadgets;
 @:native("gadgets.views")
-extern class Views{
+extern class Views {
 	public static function getCurrentView(): gadgets.views.View {}
 
 	public static function getParams(): Dynamic {}

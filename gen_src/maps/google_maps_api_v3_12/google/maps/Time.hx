@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-extern class Time{
+extern class Time {
 	public function new() {}
 
 	public var text: String;

@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-extern class OverviewMapControlOptions{
+extern class OverviewMapControlOptions {
 	public function new() {}
 
 	public var opened: Bool;

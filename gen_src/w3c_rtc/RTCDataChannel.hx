@@ -3,7 +3,7 @@
 */
 package ;
 
-extern class RTCDataChannel{
+extern class RTCDataChannel {
 	public function new() {}
 
 	public var binaryType: String;

@@ -3,7 +3,7 @@
 */
 package google.maps.weather;
 
-extern class WeatherConditions{
+extern class WeatherConditions {
 	public function new() {}
 
 	public var day: String;

@@ -3,6 +3,6 @@
 */
 package chrome.runtime;
 @:native("chrome.runtime.lastError")
-extern class LastError{
+extern class LastError {
 	public static var message: Hxtern.Any2<String,Null<Dynamic>>;
 }

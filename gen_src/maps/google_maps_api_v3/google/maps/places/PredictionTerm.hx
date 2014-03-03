@@ -3,7 +3,7 @@
 */
 package google.maps.places;
 
-extern class PredictionTerm{
+extern class PredictionTerm {
 	public function new() {}
 
 	public var offset: Float;

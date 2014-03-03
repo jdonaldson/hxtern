@@ -3,7 +3,7 @@
 */
 package chrome;
 @:native("chrome.fileSystem")
-extern class FileSystem{
+extern class FileSystem {
 	public static function chooseEntry(optionsOrCallback: Hxtern.Any2<chrome.fileSystem.ChooseEntryOptions,Entry->Array<FileEntry>->Void>, ?opt_callback: Entry->Array<FileEntry>->Void): Void {}
 
 	public static function getDisplayPath(entry: Entry, _callback: String->Void): Void {}

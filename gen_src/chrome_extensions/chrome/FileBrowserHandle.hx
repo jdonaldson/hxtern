@@ -3,6 +3,6 @@
 */
 package chrome;
 @:native("chrome.fileBrowserHandle")
-extern class FileBrowserHandle{
+extern class FileBrowserHandle {
 	public static var onExecute: ChromeEvent;
 }

@@ -3,7 +3,7 @@
 */
 package jquery;
 
-extern class Global{
+extern class Global {
 	public static function $(?arg1: Hxtern.Any6<JQuerySelector,js.html.Element,Array,Dynamic,String,Void->Void>, ?arg2: Hxtern.Any4<js.html.Element,JQueryObject,js.html.Document,Dynamic>): JQueryObject {}
 
 	public static function jQuery(?arg1: Hxtern.Any6<JQuerySelector,js.html.Element,Array,Dynamic,String,Void->Void>, ?arg2: Hxtern.Any4<js.html.Element,JQueryObject,js.html.Document,Dynamic>): JQueryObject {}

@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-extern class DirectionsStep{
+extern class DirectionsStep {
 	public function new() {}
 
 	public var distance: google.maps.Distance;

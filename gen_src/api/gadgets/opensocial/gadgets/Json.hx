@@ -3,7 +3,7 @@
 */
 package gadgets;
 @:native("gadgets.json")
-extern class Json{
+extern class Json {
 	public static function parse(s: String): Dynamic {}
 
 	public static function stringify(json: Dynamic): String {}

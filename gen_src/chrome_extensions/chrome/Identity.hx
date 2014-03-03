@@ -3,7 +3,7 @@
 */
 package chrome;
 @:native("chrome.identity")
-extern class Identity{
+extern class Identity {
 	public static function getAuthToken(detailsOrCallback: Hxtern.Any2<chrome.identity.TokenDetails,String->Void>, ?opt_callback: String->Void): Void {}
 
 	public static function launchWebAuthFlow(details: chrome.identity.WebAuthFlowDetails, _callback: String->Void): Void {}

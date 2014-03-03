@@ -3,7 +3,7 @@
 */
 package google.loader;
 
-extern class ClientLocation{
+extern class ClientLocation {
 	public static var address: Dynamic;
 
 	public static var latitude: Float;

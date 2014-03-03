@@ -3,7 +3,7 @@
 */
 package chrome;
 @:native("chrome.webRequest")
-extern class WebRequest{
+extern class WebRequest {
 	public static function handlerBehaviorChanged(?opt_callback: Void->Void): Void {}
 
 	public static var onAuthRequired: WebRequestEvent;

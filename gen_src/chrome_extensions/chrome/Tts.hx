@@ -3,7 +3,7 @@
 */
 package chrome;
 @:native("chrome.tts")
-extern class Tts{
+extern class Tts {
 	public static function getVoices(?opt_callback: Array<TtsVoice>->Void): Void {}
 
 	public static function isSpeaking(?opt_callback: Bool->Void): Void {}

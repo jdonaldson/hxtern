@@ -3,6 +3,6 @@
 */
 package google.maps;
 
-extern class ScaleControlStyle{
+extern class ScaleControlStyle {
 	public static var DEFAULT: Dynamic;
 }

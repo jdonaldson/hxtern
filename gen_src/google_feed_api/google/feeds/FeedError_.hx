@@ -3,7 +3,7 @@
 */
 package google.feeds;
 
-extern class FeedError_{
+extern class FeedError_ {
 	public function new() {}
 
 	public var code: String;

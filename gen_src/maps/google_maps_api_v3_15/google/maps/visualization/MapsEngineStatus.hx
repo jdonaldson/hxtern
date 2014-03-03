@@ -3,7 +3,7 @@
 */
 package google.maps.visualization;
 
-extern class MapsEngineStatus{
+extern class MapsEngineStatus {
 	public static var INVALID_LAYER: Dynamic;
 
 	public static var OK: Dynamic;

@@ -3,7 +3,7 @@
 */
 package ;
 @:native("gadgets")
-extern class Gadgets{
+extern class Gadgets {
 	public static var config: Dynamic;
 
 	public static var flash: Dynamic;

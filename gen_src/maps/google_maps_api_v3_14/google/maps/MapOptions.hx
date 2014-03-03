@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-extern class MapOptions{
+extern class MapOptions {
 	public function new() {}
 
 	public var backgroundColor: String;

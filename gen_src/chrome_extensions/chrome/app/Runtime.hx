@@ -3,7 +3,7 @@
 */
 package chrome.app;
 @:native("chrome.app.runtime")
-extern class Runtime{
+extern class Runtime {
 	public static var onLaunched: chrome.app.runtime.LaunchEvent;
 
 	public static var onRestarted: ChromeEvent;

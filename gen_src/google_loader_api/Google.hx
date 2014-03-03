@@ -3,7 +3,7 @@
 */
 package ;
 @:native("google")
-extern class Google{
+extern class Google {
 	public static function load(moduleName: String, moduleVersion: String, ?optionalSettings: Dynamic<Dynamic>): Void {}
 
 	public static var loader: Dynamic;

@@ -3,7 +3,7 @@
 */
 package chrome;
 @:native("chrome.runtime")
-extern class Runtime{
+extern class Runtime {
 	public static function connect(?opt_extensionIdOrConnectInfo: Hxtern.Any2<String,Dynamic<String>>, ?opt_connectInfo: Dynamic<String>): Port {}
 
 	public static function connectNative(application: String): Port {}

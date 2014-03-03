@@ -5,8 +5,8 @@ See http://developer.chrome.com/apps/app_identity.html#update_manifest.
 */
 
 @:native("chrome.runtime.Manifest.Oauth2")
-extern class Oauth2{
-	public function new();
+extern class Oauth2 {
+	public function new() {}
 
 	public var client_id: String;
 

@@ -4,8 +4,8 @@ Event whose listeners take a StorageUnitInfoEvent parameter.
 */
 package chrome.system.storage;
 
-extern class StorageUnitInfoEvent{
-	public function new();
+extern class StorageUnitInfoEvent {
+	public function new() {}
 
 	public function addListener(_callback: chrome.system.storage.StorageUnitInfo->Void): Void {}
 

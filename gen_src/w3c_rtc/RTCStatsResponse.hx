@@ -3,7 +3,7 @@
 */
 package ;
 
-extern class RTCStatsResponse{
+extern class RTCStatsResponse {
 	public function new() {}
 
 	public function result(): Array<RTCStatsReport> {}

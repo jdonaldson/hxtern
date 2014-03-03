@@ -3,7 +3,7 @@
 */
 package chrome;
 @:native("chrome.ttsEngine")
-extern class TtsEngine{
+extern class TtsEngine {
 	public static var onSpeak: ChromeEvent;
 
 	public static var onStop: ChromeEvent;

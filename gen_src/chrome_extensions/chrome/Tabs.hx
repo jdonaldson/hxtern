@@ -3,7 +3,7 @@
 */
 package chrome;
 @:native("chrome.tabs")
-extern class Tabs{
+extern class Tabs {
 	public static function captureVisibleTab(windowId: Float, options: Dynamic, _callback: String->Void): Void {}
 
 	public static function connect(tabId: Float, ?opt_connectInfo: Dynamic<String>): Void {}

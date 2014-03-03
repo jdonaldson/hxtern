@@ -3,7 +3,7 @@
 */
 package chrome.system;
 @:native("chrome.system.display")
-extern class Display{
+extern class Display {
 	public static function getInfo(_callback: Array<chrome.system.display.DisplayInfo>->Void): Void {}
 
 	public static var onDisplayChanged: ChromeEvent;

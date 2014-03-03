@@ -4,8 +4,8 @@ An event from the TTS engine to communicate the status of an utterance.
 */
 package ;
 
-extern class TtsEvent{
-	public function new();
+extern class TtsEvent {
+	public function new() {}
 
 	public var charIndex: Float;
 

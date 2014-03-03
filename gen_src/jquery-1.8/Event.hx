@@ -3,7 +3,7 @@
 */
 package ;
 @:native("$.Event")
-extern class Event{
+extern class Event {
 	public var currentTarget: js.html.Element;
 
 	public var data: Dynamic<Dynamic>;

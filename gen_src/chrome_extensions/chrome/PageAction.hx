@@ -3,7 +3,7 @@
 */
 package chrome;
 @:native("chrome.pageAction")
-extern class PageAction{
+extern class PageAction {
 	public static function hide(tabId: Float): Void {}
 
 	public static var onClicked: ChromeEvent;

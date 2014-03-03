@@ -3,7 +3,7 @@
 */
 package chrome;
 @:native("chrome.idle")
-extern class Idle{
+extern class Idle {
 	public static var onStateChanged: ChromeEvent;
 
 	public static function queryState(thresholdSeconds: Float, _callback: String->Void): Void {}

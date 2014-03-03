@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-extern class ElevationStatus{
+extern class ElevationStatus {
 	public static var INVALID_REQUEST: Dynamic;
 
 	public static var OK: Dynamic;

@@ -3,7 +3,7 @@
 */
 package chrome;
 @:native("chrome.notifications")
-extern class Notifications{
+extern class Notifications {
 	public static function clear(notificationId: String, _callback: chrome.notifications.BooleanCallback): Void {}
 
 	public static function create(notificationId: String, options: chrome.notifications.NotificationOptions, _callback: chrome.notifications.StringCallback): Void {}

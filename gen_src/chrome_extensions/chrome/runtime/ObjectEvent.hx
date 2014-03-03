@@ -4,8 +4,8 @@ Event whose listeners take an Object parameter.
 */
 package chrome.runtime;
 
-extern class ObjectEvent{
-	public function new();
+extern class ObjectEvent {
+	public function new() {}
 
 	public function addListener(_callback: Dynamic->Void): Void {}
 

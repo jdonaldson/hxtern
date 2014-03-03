@@ -3,7 +3,7 @@
 */
 package google;
 @:native("google.maps")
-extern class Maps{
+extern class Maps {
 	public static function encoding(): Void {}
 
 	public static function event(): Void {}

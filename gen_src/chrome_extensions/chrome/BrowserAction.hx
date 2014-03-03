@@ -3,7 +3,7 @@
 */
 package chrome;
 @:native("chrome.browserAction")
-extern class BrowserAction{
+extern class BrowserAction {
 	public static function disable(tabId: Float): Void {}
 
 	public static function enable(tabId: Float): Void {}

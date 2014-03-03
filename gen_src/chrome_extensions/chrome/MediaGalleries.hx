@@ -3,7 +3,7 @@
 */
 package chrome;
 @:native("chrome.mediaGalleries")
-extern class MediaGalleries{
+extern class MediaGalleries {
 	public static function getMediaFileSystemMetadata(mediaFileSystem: FileSystem): {name: String, galleryId: String, deviceId: Hxtern.Any2<String,Null<Dynamic>>, isRemovable: Bool, isMediaDevice: Bool} {}
 
 	public static function getMediaFileSystems(details: {interactive: Hxtern.Any2<String,Null<Dynamic>>}, _callback: Array<FileSystem>->Void): Void {}

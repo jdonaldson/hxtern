@@ -3,7 +3,7 @@
 */
 package gadgets;
 @:native("gadgets.rpc")
-extern class Rpc{
+extern class Rpc {
 	/**
 	  Exported constant used by transports.
 	 */

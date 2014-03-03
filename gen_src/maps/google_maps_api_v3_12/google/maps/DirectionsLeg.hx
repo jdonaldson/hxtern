@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-extern class DirectionsLeg{
+extern class DirectionsLeg {
 	public function new() {}
 
 	public var arrival_time: google.maps.Time;

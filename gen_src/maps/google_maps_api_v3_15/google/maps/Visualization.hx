@@ -3,6 +3,6 @@
 */
 package google.maps;
 @:native("google.maps.visualization")
-extern class Visualization{
+extern class Visualization {
 	public static var MapsEngineStatus: Dynamic;
 }

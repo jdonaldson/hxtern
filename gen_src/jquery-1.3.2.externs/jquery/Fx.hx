@@ -3,6 +3,6 @@
 */
 package jQuery;
 @:native("jQuery.fx")
-extern class Fx{
+extern class Fx {
 	public static var off: Bool;
 }

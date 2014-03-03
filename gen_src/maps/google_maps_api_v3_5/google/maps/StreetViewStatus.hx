@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-extern class StreetViewStatus{
+extern class StreetViewStatus {
 	public static var OK: Dynamic;
 
 	public static var UNKNOWN_ERROR: Dynamic;

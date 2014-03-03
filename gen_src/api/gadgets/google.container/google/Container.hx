@@ -3,7 +3,7 @@
 */
 package google;
 @:native("google.container")
-extern class Container{
+extern class Container {
 	public static var ContainerConfig: Dynamic;
 
 	public static var ContainerRender: Dynamic;

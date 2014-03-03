@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-extern class PathElevationRequest{
+extern class PathElevationRequest {
 	public function new() {}
 
 	public var path: Array<google.maps.LatLng>;

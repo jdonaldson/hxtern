@@ -3,6 +3,6 @@
 */
 package ;
 @:native("chrome")
-extern class Chrome{
+extern class Chrome {
 	public static var power: Dynamic;
 }

@@ -3,7 +3,7 @@
 */
 package google.maps.visualization;
 
-extern class DemographicsPolygonOptions{
+extern class DemographicsPolygonOptions {
 	public function new() {}
 
 	public var fillColor: String;

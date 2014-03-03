@@ -3,7 +3,7 @@
 */
 package chrome;
 @:native("chrome.omnibox")
-extern class Omnibox{
+extern class Omnibox {
 	public static var onInputCancelled: ChromeEvent;
 
 	public static var onInputChanged: ChromeEvent;

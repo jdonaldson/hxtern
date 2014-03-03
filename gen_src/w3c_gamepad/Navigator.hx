@@ -3,7 +3,7 @@
 */
 package ;
 @:native("navigator")
-extern class Navigator{
+extern class Navigator {
 	public static function getGamepads(): Array<Gamepad> {}
 
 	public static function webkitGetGamepads(): Array<Gamepad> {}

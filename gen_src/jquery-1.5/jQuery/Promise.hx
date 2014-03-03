@@ -3,7 +3,7 @@
 */
 package jQuery;
 
-extern class Promise{
+extern class Promise {
 	public function new() {}
 
 	public function done(doneCallbacks: Void->Void): jQuery.Promise {}

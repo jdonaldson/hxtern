@@ -3,7 +3,7 @@
 */
 package ;
 
-extern class Window{
+extern class Window {
 	/**
 	  Inside an iframe, the properties of the iframer object are the data and
 	  functions provided in iframes.open.

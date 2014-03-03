@@ -3,7 +3,7 @@
 */
 package google.maps;
 @:native("google.maps.weather")
-extern class Weather{
+extern class Weather {
 	public static var LabelColor: Dynamic;
 
 	public static var TemperatureUnit: Dynamic;

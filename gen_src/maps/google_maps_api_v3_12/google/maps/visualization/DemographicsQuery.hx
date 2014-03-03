@@ -3,7 +3,7 @@
 */
 package google.maps.visualization;
 
-extern class DemographicsQuery{
+extern class DemographicsQuery {
 	public function new() {}
 
 	public var from: String;

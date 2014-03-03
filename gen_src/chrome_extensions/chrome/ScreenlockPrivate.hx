@@ -3,7 +3,7 @@
 */
 package chrome;
 @:native("chrome.screenlockPrivate")
-extern class ScreenlockPrivate{
+extern class ScreenlockPrivate {
 	public static function getLocked(_callback: Bool->Void): Void {}
 
 	public static var onChanged: chrome.screenlockPrivate.BooleanEvent;

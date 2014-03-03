@@ -3,7 +3,7 @@
 */
 package chrome;
 @:native("chrome.alarms")
-extern class Alarms{
+extern class Alarms {
 	public static function clear(?opt_name: String): Void {}
 
 	public static function clearAll(): Void {}

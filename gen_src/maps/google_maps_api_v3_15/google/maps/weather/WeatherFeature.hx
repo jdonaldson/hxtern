@@ -3,7 +3,7 @@
 */
 package google.maps.weather;
 
-extern class WeatherFeature{
+extern class WeatherFeature {
 	public function new() {}
 
 	public var current: google.maps.weather.WeatherConditions;

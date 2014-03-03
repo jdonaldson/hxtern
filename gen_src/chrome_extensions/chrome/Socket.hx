@@ -3,7 +3,7 @@
 */
 package chrome;
 @:native("chrome.socket")
-extern class Socket{
+extern class Socket {
 	public static function accept(socketId: Float, _callback: chrome.socket.AcceptInfo->Void): Void {}
 
 	public static function bind(socketId: Float, address: String, port: Float, _callback: Float->Void): Void {}

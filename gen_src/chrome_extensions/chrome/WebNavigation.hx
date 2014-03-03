@@ -3,7 +3,7 @@
 */
 package chrome;
 @:native("chrome.webNavigation")
-extern class WebNavigation{
+extern class WebNavigation {
 	public static function getAllFrames(details: Dynamic, callbackCallback: Array<Dynamic<Hxtern.Any3<Bool,Float,String>>>->Void): Void {}
 
 	public static function getFrame(details: Dynamic, callbackCallback: Dynamic<Hxtern.Any2<Bool,String>>->Void): Void {}

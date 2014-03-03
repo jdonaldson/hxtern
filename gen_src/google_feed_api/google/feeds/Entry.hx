@@ -3,7 +3,7 @@
 */
 package google.feeds;
 
-extern class Entry{
+extern class Entry {
 	public function new() {}
 
 	public var categories: Array<String>;

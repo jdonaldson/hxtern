@@ -3,6 +3,6 @@
 */
 package ;
 @:native("$.browser")
-extern class Browser{
+extern class Browser {
 	public static var version: String;
 }

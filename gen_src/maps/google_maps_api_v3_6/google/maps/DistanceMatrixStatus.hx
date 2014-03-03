@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-extern class DistanceMatrixStatus{
+extern class DistanceMatrixStatus {
 	public static var INVALID_REQUEST: Dynamic;
 
 	public static var MAX_DIMENSIONS_EXCEEDED: Dynamic;

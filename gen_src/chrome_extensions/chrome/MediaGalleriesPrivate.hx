@@ -3,7 +3,7 @@
 */
 package chrome;
 @:native("chrome.mediaGalleriesPrivate")
-extern class MediaGalleriesPrivate{
+extern class MediaGalleriesPrivate {
 	public static function addGalleryWatch(galleryId: String, _callback: chrome.mediaGalleriesPrivate.AddGalleryWatchCallback): Void {}
 
 	public static var onDeviceAttached: chrome.mediaGalleriesPrivate.DeviceEvent;

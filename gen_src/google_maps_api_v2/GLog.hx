@@ -3,7 +3,7 @@
 */
 package ;
 
-extern class GLog{
+extern class GLog {
 	public static function write(message: String, ?color: String): Void {}
 
 	public static function writeHtml(html: String): Void {}

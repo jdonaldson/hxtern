@@ -3,6 +3,6 @@
 */
 package ;
 @:native("jQuery")
-extern class JQuery{
+extern class JQuery {
 	public static var fx: Dynamic;
 }

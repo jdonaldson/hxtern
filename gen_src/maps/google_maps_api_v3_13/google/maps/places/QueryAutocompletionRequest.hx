@@ -3,7 +3,7 @@
 */
 package google.maps.places;
 
-extern class QueryAutocompletionRequest{
+extern class QueryAutocompletionRequest {
 	public function new() {}
 
 	public var bounds: google.maps.LatLngBounds;

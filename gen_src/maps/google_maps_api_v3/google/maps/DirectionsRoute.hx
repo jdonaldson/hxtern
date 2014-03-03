@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-extern class DirectionsRoute{
+extern class DirectionsRoute {
 	public function new() {}
 
 	public var bounds: google.maps.LatLngBounds;

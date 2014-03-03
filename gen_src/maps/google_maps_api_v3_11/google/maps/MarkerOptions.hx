@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-extern class MarkerOptions{
+extern class MarkerOptions {
 	public function new() {}
 
 	public var anchorPoint: google.maps.Point;

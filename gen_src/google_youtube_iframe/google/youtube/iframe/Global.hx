@@ -3,6 +3,6 @@
 */
 package google.youtube.iframe;
 
-extern class Global{
+extern class Global {
 	public static function onYouTubePlayerAPIReady(): Null<Dynamic> {}
 }

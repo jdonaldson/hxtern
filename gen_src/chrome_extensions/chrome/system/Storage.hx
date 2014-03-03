@@ -3,7 +3,7 @@
 */
 package chrome.system;
 @:native("chrome.system.storage")
-extern class Storage{
+extern class Storage {
 	public static function ejectDevice(id: String, _callback: String->Void): Void {}
 
 	public static function getAvailableCapacity(id: String, _callback: Dynamic<Float>->Void): Void {}

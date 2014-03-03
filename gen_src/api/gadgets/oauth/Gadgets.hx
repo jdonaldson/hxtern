@@ -3,6 +3,6 @@
 */
 package ;
 @:native("gadgets")
-extern class Gadgets{
+extern class Gadgets {
 	public static var oauth: Dynamic;
 }

@@ -3,7 +3,7 @@
 */
 package google.maps;
 
-extern class MaxZoomResult{
+extern class MaxZoomResult {
 	public function new() {}
 
 	public var status: google.maps.MaxZoomStatus;
